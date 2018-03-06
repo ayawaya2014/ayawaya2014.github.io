@@ -44,13 +44,6 @@
     </url>
 
     <url>
-        <loc>http://yoursite.com/tags/Robotics/</loc>
-        <lastmod>2018-03-05T05:38:50.199Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://yoursite.com/tags/Github/</loc>
         <lastmod>2018-03-05T05:38:50.199Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -60,6 +53,41 @@
     <url>
         <loc>http://yoursite.com/tags/CSDN/</loc>
         <lastmod>2018-03-05T05:38:50.199Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/tags/Robotics/</loc>
+        <lastmod>2018-03-06T06:49:41.562Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/tags/Multi-agent/</loc>
+        <lastmod>2018-03-06T06:49:41.562Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/tags/AUVs/</loc>
+        <lastmod>2018-03-06T06:49:41.562Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/tags/Task-Assignment/</loc>
+        <lastmod>2018-03-06T06:49:41.562Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/tags/SOM-Neural-Networks/</loc>
+        <lastmod>2018-03-06T06:49:41.562Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
