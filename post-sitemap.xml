@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>http://yoursite.com/2018/03/17/simulation-1/</loc>
+        <lastmod>2018-03-17T06:40:02.034Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yoursite.com/2018/03/06/Multi-Agent-Task-Assignment-based-on-SOM-Method-Code-Published/</loc>
         <lastmod>2018-03-06T06:49:41.562Z</lastmod>
         <changefreq>weekly</changefreq>

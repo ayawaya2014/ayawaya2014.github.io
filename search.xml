@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Simulation for SOM Formation Control]]></title>
+    <url>%2F2018%2F03%2F17%2Fsimulation-1%2F</url>
+    <content type="text"><![CDATA[]]></content>
+      <categories>
+        <category>科研</category>
+      </categories>
+      <tags>
+        <tag>Robotics</tag>
+        <tag>Programming</tag>
+        <tag>AUV</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Multi-Agent-Task-Assignment-based-on-SOM-Method-Code-Published]]></title>
     <url>%2F2018%2F03%2F06%2FMulti-Agent-Task-Assignment-based-on-SOM-Method-Code-Published%2F</url>
     <content type="text"><![CDATA[Code of Multi-Agent Task-Assignment based on SOM Neural Network Method is Published on Github Authors: Xin Li, Daqi Zhu Email: lixin850224@163.com; zdq367@aliyun.com Laboratory of Underwater Vehicles and Intelligent Systems Shanghai Maritime University]]></content>
