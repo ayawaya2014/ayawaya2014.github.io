@@ -7,8 +7,24 @@
     </url>
 
     <url>
+        <loc>http://yoursite.com/2018/04/11/%E5%8D%9A%E5%A3%AB%E5%AD%A6%E4%BD%8D%E8%AE%BA%E6%96%87%E6%91%98%E8%A6%81/</loc>
+        <lastmod>2018-04-11T01:35:35.316Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/2018/03/01/%E7%A7%BB%E5%8A%A8%E6%9C%BA%E5%99%A8%E4%BA%BAD-Lite%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%92%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1%E3%80%81%E4%BB%BF%E7%9C%9F%E5%8F%8A%E6%BA%90%E7%A0%81/</loc>
+        <lastmod>2018-03-17T06:59:47.495Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yoursite.com/2018/03/17/simulation-1/</loc>
-        <lastmod>2018-03-17T06:55:39.188Z</lastmod>
+        <lastmod>2018-03-17T06:59:06.248Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -17,14 +33,6 @@
     <url>
         <loc>http://yoursite.com/2018/03/06/Multi-Agent-Task-Assignment-based-on-SOM-Method-Code-Published/</loc>
         <lastmod>2018-03-06T06:49:41.562Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yoursite.com/2018/03/01/%E7%A7%BB%E5%8A%A8%E6%9C%BA%E5%99%A8%E4%BA%BAD-Lite%E8%B7%AF%E5%BE%84%E8%A7%84%E5%88%92%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1%E3%80%81%E4%BB%BF%E7%9C%9F%E5%8F%8A%E6%BA%90%E7%A0%81/</loc>
-        <lastmod>2018-03-05T05:38:50.199Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
