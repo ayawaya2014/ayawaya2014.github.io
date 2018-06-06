@@ -22,8 +22,8 @@
         <category>科研</category>
       </categories>
       <tags>
-        <tag>Programming</tag>
         <tag>Robotics</tag>
+        <tag>Programming</tag>
         <tag>AUV</tag>
       </tags>
   </entry>
@@ -50,8 +50,8 @@
         <category>科研</category>
       </categories>
       <tags>
-        <tag>Programming</tag>
         <tag>Robotics</tag>
+        <tag>Programming</tag>
         <tag>AUV</tag>
         <tag>APF</tag>
         <tag>Path Planning</tag>
