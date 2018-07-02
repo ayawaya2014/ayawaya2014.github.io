@@ -51,13 +51,6 @@
     </url>
 
     <url>
-        <loc>http://yoursite.com/tags/Programming/</loc>
-        <lastmod>2018-03-17T06:59:06.248Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://yoursite.com/tags/Github/</loc>
         <lastmod>2018-03-17T06:59:47.495Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -72,29 +65,36 @@
     </url>
 
     <url>
-        <loc>http://yoursite.com/tags/Robotics/</loc>
-        <lastmod>2018-06-18T06:55:29.923Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://yoursite.com/tags/AUV/</loc>
-        <lastmod>2018-06-18T06:55:29.923Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://yoursite.com/tags/PhD-Dissertation/</loc>
-        <lastmod>2018-06-18T06:55:29.923Z</lastmod>
+        <lastmod>2018-06-18T07:02:56.524Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://yoursite.com/tags/Formation-Control/</loc>
-        <lastmod>2018-06-18T06:55:29.923Z</lastmod>
+        <lastmod>2018-06-18T07:02:56.524Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/tags/Programming/</loc>
+        <lastmod>2018-07-02T01:57:23.015Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/tags/Robotics/</loc>
+        <lastmod>2018-07-02T01:59:33.545Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/tags/AUV/</loc>
+        <lastmod>2018-07-02T01:59:33.545Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
