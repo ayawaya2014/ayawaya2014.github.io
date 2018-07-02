@@ -15,6 +15,14 @@
     </url>
 
     <url>
+        <loc>http://yoursite.com/2018/03/01/hello-world/</loc>
+        <lastmod>2018-07-02T02:07:04.976Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yoursite.com/2018/03/17/simulation-1/</loc>
         <lastmod>2018-07-02T02:06:52.135Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -49,14 +57,6 @@
     <url>
         <loc>http://yoursite.com/2018/03/05/Path-Planning-based-on-Artificial-Potential-Field-Method-Code-Published/</loc>
         <lastmod>2018-03-05T05:38:41.649Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yoursite.com/2018/03/01/hello-world/</loc>
-        <lastmod>2018-03-02T10:56:10.423Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
