@@ -87,14 +87,14 @@
 
     <url>
         <loc>http://yoursite.com/tags/Robotics/</loc>
-        <lastmod>2018-07-02T01:59:33.545Z</lastmod>
+        <lastmod>2018-07-02T02:02:03.067Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://yoursite.com/tags/AUV/</loc>
-        <lastmod>2018-07-02T01:59:33.545Z</lastmod>
+        <lastmod>2018-07-02T02:02:03.067Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
