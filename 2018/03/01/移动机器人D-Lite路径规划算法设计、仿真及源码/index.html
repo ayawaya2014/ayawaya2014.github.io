@@ -91,7 +91,7 @@
 <meta property="og:image" content="http://img.blog.csdn.net/20170413133941198?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXlhd2F5YQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
 <meta property="og:image" content="http://img.blog.csdn.net/20170413134116089?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXlhd2F5YQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
 <meta property="og:image" content="http://img.blog.csdn.net/20170413140515101?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXlhd2F5YQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:updated_time" content="2018-03-17T06:59:47.495Z">
+<meta property="og:updated_time" content="2018-07-31T00:06:29.779Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="移动机器人D*Lite路径规划算法设计、仿真及源码">
 <meta name="twitter:description" content="原文地址 Dstar Lite路径规划算法简介D*Lite算法是Koenig S和Likhachev M基于LPA*算法基础上提出的路径规划算法。 LPA*算法本是基于Dijkstra最短路径算法而产生的定起点、定目标点的路径规划算法。 通过对LPA*算法的改造，使LPA*算法的思想能应用到诸如车辆动态导航这样的问题。   LPA*算法区别于其他算法 的一个重要特点是rhs()的定义：$$rhs(">
@@ -426,6 +426,7 @@
 <blockquote>
 <p>LPA*算法区别于其他算法 的一个重要特点是rhs()的定义：<br>$$<br>rhs(s) = \left\lbrace \begin{array}{ll}<br>0 &amp; \text{if} \;  s = s_{start} \\<br>\text{min}_{s^{‘} \in Pred(s)}(g(s^{‘})+c(s^{‘},s)) &amp; \text{otherwise}<br>\end{array} \right.<br>$$<br>D*Lite算法继承了rhs()的概念，但D*Lite算法是从目标节点向起始节点搜索。</p>
 </blockquote>
+<a id="more"></a>
 <p>为了让节点v的启发函数值随着起点位置变化而变化， Koenig S和Likhachev M给出了两种方法：一是，根据新的起点位置，将优先队列中所有节点的启发函数值重新计算；二是，并不重新计算队列中的启发函数值，而是在计算新添加到优先队列中的节点的启发函数值时，加上一个修饰符 ,表示机器人移动距离的叠加。</p>
 <hr>
 <p><strong>D* Lite Pseudo Code: </strong></p>
@@ -494,7 +495,7 @@
 </blockquote>
 <hr>
 <p>更详细的算法说明，请查阅有关文献资料。</p>
-<a id="more"></a>
+<!-- more -->
 <h1 id="Linux系统简要说明"><a href="#Linux系统简要说明" class="headerlink" title="Linux系统简要说明"></a>Linux系统简要说明</h1><p>Linux是一套免费使用和自由传播的类Unix操作系统，是一个基于POSIX和UNIX的多用户、多任务、支持多线程和多CPU的操作系统。它能运行主要的UNIX工具软件、应用程序和网络协议。它支持32位和64位硬件。Linux继承了Unix以网络为核心的设计思想，是一个性能稳定的多用户网络操作系统。<br>在做算法程序开发之前，应对Linux系统基本操作有一定的了解，才能方便上手，在这里向同学们推荐一款教程：</p>
 <blockquote>
 <p><a href="http://linux.vbird.org" target="_blank" rel="noopener">鳥哥的 Linux 私房菜</a></p>
@@ -659,7 +660,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -681,7 +682,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">16</span>
+                  <span class="site-state-item-count">17</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
