@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>http://yoursite.com/2018/01/01/hello-world/</loc>
+        <lastmod>2019-03-31T00:32:13.617Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yoursite.com/2019/03/31/Dubins-path-planning-codes/</loc>
         <lastmod>2019-03-31T00:28:14.892Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -33,14 +41,6 @@
     <url>
         <loc>http://yoursite.com/2018/07/02/Experiments-of-two-AUVs-in-the-pool/</loc>
         <lastmod>2018-07-02T02:08:26.080Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yoursite.com/2019/03/05/hello-world/</loc>
-        <lastmod>2018-07-02T02:07:04.977Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
