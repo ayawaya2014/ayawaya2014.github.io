@@ -3,14 +3,7 @@
 
     <url>
         <loc>http://yoursite.com/tags/APF/</loc>
-        <lastmod>2018-03-05T05:38:41.649Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://yoursite.com/tags/Path-Planning/</loc>
-        <lastmod>2018-03-05T05:38:41.649Z</lastmod>
+        <lastmod>2018-03-05T05:38:41.650Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -44,15 +37,8 @@
     </url>
 
     <url>
-        <loc>http://yoursite.com/tags/Programming/</loc>
-        <lastmod>2018-07-02T02:06:52.135Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://yoursite.com/tags/About/</loc>
-        <lastmod>2018-07-02T02:07:04.976Z</lastmod>
+        <lastmod>2018-07-02T02:07:04.977Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -67,13 +53,6 @@
     <url>
         <loc>http://yoursite.com/tags/CSDN/</loc>
         <lastmod>2018-07-31T00:06:29.779Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://yoursite.com/tags/Robotics/</loc>
-        <lastmod>2019-01-10T02:56:23.288Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -95,6 +74,34 @@
     <url>
         <loc>http://yoursite.com/tags/Formation-Control/</loc>
         <lastmod>2019-01-10T02:56:23.288Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/tags/Programming/</loc>
+        <lastmod>2019-03-31T00:26:51.507Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/tags/Robotics/</loc>
+        <lastmod>2019-03-31T00:26:51.507Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/tags/Dubins/</loc>
+        <lastmod>2019-03-31T00:26:51.507Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://yoursite.com/tags/Path-Planning/</loc>
+        <lastmod>2019-03-31T00:26:51.507Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

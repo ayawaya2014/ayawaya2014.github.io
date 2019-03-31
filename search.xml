@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Dubins path planning codes]]></title>
+    <url>%2F2019%2F03%2F31%2FDubins-path-planning-codes%2F</url>
+    <content type="text"><![CDATA[Dubins path planning codes for robots with initial velocity with or without workloads balancing. Codes is Published on Github]]></content>
+      <tags>
+        <tag>Programming</tag>
+        <tag>Robotics</tag>
+        <tag>Dubins</tag>
+        <tag>Path Planning</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F03%2F05%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+      <categories>
+        <category>关于本站</category>
+      </categories>
+      <tags>
+        <tag>About</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Experiments of two AUVs in the pool]]></title>
     <url>%2F2018%2F07%2F02%2FExperiments-of-two-AUVs-in-the-pool%2F</url>
     <content type="text"><![CDATA[exp_1 exp_2]]></content>
@@ -34,9 +56,9 @@
         <category>科研</category>
       </categories>
       <tags>
+        <tag>Programming</tag>
         <tag>Robotics</tag>
         <tag>AUV</tag>
-        <tag>Programming</tag>
       </tags>
   </entry>
   <entry>
@@ -62,11 +84,11 @@
         <category>科研</category>
       </categories>
       <tags>
-        <tag>Robotics</tag>
-        <tag>AUV</tag>
         <tag>Programming</tag>
-        <tag>APF</tag>
+        <tag>Robotics</tag>
         <tag>Path Planning</tag>
+        <tag>AUV</tag>
+        <tag>APF</tag>
       </tags>
   </entry>
   <entry>
@@ -80,17 +102,6 @@
         <tag>Robotics</tag>
         <tag>Github</tag>
         <tag>CSDN</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2018%2F03%2F01%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-      <categories>
-        <category>关于本站</category>
-      </categories>
-      <tags>
-        <tag>About</tag>
       </tags>
   </entry>
 </search>

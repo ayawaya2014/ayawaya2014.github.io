@@ -8,14 +8,14 @@
     
     <url>
         <loc>http://yoursite.com/about/</loc>
-        <lastmod>2018-08-10T08:02:52.276Z</lastmod>
+        <lastmod>2018-08-10T08:02:52.277Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
         <loc>http://yoursite.com/Publications/</loc>
-        <lastmod>2018-06-07T10:43:43.320Z</lastmod>
+        <lastmod>2018-06-07T10:43:43.321Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -36,14 +36,14 @@
     
     <url>
         <loc>http://yoursite.com/404.html</loc>
-        <lastmod>2018-03-02T10:32:41.572Z</lastmod>
+        <lastmod>2018-03-02T10:32:41.573Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
         <loc>http://yoursite.com/404/</loc>
-        <lastmod>2018-03-02T09:20:59.347Z</lastmod>
+        <lastmod>2018-03-02T09:20:59.348Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -64,7 +64,7 @@
     
     <url>
         <loc>http://yoursite.com/categories/</loc>
-        <lastmod>2018-03-02T08:16:50.096Z</lastmod>
+        <lastmod>2018-03-02T08:16:50.097Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>

@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>http://yoursite.com/2019/03/31/Dubins-path-planning-codes/</loc>
+        <lastmod>2019-03-31T00:26:51.507Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yoursite.com/2018/04/11/%E5%8D%9A%E5%A3%AB%E5%AD%A6%E4%BD%8D%E8%AE%BA%E6%96%87%E6%91%98%E8%A6%81/</loc>
         <lastmod>2019-01-10T02:56:23.288Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -24,15 +32,15 @@
 
     <url>
         <loc>http://yoursite.com/2018/07/02/Experiments-of-two-AUVs-in-the-pool/</loc>
-        <lastmod>2018-07-02T02:08:26.079Z</lastmod>
+        <lastmod>2018-07-02T02:08:26.080Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>http://yoursite.com/2018/03/01/hello-world/</loc>
-        <lastmod>2018-07-02T02:07:04.976Z</lastmod>
+        <loc>http://yoursite.com/2019/03/05/hello-world/</loc>
+        <lastmod>2018-07-02T02:07:04.977Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -40,7 +48,7 @@
 
     <url>
         <loc>http://yoursite.com/2018/03/17/simulation-1/</loc>
-        <lastmod>2018-07-02T02:06:52.135Z</lastmod>
+        <lastmod>2018-07-02T02:06:52.136Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -56,7 +64,7 @@
 
     <url>
         <loc>http://yoursite.com/2018/03/05/Path-Planning-based-on-Artificial-Potential-Field-Method-Code-Published/</loc>
-        <lastmod>2018-03-05T05:38:41.649Z</lastmod>
+        <lastmod>2018-03-05T05:38:41.650Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
