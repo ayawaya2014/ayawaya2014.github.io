@@ -4,6 +4,9 @@
     <title><![CDATA[Dubins path planning codes]]></title>
     <url>%2F2019%2F03%2F31%2FDubins-path-planning-codes%2F</url>
     <content type="text"><![CDATA[Dubins path planning codes for robots with initial velocity with or without workloads balancing. Codes is Published on Github]]></content>
+      <categories>
+        <category>科研</category>
+      </categories>
       <tags>
         <tag>Programming</tag>
         <tag>Robotics</tag>

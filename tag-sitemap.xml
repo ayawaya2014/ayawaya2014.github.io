@@ -80,28 +80,28 @@
 
     <url>
         <loc>http://yoursite.com/tags/Programming/</loc>
-        <lastmod>2019-03-31T00:26:51.507Z</lastmod>
+        <lastmod>2019-03-31T00:28:14.892Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://yoursite.com/tags/Robotics/</loc>
-        <lastmod>2019-03-31T00:26:51.507Z</lastmod>
+        <lastmod>2019-03-31T00:28:14.892Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://yoursite.com/tags/Dubins/</loc>
-        <lastmod>2019-03-31T00:26:51.507Z</lastmod>
+        <lastmod>2019-03-31T00:28:14.892Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://yoursite.com/tags/Path-Planning/</loc>
-        <lastmod>2019-03-31T00:26:51.507Z</lastmod>
+        <lastmod>2019-03-31T00:28:14.892Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
