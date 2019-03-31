@@ -72,36 +72,36 @@
     </url>
 
     <url>
-        <loc>http://yoursite.com/tags/Programming/</loc>
-        <lastmod>2019-03-31T00:28:14.892Z</lastmod>
+        <loc>http://yoursite.com/tags/About/</loc>
+        <lastmod>2019-03-31T00:32:13.617Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://yoursite.com/tags/Robotics/</loc>
-        <lastmod>2019-03-31T00:28:14.892Z</lastmod>
+        <lastmod>2019-03-31T02:23:39.627Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://yoursite.com/tags/Dubins/</loc>
-        <lastmod>2019-03-31T00:28:14.892Z</lastmod>
+        <loc>http://yoursite.com/tags/Programming/</loc>
+        <lastmod>2019-03-31T02:23:39.627Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://yoursite.com/tags/Path-Planning/</loc>
-        <lastmod>2019-03-31T00:28:14.892Z</lastmod>
+        <lastmod>2019-03-31T02:23:39.627Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://yoursite.com/tags/About/</loc>
-        <lastmod>2019-03-31T00:32:13.617Z</lastmod>
+        <loc>http://yoursite.com/tags/Dubins/</loc>
+        <lastmod>2019-03-31T02:23:39.627Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
