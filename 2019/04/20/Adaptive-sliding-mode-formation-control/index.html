@@ -88,7 +88,7 @@
 <meta property="og:description" content="Adaptive sliding mode formation control for AUVs in water flow environment. Source Code">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://yoursite.com/images/oc1.png">
-<meta property="og:updated_time" content="2019-04-20T01:58:54.080Z">
+<meta property="og:updated_time" content="2019-04-20T02:02:56.229Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Adaptive sliding mode formation control">
 <meta name="twitter:description" content="Adaptive sliding mode formation control for AUVs in water flow environment. Source Code">
@@ -426,14 +426,19 @@
 </li>
 <li><p>Water flow (Ocean Current) mathematic model. </p>
 <p>Model of water flow is established for simulation. Red lines defines the potentials and blue arrows are velocities of the flow field.</p>
-<p>The first current model is<br>$$<br>Fc = 1 - tanh\frac{y-B(t)<em>cos(k</em>(x-c<em>t)+\alpha)}{\sqrt{(1+k^2</em>B(t)^2<em>sin^2(k</em>(x-c<em>t)+\alpha)}}<br>$$<br>where<br>$$<br>B(t) = B_0+e</em>cos(w*t+\theta)<br>$$<br>according to literature [^1][^2] </p>
+<p>The first current model is </p>
+<script type="math/tex; mode=display">
+Fc = 1 - tanh\frac{y-B(t)*cos(k*(x-c*t)+\alpha)}{\sqrt{(1+k^2*B(t)^2*sin^2(k*(x-c*t)+\alpha)}}</script><p>where </p>
+<script type="math/tex; mode=display">
+B(t) = B_0+e*cos(w*t+\theta)</script><p>according to literature [1], [2].</p>
 <p><img src="/images/oc1.png" alt="oc"></p>
 <p><img src="" alt=""></p>
 </li>
 <li><p>To  be continued…</p>
 </li>
 </ol>
-<p>[^1]: 徐玉如, 姚耀中. 考虑海流影响的水下机器人全局路径规划研究[J]. 中国造船, 2008, 49(4): 109-114.<br>[^2]: Alvarez A, Caiti A and Onken R. Evolutionary path planning for autonomous underwater vehicles in a variable ocean[J]. IEEE Journal of Oceanic Engineering, Apr. 2004, 29(2): 418-429.</p>
+<p>[1] 徐玉如, 姚耀中. 考虑海流影响的水下机器人全局路径规划研究[J]. 中国造船, 2008, 49(4): 109-114.</p>
+<p>[2] Alvarez A, Caiti A and Onken R. Evolutionary path planning for autonomous underwater vehicles in a variable ocean[J]. IEEE Journal of Oceanic Engineering, Apr. 2004, 29(2): 418-429.</p>
 
       
     </div>

@@ -79,13 +79,13 @@
 
 
 
-<meta name="description" content="原文地址 Dstar Lite路径规划算法简介D*Lite算法是Koenig S和Likhachev M基于LPA*算法基础上提出的路径规划算法。 LPA*算法本是基于Dijkstra最短路径算法而产生的定起点、定目标点的路径规划算法。 通过对LPA*算法的改造，使LPA*算法的思想能应用到诸如车辆动态导航这样的问题。   LPA*算法区别于其他算法 的一个重要特点是rhs()的定义：$$rhs(">
+<meta name="description" content="原文地址 Dstar Lite路径规划算法简介D*Lite算法是Koenig S和Likhachev M基于LPA*算法基础上提出的路径规划算法。 LPA*算法本是基于Dijkstra最短路径算法而产生的定起点、定目标点的路径规划算法。 通过对LPA*算法的改造，使LPA*算法的思想能应用到诸如车辆动态导航这样的问题。   LPA*算法区别于其他算法 的一个重要特点是rhs()的定义：  rhs(">
 <meta name="keywords" content="Robotics,Github,CSDN">
 <meta property="og:type" content="article">
 <meta property="og:title" content="移动机器人D*Lite路径规划算法设计、仿真及源码">
 <meta property="og:url" content="http://yoursite.com/2018/03/01/移动机器人D-Lite路径规划算法设计、仿真及源码/index.html">
 <meta property="og:site_name" content="LEEのBlog">
-<meta property="og:description" content="原文地址 Dstar Lite路径规划算法简介D*Lite算法是Koenig S和Likhachev M基于LPA*算法基础上提出的路径规划算法。 LPA*算法本是基于Dijkstra最短路径算法而产生的定起点、定目标点的路径规划算法。 通过对LPA*算法的改造，使LPA*算法的思想能应用到诸如车辆动态导航这样的问题。   LPA*算法区别于其他算法 的一个重要特点是rhs()的定义：$$rhs(">
+<meta property="og:description" content="原文地址 Dstar Lite路径规划算法简介D*Lite算法是Koenig S和Likhachev M基于LPA*算法基础上提出的路径规划算法。 LPA*算法本是基于Dijkstra最短路径算法而产生的定起点、定目标点的路径规划算法。 通过对LPA*算法的改造，使LPA*算法的思想能应用到诸如车辆动态导航这样的问题。   LPA*算法区别于其他算法 的一个重要特点是rhs()的定义：  rhs(">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://img.blog.csdn.net/20170413133859594?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXlhd2F5YQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
 <meta property="og:image" content="http://img.blog.csdn.net/20170413133941198?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXlhd2F5YQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
@@ -94,7 +94,7 @@
 <meta property="og:updated_time" content="2018-07-31T00:06:29.779Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="移动机器人D*Lite路径规划算法设计、仿真及源码">
-<meta name="twitter:description" content="原文地址 Dstar Lite路径规划算法简介D*Lite算法是Koenig S和Likhachev M基于LPA*算法基础上提出的路径规划算法。 LPA*算法本是基于Dijkstra最短路径算法而产生的定起点、定目标点的路径规划算法。 通过对LPA*算法的改造，使LPA*算法的思想能应用到诸如车辆动态导航这样的问题。   LPA*算法区别于其他算法 的一个重要特点是rhs()的定义：$$rhs(">
+<meta name="twitter:description" content="原文地址 Dstar Lite路径规划算法简介D*Lite算法是Koenig S和Likhachev M基于LPA*算法基础上提出的路径规划算法。 LPA*算法本是基于Dijkstra最短路径算法而产生的定起点、定目标点的路径规划算法。 通过对LPA*算法的改造，使LPA*算法的思想能应用到诸如车辆动态导航这样的问题。   LPA*算法区别于其他算法 的一个重要特点是rhs()的定义：  rhs(">
 <meta name="twitter:image" content="http://img.blog.csdn.net/20170413133859594?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXlhd2F5YQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
 
 
@@ -424,7 +424,12 @@
         <p><a href="http://blog.csdn.net/ayawaya/article/details/70155932" target="_blank" rel="noopener">原文地址</a></p>
 <h1 id="Dstar-Lite路径规划算法简介"><a href="#Dstar-Lite路径规划算法简介" class="headerlink" title="Dstar Lite路径规划算法简介"></a>Dstar Lite路径规划算法简介</h1><p>D*Lite算法是Koenig S和Likhachev M基于LPA*算法基础上提出的路径规划算法。 LPA*算法本是基于Dijkstra最短路径算法而产生的定起点、定目标点的路径规划算法。 通过对LPA*算法的改造，使LPA*算法的思想能应用到诸如车辆动态导航这样的问题。 </p>
 <blockquote>
-<p>LPA*算法区别于其他算法 的一个重要特点是rhs()的定义：<br>$$<br>rhs(s) = \left\lbrace \begin{array}{ll}<br>0 &amp; \text{if} \;  s = s_{start} \\<br>\text{min}_{s^{‘} \in Pred(s)}(g(s^{‘})+c(s^{‘},s)) &amp; \text{otherwise}<br>\end{array} \right.<br>$$<br>D*Lite算法继承了rhs()的概念，但D*Lite算法是从目标节点向起始节点搜索。</p>
+<p>LPA*算法区别于其他算法 的一个重要特点是rhs()的定义：</p>
+<script type="math/tex; mode=display">
+rhs(s) = \left\lbrace \begin{array}{ll}
+0 & \text{if} \;  s = s_{start} \\\\
+\text{min}_{s^{'} \in Pred(s)}(g(s^{'})+c(s^{'},s)) & \text{otherwise}
+\end{array} \right.</script><p>D*Lite算法继承了rhs()的概念，但D*Lite算法是从目标节点向起始节点搜索。</p>
 </blockquote>
 <a id="more"></a>
 <p>为了让节点v的启发函数值随着起点位置变化而变化， Koenig S和Likhachev M给出了两种方法：一是，根据新的起点位置，将优先队列中所有节点的启发函数值重新计算；二是，并不重新计算队列中的启发函数值，而是在计算新添加到优先队列中的节点的启发函数值时，加上一个修饰符 ,表示机器人移动距离的叠加。</p>
@@ -433,61 +438,41 @@
 <blockquote>
 <p><strong>CaculateKey(<em>s</em>)</strong></p>
 <blockquote>
-<p>return [min(<em>g</em>(<em>s</em>),<em>rhs</em>(<em>s</em>))+h(<em>s</em><sub><em>start</em></sub> , s)+k<sub>m</sub>; min(<em>g</em>(<em>s</em>),<em>rhs</em>(<em>s</em>))];</p>
+<p>return [min(<em>g</em>(<em>s</em>),<em>rhs</em>(<em>s</em>))+h(<em>s</em><sub>_start_</sub> , s)+k<sub>m</sub>; min(<em>g</em>(<em>s</em>),<em>rhs</em>(<em>s</em>))];</p>
 </blockquote>
 <p><strong>Initialize()</strong></p>
 <blockquote>
 <p>U: =0;<br>k<sub>m</sub> =0;<br>for all <em>s</em> $\in$ S,  <em>rhs</em>(<em>s</em>) = <em>g</em>(<em>s</em>) = $\infty$;<br><em>rhs</em>(<em>s<sub>goal</sub></em>) = 0;<br>U.Insert(<em>s<sub>goal</sub></em>), CaculateKey(<em>s<sub>goal</sub></em>));</p>
 </blockquote>
-</blockquote>
-<blockquote>
 <p><strong>UpdateVertex$(\mu)$</strong></p>
 <blockquote>
-<p> if $(\mu \neq s_{goal})$, <em>rhs</em>$(\mu)$ = $\text{min}_{s^{‘} \in Succ(\mu)}(c(\mu,s^{‘})+g(s^{‘}))$;<br>if $(\mu \in U)$, U.Remove$(\mu)$<br>if $(g(\mu) \neq rhs(\mu))$, U.Insert$(\mu, CaculateKey(\mu))$;</p>
+<p> if $(\mu \neq s_{goal})$, _rhs_$(\mu)$ = $\text{min}_{s^{‘} \in Succ(\mu)}(c(\mu,s^{‘})+g(s^{‘}))$;<br>if $(\mu \in U)$, U.Remove$(\mu)$<br>if $(g(\mu) \neq rhs(\mu))$, U.Insert$(\mu, CaculateKey(\mu))$;</p>
 </blockquote>
-</blockquote>
-<blockquote>
 <p><strong>ComputeShortestPath()</strong><br>while (U.TopKey() &lt; CaculateKey($S_{start}$) or $rhs(s_{start}) \neq g(s_{start})$)</p>
 <blockquote>
 <p>$k_{old} $ = U.TopKey();<br>$\mu$ = U.Pop();<br>if ($k_{old}$ &lt; CaculateKey($\mu$))</p>
 <blockquote>
 <p>U.Insert($\mu$, CaculateKey($\mu$));</p>
 </blockquote>
-</blockquote>
-<blockquote>
 <p>elseif ($g(\mu) &gt; rhs(\mu)$)</p>
 <blockquote>
 <p>$g(\mu) = rhs(\mu)$<br>for all $s \in Pred(\mu)$, UpdateVertex(s);</p>
 </blockquote>
-</blockquote>
-</blockquote>
-<blockquote>
-<blockquote>
 <p>else</p>
 <blockquote>
 <p>$g(\mu) = \infty$;<br>for all $s \in Pred(\mu) \cup {\mu}$, UpdateVertex(s);</p>
 </blockquote>
 </blockquote>
-</blockquote>
-<blockquote>
 <p><strong>Main()</strong></p>
 <blockquote>
 <p>$ S_{last} = S_{start} $;<br>Initialize();<br>ComputeShortestPath();<br>while($ S_{start} \neq S_{goal} $)</p>
 <blockquote>
-<p>/<em> if ($ g(S_{start} =\infty) $) then there is no known path </em>/<br>$ S_{start} = arg \text{min}<em>{s^{‘} \in Succ(\mu)}(c(\mu,s^{‘})+g(s^{‘})) $;<br>    Move to $ S</em>{start} $;<br>    Scan graph for changed edge costs;<br>    if any edge costs changed</p>
+<p>/<em> if ($ g(S_{start} =\infty) $) then there is no known path </em>/<br>$ S_{start} = arg \text{min}_{s^{‘} \in Succ(\mu)}(c(\mu,s^{‘})+g(s^{‘})) $;<br>    Move to $ S_{start} $;<br>    Scan graph for changed edge costs;<br>    if any edge costs changed</p>
 <blockquote>
 <p>$k_m = k_m + h(s_{last}, s_{start})$;<br>    $ S_{last} = S_{start} $;<br>    for all directed edges $(u, v)$ with changed edge costs</p>
 <blockquote>
 <p>Update the edge cost $c(u, v)$;<br>    Update Vertex$(u)$;</p>
 </blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
 <p>Compute ShortestPath();</p>
 </blockquote>
 </blockquote>
