@@ -88,7 +88,7 @@
 <meta property="og:description" content="Adaptive sliding mode formation control for AUVs in water flow environment. Source Code">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://yoursite.com/images/oc1.png">
-<meta property="og:updated_time" content="2019-04-20T01:29:37.567Z">
+<meta property="og:updated_time" content="2019-04-20T01:40:00.575Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Adaptive sliding mode formation control">
 <meta name="twitter:description" content="Adaptive sliding mode formation control for AUVs in water flow environment. Source Code">
@@ -426,12 +426,15 @@
 </li>
 <li><p>Water flow (Ocean Current) mathematic model. </p>
 <p>Model of water flow is established for simulation. Red lines defines the potentials and blue arrows are velocities of the flow field.</p>
+<p>The first current model is<br>$$<br>Fc = 1 - \frac{tanh((y-Bt<em>cos(k</em>(x-c<em>t))}{sqrt(1+k^2</em>Bt^2<em>sin(k</em>(x-c*t))^2)))}<br>$$<br>according to literature [1][1],[2][2]</p>
 <p><img src="/images/oc1.png" alt="oc"></p>
 <p><img src="" alt=""></p>
 </li>
 <li><p>To  be continued…</p>
 </li>
 </ol>
+<p>[1]: 徐玉如, 姚耀中. 考虑海流影响的水下机器人全局路径规划研究[J]. 中国造船, 2008,<br>49(4): 109-114.</p>
+<p>[2]: Alvarez A, Caiti A and Onken R. Evolutionary path planning for autonomous underwater<br>vehicles in a variable ocean[J]. IEEE Journal of Oceanic Engineering, Apr. 2004, 29(2): 418-429.</p>
 
       
     </div>
