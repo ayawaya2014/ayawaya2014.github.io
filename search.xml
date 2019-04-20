@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Adaptive sliding mode formation control]]></title>
+    <url>%2F2019%2F04%2F20%2FAdaptive-sliding-mode-formation-control%2F</url>
+    <content type="text"><![CDATA[Adaptive sliding mode formation control for AUVs in water flow environment. Source Code Sliding mode control (dynamics). Water flow (Ocean Current) mathematic model. Model of water flow is established for simulation. Red lines defines the potentials and blue arrows are velocities of the flow field. To be continued…]]></content>
+      <categories>
+        <category>科研</category>
+      </categories>
+      <tags>
+        <tag>Programming</tag>
+        <tag>AUV</tag>
+        <tag>Water Flow</tag>
+        <tag>Formation Tracking</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Dubins path planning codes]]></title>
     <url>%2F2019%2F03%2F31%2FDubins-path-planning-codes%2F</url>
     <content type="text"><![CDATA[Dubins path planning codes for robots with initial velocity with or without workloads balancing. Codes is Published on GithubBlog]]></content>
@@ -8,10 +22,10 @@
         <category>科研</category>
       </categories>
       <tags>
-        <tag>Robotics</tag>
         <tag>Programming</tag>
-        <tag>Path Planning</tag>
+        <tag>Robotics</tag>
         <tag>Dubins</tag>
+        <tag>Path Planning</tag>
       </tags>
   </entry>
   <entry>
@@ -22,8 +36,8 @@
         <category>科研</category>
       </categories>
       <tags>
-        <tag>Robotics</tag>
         <tag>AUV</tag>
+        <tag>Robotics</tag>
       </tags>
   </entry>
   <entry>
@@ -34,8 +48,8 @@
         <category>科研</category>
       </categories>
       <tags>
-        <tag>Robotics</tag>
         <tag>AUV</tag>
+        <tag>Robotics</tag>
         <tag>PhD Dissertation</tag>
         <tag>Formation Control</tag>
       </tags>
@@ -48,9 +62,9 @@
         <category>科研</category>
       </categories>
       <tags>
-        <tag>Robotics</tag>
-        <tag>AUV</tag>
         <tag>Programming</tag>
+        <tag>AUV</tag>
+        <tag>Robotics</tag>
       </tags>
   </entry>
   <entry>
@@ -76,11 +90,11 @@
         <category>科研</category>
       </categories>
       <tags>
-        <tag>Robotics</tag>
-        <tag>AUV</tag>
         <tag>Programming</tag>
-        <tag>APF</tag>
+        <tag>AUV</tag>
+        <tag>Robotics</tag>
         <tag>Path Planning</tag>
+        <tag>APF</tag>
       </tags>
   </entry>
   <entry>
