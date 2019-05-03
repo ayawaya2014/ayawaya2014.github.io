@@ -2,22 +2,22 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <sitemap>
-        <loc>http://yoursite.com/post-sitemap.xml</loc>
+        <loc>http://ayawaya2014.github.io/post-sitemap.xml</loc>
         <lastmod>2019-04-20T02:19:12.240Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://yoursite.com/page-sitemap.xml</loc>
+        <loc>http://ayawaya2014.github.io/page-sitemap.xml</loc>
         <lastmod>2019-04-30T12:16:17.909Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://yoursite.com/category-sitemap.xml</loc>
+        <loc>http://ayawaya2014.github.io/category-sitemap.xml</loc>
         <lastmod>2019-03-31T00:32:13.617Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://yoursite.com/tag-sitemap.xml</loc>
+        <loc>http://ayawaya2014.github.io/tag-sitemap.xml</loc>
         <lastmod>2018-03-05T05:38:41.650Z</lastmod>
     </sitemap>
 
