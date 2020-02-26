@@ -49,8 +49,8 @@
         <category>科研</category>
       </categories>
       <tags>
-        <tag>AUV</tag>
         <tag>Robotics</tag>
+        <tag>AUV</tag>
       </tags>
   </entry>
   <entry>
@@ -61,8 +61,8 @@
         <category>科研</category>
       </categories>
       <tags>
-        <tag>AUV</tag>
         <tag>Robotics</tag>
+        <tag>AUV</tag>
         <tag>PhD Dissertation</tag>
         <tag>Formation Control</tag>
       </tags>
@@ -76,8 +76,8 @@
       </categories>
       <tags>
         <tag>Programming</tag>
-        <tag>AUV</tag>
         <tag>Robotics</tag>
+        <tag>AUV</tag>
       </tags>
   </entry>
   <entry>
@@ -104,9 +104,9 @@
       </categories>
       <tags>
         <tag>Programming</tag>
-        <tag>AUV</tag>
         <tag>Robotics</tag>
         <tag>Path Planning</tag>
+        <tag>AUV</tag>
         <tag>APF</tag>
       </tags>
   </entry>
