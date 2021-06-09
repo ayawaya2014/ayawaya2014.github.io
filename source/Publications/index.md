@@ -1,6 +1,7 @@
 ---
 layout: page
 date: 2018-06-06 14:41:32
+type: "publicatons"
 categories: 科研
 ---
 
