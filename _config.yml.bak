@@ -8,7 +8,11 @@ subtitle: " 。 <br> Stay hungry. Stay foolish."
 description: ''
 keywords:
 author: ayawuyu
-language: zh-CN
+language: 
+	- zh-CN
+	- zh-TW
+	- en
+	- ja
 timezone: ''
 
 # URL
@@ -62,7 +66,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 6
   order_by: -date
 
 # Category & Tag
