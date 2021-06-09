@@ -151,21 +151,14 @@
 
   
   <url>
+    <loc>http://ayawaya2014.github.io/tags/Robotics/</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://ayawaya2014.github.io/tags/AUV/</loc>
-    <lastmod>2021-06-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://ayawaya2014.github.io/tags/Neural-Networks/</loc>
-    <lastmod>2021-06-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://ayawaya2014.github.io/tags/Search/</loc>
     <lastmod>2021-06-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -193,13 +186,6 @@
   </url>
   
   <url>
-    <loc>http://ayawaya2014.github.io/tags/Robotics/</loc>
-    <lastmod>2021-06-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://ayawaya2014.github.io/tags/Dubins/</loc>
     <lastmod>2021-06-09</lastmod>
     <changefreq>daily</changefreq>
@@ -208,13 +194,6 @@
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Path-Planning/</loc>
-    <lastmod>2021-06-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://ayawaya2014.github.io/tags/APF/</loc>
     <lastmod>2021-06-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -249,7 +228,21 @@
   </url>
   
   <url>
-    <loc>http://ayawaya2014.github.io/tags/About/</loc>
+    <loc>http://ayawaya2014.github.io/tags/Neural-Networks/</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://ayawaya2014.github.io/tags/Search/</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://ayawaya2014.github.io/tags/APF/</loc>
     <lastmod>2021-06-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -278,6 +271,13 @@
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/CSDN/</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://ayawaya2014.github.io/tags/About/</loc>
     <lastmod>2021-06-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
