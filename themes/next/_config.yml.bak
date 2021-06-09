@@ -123,9 +123,9 @@ menu:
   home: / || fa fa-home
   about: /about/ || fa fa-user
   tags: /tags/ || fa fa-tags
-  categories: /categories/ || fa fa-eye
+  categories: /categories/ || fa fa-list
   archives: /archives/ || fa fa-file
-  papers: /publications/ || fa fa-list
+  #papers: /publications/ || fa fa-list
   #search: /search || fa fa-search
   #schedule: /schedule/ || fa fa-calendar
   sitemap: /sitemap.xml || fa fa-sitemap
@@ -723,7 +723,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: fa fa-user
   total_views: true
