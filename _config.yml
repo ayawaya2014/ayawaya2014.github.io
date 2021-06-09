@@ -68,6 +68,7 @@ index_generator:
   path: ''
   per_page: 6
   order_by: -date
+  single_language_index: false
 
 # Category & Tag
 default_category: uncategorized
