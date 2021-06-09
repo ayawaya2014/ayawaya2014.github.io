@@ -151,7 +151,7 @@
 
   
   <url>
-    <loc>http://ayawaya2014.github.io/tags/Robotics/</loc>
+    <loc>http://ayawaya2014.github.io/tags/Programming/</loc>
     <lastmod>2021-06-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -159,13 +159,6 @@
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/AUV/</loc>
-    <lastmod>2021-06-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://ayawaya2014.github.io/tags/Programming/</loc>
     <lastmod>2021-06-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -180,6 +173,13 @@
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Formation-Tracking/</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://ayawaya2014.github.io/tags/Robotics/</loc>
     <lastmod>2021-06-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -256,20 +256,6 @@
   </url>
   
   <url>
-    <loc>http://ayawaya2014.github.io/tags/PhD-Dissertation/</loc>
-    <lastmod>2021-06-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://ayawaya2014.github.io/tags/Formation-Control/</loc>
-    <lastmod>2021-06-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://ayawaya2014.github.io/tags/Github/</loc>
     <lastmod>2021-06-09</lastmod>
     <changefreq>daily</changefreq>
@@ -278,6 +264,20 @@
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/CSDN/</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://ayawaya2014.github.io/tags/PhD-Dissertation/</loc>
+    <lastmod>2021-06-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://ayawaya2014.github.io/tags/Formation-Control/</loc>
     <lastmod>2021-06-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
