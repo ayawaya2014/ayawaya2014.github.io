@@ -73,7 +73,7 @@
     <url>/2018/03/06/Multi-Agent-Task-Assignment-based-on-SOM-Method-Code-Published/</url>
     <content><![CDATA[<p>Code of Multi-Agent Task-Assignment based on SOM Neural Network Method is Published on <a href="https://github.com/ayawaya2014/SOM_Code">Github</a></p>
 <p>Authors: Xin Li, Daqi Zhu</p>
-<p>Email: <a href="mailto:&#x6c;&#105;&#x78;&#x69;&#x6e;&#56;&#x35;&#x30;&#x32;&#50;&#52;&#x40;&#x31;&#54;&#51;&#x2e;&#99;&#111;&#x6d;">&#x6c;&#105;&#x78;&#x69;&#x6e;&#56;&#x35;&#x30;&#x32;&#50;&#52;&#x40;&#x31;&#54;&#51;&#x2e;&#99;&#111;&#x6d;</a>; <a href="mailto:&#122;&#100;&#x71;&#x33;&#x36;&#x37;&#64;&#x61;&#x6c;&#x69;&#x79;&#117;&#110;&#x2e;&#x63;&#x6f;&#x6d;">&#122;&#100;&#x71;&#x33;&#x36;&#x37;&#64;&#x61;&#x6c;&#x69;&#x79;&#117;&#110;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
+<p>Email: <a href="mailto:&#x6c;&#105;&#x78;&#105;&#110;&#x38;&#x35;&#x30;&#50;&#50;&#52;&#64;&#49;&#x36;&#51;&#46;&#x63;&#x6f;&#x6d;">&#x6c;&#105;&#x78;&#105;&#110;&#x38;&#x35;&#x30;&#50;&#50;&#52;&#64;&#49;&#x36;&#51;&#46;&#x63;&#x6f;&#x6d;</a>; <a href="mailto:&#122;&#100;&#113;&#51;&#54;&#55;&#64;&#97;&#x6c;&#x69;&#121;&#x75;&#110;&#x2e;&#x63;&#x6f;&#109;">&#122;&#100;&#113;&#51;&#54;&#55;&#64;&#97;&#x6c;&#x69;&#121;&#x75;&#110;&#x2e;&#x63;&#x6f;&#109;</a></p>
 <p>Laboratory of Underwater Vehicles and Intelligent Systems</p>
 <p>Shanghai Maritime University</p>
 <span id="more"></span>
@@ -90,6 +90,11 @@
         <tag>Task Assignment</tag>
         <tag>SOM Neural Networks</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Welcome to my blog</title>
+    <url>/2021/06/09/Welcome-to-my-blog/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>Experiments of two AUVs in the pool</title>
@@ -113,7 +118,7 @@
     <content><![CDATA[<p>Code of Path Planning based on Artificial Potential Field Method is Published on <a href="https://github.com/ayawaya2014/APF_Code">Github</a></p>
 <p>MATLAB Code of Artificial Potencial Field Method for Robot Path Planning</p>
 <p>Authors: Xin Li, Daqi Zhu</p>
-<p>Email: <a href="mailto:&#108;&#x69;&#120;&#105;&#110;&#56;&#53;&#x30;&#x32;&#50;&#52;&#x40;&#x31;&#x36;&#x33;&#x2e;&#x63;&#x6f;&#x6d;">&#108;&#x69;&#120;&#105;&#110;&#56;&#53;&#x30;&#x32;&#50;&#52;&#x40;&#x31;&#x36;&#x33;&#x2e;&#x63;&#x6f;&#x6d;</a>; <a href="mailto:&#x7a;&#x64;&#x71;&#x33;&#x36;&#55;&#64;&#97;&#x6c;&#105;&#x79;&#x75;&#x6e;&#46;&#x63;&#111;&#x6d;">&#x7a;&#x64;&#x71;&#x33;&#x36;&#55;&#64;&#97;&#x6c;&#105;&#x79;&#x75;&#x6e;&#46;&#x63;&#111;&#x6d;</a></p>
+<p>Email: <a href="mailto:&#108;&#x69;&#x78;&#105;&#110;&#x38;&#53;&#x30;&#50;&#x32;&#x34;&#x40;&#x31;&#x36;&#x33;&#46;&#99;&#111;&#109;">&#108;&#x69;&#x78;&#105;&#110;&#x38;&#53;&#x30;&#50;&#x32;&#x34;&#x40;&#x31;&#x36;&#x33;&#46;&#99;&#111;&#109;</a>; <a href="mailto:&#122;&#100;&#113;&#x33;&#x36;&#x37;&#64;&#97;&#108;&#x69;&#121;&#x75;&#110;&#x2e;&#x63;&#x6f;&#x6d;">&#122;&#100;&#113;&#x33;&#x36;&#x37;&#64;&#97;&#108;&#x69;&#121;&#x75;&#110;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
 <p>Laboratory of Underwater Vehicles and Intelligent Systems</p>
 <p>Shanghai Maritime University</p>
 <span id="more"></span>
@@ -130,11 +135,6 @@
         <tag>Path Planning</tag>
         <tag>APF</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Welcome to my blog</title>
-    <url>/2021/06/09/Welcome-to-my-blog/</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>Hello World</title>
