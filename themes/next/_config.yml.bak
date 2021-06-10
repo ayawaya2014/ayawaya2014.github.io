@@ -52,7 +52,7 @@ favicon:
   safari_pinned_tab: /images/science_1200687_easyicon.net.svg
 
 # Show multilingual switcher in footer.
-language_switcher: false
+language_switcher: true
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
