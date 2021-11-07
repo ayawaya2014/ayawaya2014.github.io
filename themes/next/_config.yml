@@ -278,9 +278,9 @@ reward_settings:
 
 reward:
   wechatpay: /images/wechatpay.jpg
-  alipay: /images/alipay.jpg
+  #alipay: /images/alipay.jpg
   #paypal: /images/paypal.png
-  bitcoin: /images/bitcoin.jpg
+  #bitcoin: /images/bitcoin.jpg
   dogecoin: /images/dogecoin.jpg
 
 # Subscribe through Telegram Channel, Twitter, etc.
