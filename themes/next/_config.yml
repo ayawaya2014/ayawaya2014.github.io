@@ -208,13 +208,15 @@ links_settings:
   layout: block
 links:
   #Title: http://example.com/
-  Baidu: http://www.baidu.com
-  CSDN: http://blog.csdn.net/ayawaya
+  #Baidu: http://www.baidu.com
+  CSDN: http://blog.csdn.net/ayawaya/
   Exbot: http://blog.exbot.net/
-  Shanghai Maritime University: http://www.shmtu.edu.cn
-  The Old Website: http://shmtuee.vicp.net
-  The Shared Disk: http://10.10.28.191:8080/dist
-  Students FTP: ftp://10.10.26.26
+  Google: https://www.google.com.hk/
+  Shanghai Maritime University: http://www.shmtu.edu.cn/
+  Students FTP: ftp://10.67.11.100/
+  The Old Website: http://shmtuee.vicp.net/
+  The Shared Disk: http://10.10.85.107/
+
 
 toc:
   enable: true
