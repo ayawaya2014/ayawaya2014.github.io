@@ -1,5 +1,5 @@
 ---
-title: An ancient Chinese ancient poem
+title: An ancient Chinese poem
 date: 2021-11-29 15:29:12
 tags: [詩詞]
 category: 
