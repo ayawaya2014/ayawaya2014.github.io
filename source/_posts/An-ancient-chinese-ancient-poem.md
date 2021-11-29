@@ -9,6 +9,8 @@ category:
 
 In this golden autumn season, I read this ancient Chinese poem, namely "Autumn Day", by Cheng Hao in the Song Dynasty.
 
+<!-- more -->
+
 >
 > 閒來無事不從容
 >
