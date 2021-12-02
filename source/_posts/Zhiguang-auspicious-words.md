@@ -9,7 +9,7 @@ categories:
 
 We must do the right karma
 
-that conforms to the way of sages,
+that conforms to the way of sages
 
 and does not harm all beings,
 
