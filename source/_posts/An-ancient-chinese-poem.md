@@ -4,7 +4,7 @@ date: 2021-11-29 15:29:12
 tags: [詩詞]
 category: 
 - [文學]
-- [閱讀]
+- [READING]
 ---
 
 In this golden autumn season, I read this ancient Chinese poem, namely "Autumn Day", by Cheng Hao in the Song Dynasty.

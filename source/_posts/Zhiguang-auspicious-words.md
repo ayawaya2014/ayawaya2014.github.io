@@ -2,9 +2,7 @@
 title: Zhiguang auspicious words
 date: 2021-12-02 19:34:40
 tags: [國學,人生]
-categories: 
-- [閲讀]
-- [勵志]
+categories: [勵志]
 ---
 
 We must do the right karma
