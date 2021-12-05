@@ -12,6 +12,8 @@ In reinforcement learning, there are some simple models, such as letting the age
 
 The advantage of using reinforcement learning to do this is that you only need to tell the agents your purpose (find the way out), without telling them how to do it. As long as you try more times, the agent can always find a more ideal strategy (the value function converges), which is the path of action. The specific algorithms can be Monte Carlo or Q-learning. You also can try the Dyna-Q algorithm.
 
+<!-- more -->
+
 $ Q-learning is the core of RL $
 
 $ Q stands for Quality $
