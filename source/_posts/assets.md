@@ -18,6 +18,8 @@ An open mind is a gold mine.
 
 {% asset_img avatar.jpg asset_2 %}
 
+![asset_1](avatar.jpg)
+	
 [^_^]:
 	![asset_3](avatar.zip)
 
