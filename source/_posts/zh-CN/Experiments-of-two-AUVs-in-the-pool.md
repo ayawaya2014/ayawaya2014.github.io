@@ -1,6 +1,7 @@
 ---
 title: Experiments of two AUVs in the pool
 date: 2018-07-02 09:56:42
+lang: en
 tags: [Robotics, AUV]
 categories: 科研
 ---

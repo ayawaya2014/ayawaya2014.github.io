@@ -1,6 +1,7 @@
 ---
 title: Simulation for Formation Control Based on Adaptive SOM Method
 date: 2018-03-17 14:37:17
+lang: zh-CN
 tags: [Programming, Robotics, AUV]
 categories: 科研
 ---

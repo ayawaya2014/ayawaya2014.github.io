@@ -4,7 +4,7 @@ lang: en
 date: 2021-11-29 16:56:23
 tags: [path planning, robots, reinforcement learning, optimization]
 categories:
-- [科研]
+- [Research]
 ---
 
 These days I have studied unmanned driving path planning and reinforcement learning, and have gained some preliminary knowledges.

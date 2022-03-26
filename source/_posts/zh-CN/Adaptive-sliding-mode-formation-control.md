@@ -4,6 +4,7 @@ date: 2019-04-20 09:17:19
 tags: [Programming, AUV, Water Flow, Formation Tracking]
 categories: 科研
 mathjax: true
+lang: zh-CN
 ---
 
 Adaptive sliding mode formation control for AUVs in water flow environment.

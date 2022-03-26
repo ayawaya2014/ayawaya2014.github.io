@@ -2,6 +2,7 @@
 title: Multi-Agent-Task-Assignment-based-on-SOM-Method-Code-Published
 date: 2018-03-06 14:46:11
 tags: [Robotics, Multi-agent, AUVs, Task Assignment, SOM Neural Networks]
+lang: zh-CN
 categories: 科研
 ---
 
