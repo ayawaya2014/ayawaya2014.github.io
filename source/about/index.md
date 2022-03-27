@@ -5,8 +5,8 @@ categories: 关于本站
 ---
 # About me
 
-<!-- <img src="/images/photo.lx.github.io.jpg" class="floatpic" width="330" height="300"> -->
-My name is Xin Li. I am now with Shanghai Maritime University. I am interested in machine learning, intelligent algorithms, multi-agent systems, and artificial neural networks, etc. 
+<img src="/images/photo.lx.github.io.jpg" class="floatpic" width="330" height="360">
+My name is Xin Li. I am now with Shanghai Maritime University. I am interested in machine learning, intelligent algorithms, robotics, and artificial neural networks, etc. 
 <!-- ![photo_1](/images/photo.jpg) -->
 
 <!--and deep learning based algorithms, -->
@@ -38,9 +38,11 @@ We develop new algorithms based on neural networks and deep learning to deal wit
 
 -----
 
-Homepage: https://ayawaya2014.github.io
-<!-- CSDN blog: http://blog.csdn.net/ayawaya
-Deprecated blog: http://shmtuee.vicp.net (2015-2018) -->
-Email: [lixin850224@163.com](mailto:lixin850224@163.com)
+[Homepage](https://ayawaya2014.github.io)
+[CSDN Blog](http://blog.csdn.net/ayawaya)
+[Email](mailto:lixin850224@163.com)
+
+<!-- Deprecated blog: http://shmtuee.vicp.net (2015-2018) -->
+<!-- Email: [lixin850224@163.com](mailto:lixin850224@163.com) -->
 
 ------
