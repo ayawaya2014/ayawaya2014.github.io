@@ -9,9 +9,9 @@ description: ''
 keywords:
 author: ayawuyu
 language: 
+- en
 - zh-CN
 - zh-TW
-- en
 - ja
 timezone: ''
 
@@ -68,7 +68,7 @@ index_generator:
   path: ''
   per_page: 6
   order_by: -date
-  single_language_index: false
+  single_language_index: true
 
 # Category & Tag
 default_category: uncategorized

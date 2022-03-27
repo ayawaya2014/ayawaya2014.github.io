@@ -282,7 +282,7 @@ reward:
   wechatpay: /images/wechatpay.jpg
   #alipay: /images/alipay.jpg
   #paypal: /images/paypal.png
-  #bitcoin: /images/bitcoin.jpg
+  bitcoin: /images/bitcoin.png
   #dogecoin: /images/DBUgvPzh151kJgB7rXW3ZXsxfXjXkDV1ez.png
 
 # Subscribe through Telegram Channel, Twitter, etc.
