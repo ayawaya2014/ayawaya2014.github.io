@@ -128,9 +128,10 @@ menu:
   #papers: /publications/ || fa fa-list
   #search: /search || fa fa-search
   #schedule: /schedule/ || fa fa-calendar
-  sitemap: /sitemap.xml || fa fa-sitemap
   commonweal: /404/ || fa fa-heartbeat
+  sitemap: /sitemap.xml || fa fa-sitemap
 
+  
 # Enable / Disable menu icons / item badges.
 menu_settings:
   icons: true
