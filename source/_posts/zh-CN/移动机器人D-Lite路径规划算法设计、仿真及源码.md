@@ -4,6 +4,7 @@ date: 2018-03-01 17:12:06
 lang: zh-CN
 tags: [Robotics,Github,CSDN]
 categories: 科研
+katex: true
 mathjax: true
 ---
 
@@ -13,7 +14,7 @@ D\*Lite算法是Koenig S和Likhachev M基于LPA\*算法基础上提出的路径�
 > $$
 > rhs(s) = \left\{
 >  \begin{array}{ll}
-> 0 & \text{if} \; s = s_{start} \\
+> 0 & \text{if}  s = s_{start} \\
 > \text{min}_{s^{'} \in Pred(s)}(g(s^{'})+c(s^{'},s)) & \text{otherwise}
 > \end{array} 
 > \right.
@@ -24,8 +25,8 @@ D\*Lite算法是Koenig S和Likhachev M基于LPA\*算法基础上提出的路径�
 
 为了让节点v的启发函数值随着起点位置变化而变化， Koenig S和Likhachev M给出了两种方法：一是，根据新的起点位置，将优先队列中所有节点的启发函数值重新计算；二是，并不重新计算队列中的启发函数值，而是在计算新添加到优先队列中的节点的启发函数值时，加上一个修饰符 ,表示机器人移动距离的叠加。
 - - -
-**D\* Lite Pseudo Code: **
-> **CaculateKey(*s*)**
+** D\* Lite Pseudo Code: **
+> ** CaculateKey(*s*) **
 >> return [min(*g*(*s*),*rhs*(*s*))+h(*s*<sub>_start_</sub> , s)+k<sub>m</sub>; min(*g*(*s*),*rhs*(*s*))];
 >
 > __Initialize()__
@@ -62,8 +63,8 @@ D\*Lite算法是Koenig S和Likhachev M基于LPA\*算法基础上提出的路径�
 > > ComputeShortestPath();
 > > while($S_{start} \neq S_{goal}$)
 > > >>> /* if ($g(S_{start} =\infty)$) then there is no known path */
-> > >>> $S_{start} = arg \text{min}_{s^{'} \in Succ(\mu)}(c(\mu,s^{'})+g(s^{'}))$;
-> > >>> Move to $S_{start}$;
+> > >>> $ S_{start} = arg \text{min}_{s^{'} \in Succ(\mu)}(c(\mu,s^{'})+g(s^{'})) $;
+> > >>> Move to $ S_{start} $;
 > > >>> Scan graph for changed edge costs;
 > > >>> if any edge costs changed
 > > >>>
@@ -173,4 +174,5 @@ int main() {
 * * *
 该算法还有多种改进分支，在此基础上进一步研究。
 https://blog.csdn.net/ayawaya/article/details/70155932
+
 * * *
