@@ -7,17 +7,17 @@ categories: 科研
 mathjax: true
 ---
 
-[原文地址](http://blog.csdn.net/ayawaya/article/details/70155932)
-
 # Dstar Lite路径规划算法简介
 D\*Lite算法是Koenig S和Likhachev M基于LPA\*算法基础上提出的路径规划算法。 LPA\*算法本是基于Dijkstra最短路径算法而产生的定起点、定目标点的路径规划算法。 通过对LPA\*算法的改造，使LPA\*算法的思想能应用到诸如车辆动态导航这样的问题。 
 > LPA\*算法区别于其他算法 的一个重要特点是rhs()的定义：
 > $$
-rhs(s) = \left\lbrace \begin{array}{ll}
-0 & \text{if} \;  s = s_{start} \\\\
-\text{min}_{s^{'} \in Pred(s)}(g(s^{'})+c(s^{'},s)) & \text{otherwise}
-\end{array} \right.
-$$
+> rhs(s) = \left\{
+>  \begin{array}{ll}
+> 0 & \text{if} \; s = s_{start} \\
+> \text{min}_{s^{'} \in Pred(s)}(g(s^{'})+c(s^{'},s)) & \text{otherwise}
+> \end{array} 
+> \right.
+> $$
 > D\*Lite算法继承了rhs()的概念，但D\*Lite算法是从目标节点向起始节点搜索。
 
 <!-- more -->
@@ -43,10 +43,11 @@ $$
 > **ComputeShortestPath()**
 > while (U.TopKey() < CaculateKey($S_{start}$) or $rhs(s_{start}) \neq g(s_{start})$)
 > > $k_{old} $ = U.TopKey();
-> $\mu$ = U.Pop();
-> if ($k_{old}$ < CaculateKey($\mu$))
-> >> U.Insert($\mu$, CaculateKey($\mu$));
-> 
+> > $\mu$ = U.Pop();
+> > if ($k_{old}$ < CaculateKey($\mu$))
+> >
+> > > U.Insert($\mu$, CaculateKey($\mu$));
+>
 > > elseif ($g(\mu) > rhs(\mu)$)
 > >> $g(\mu) = rhs(\mu)$
 > for all $s \in Pred(\mu)$, UpdateVertex(s);
@@ -56,21 +57,22 @@ $$
 > for all $s \in Pred(\mu) \cup {\mu}$, UpdateVertex(s);
 
 > **Main()**
-> > $ S_{last} = S_{start} $;
-> Initialize();
-> ComputeShortestPath();
-> while($ S_{start} \neq S_{goal} $)
-    >>> /* if ($ g(S_{start} =\infty) $) then there is no known path */
-    > $ S_{start} = arg \text{min}_{s^{'} \in Succ(\mu)}(c(\mu,s^{'})+g(s^{'})) $;
-    Move to $ S_{start} $;
-    Scan graph for changed edge costs;
-    if any edge costs changed
-    >>>> $k_m = k_m + h(s_{last}, s_{start})$;
-    $ S_{last} = S_{start} $;
-    for all directed edges $(u, v)$ with changed edge costs
-    >>>>> Update the edge cost $c(u, v)$;
-    Update Vertex$(u)$;
-    
+> > $S_{last} = S_{start}$;
+> > Initialize();
+> > ComputeShortestPath();
+> > while($S_{start} \neq S_{goal}$)
+> > >>> /* if ($g(S_{start} =\infty)$) then there is no known path */
+> > >>> $S_{start} = arg \text{min}_{s^{'} \in Succ(\mu)}(c(\mu,s^{'})+g(s^{'}))$;
+> > >>> Move to $S_{start}$;
+> > >>> Scan graph for changed edge costs;
+> > >>> if any edge costs changed
+> > >>>
+> > >>> > $k_m = k_m + h(s_{last}, s_{start})$;
+> > >>> $S_{last} = S_{start}$;
+> > >>> for all directed edges $(u, v)$ with changed edge costs
+> > >>> >> Update the edge cost $c(u, v)$;
+> > >>> Update Vertex$(u)$;
+
 >>>> Compute ShortestPath();
 
 ***
@@ -80,7 +82,8 @@ $$
 
 # Linux系统简要说明
 Linux是一套免费使用和自由传播的类Unix操作系统，是一个基于POSIX和UNIX的多用户、多任务、支持多线程和多CPU的操作系统。它能运行主要的UNIX工具软件、应用程序和网络协议。它支持32位和64位硬件。Linux继承了Unix以网络为核心的设计思想，是一个性能稳定的多用户网络操作系统。
-在做算法程序开发之前，应对Linux系统基本操作有一定的了解，才能方便上手，在这里向同学们推荐一款教程：
+在做算法程序开发之前，应对Linux系统基本操作有一定的了解，才能方便上手，在这里推荐一款教程：
+
 > [鳥哥的 Linux 私房菜](http://linux.vbird.org)
 
 该教程内容详实全面，是Linux入门的好材料。
@@ -100,17 +103,15 @@ Linux是一套免费使用和自由传播的类Unix操作系统，是一个基�
 # Dstar Lite程序使用说明
 该程序调用一些GNU库，请在类Unix系统下编译使用。
 如果系统没有安装编译工具，则需要先安装 (Ubuntu)：
+
 ``` 
 $ sudo apt-get install build-essential
 ```
-下载源程序：
-[Dstar.rar](http://shmtu-robot.imwork.net:23137/dist/shares/Dstar.rar)
-[dstar.tar.gz](http://shmtu-robot.imwork.net:23137/dist/shares/dstar.tar.gz)
-（若不能下载刷新一下页面）
+[原文地址](http://blog.csdn.net/ayawaya/article/details/70155932)
 
 CSDN下载：
-[Dstar.rar](http://download.csdn.net/detail/ayawaya/9828085)
 [dstar.tar.gz](http://download.csdn.net/detail/ayawaya/9828088)
+
 - - - ------------
 下载后解压，进入解压后的目录：
 ``` 
@@ -171,4 +172,5 @@ int main() {
 ```
 * * *
 该算法还有多种改进分支，在此基础上进一步研究。
+https://blog.csdn.net/ayawaya/article/details/70155932
 * * *
