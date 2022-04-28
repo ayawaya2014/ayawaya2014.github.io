@@ -188,8 +188,8 @@ social:
   #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
-  #Twitter: https://twitter.com/yourname || fab fa-twitter
-  FB Page: https://www.facebook.com/xin.li.5855 || fab fa-facebook
+  Twitter: https://twitter.com/XinLi98662131 || fab fa-twitter
+  #FB Page: https://www.facebook.com/xin.li.5855 || fab fa-facebook
   #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
   #YouTube: https://youtube.com/yourname || fab fa-youtube
   #Instagram: https://instagram.com/yourname || fab fa-instagram
@@ -211,13 +211,14 @@ links:
   #Title: http://example.com/
   #Baidu: http://www.baidu.com
   CSDN: http://blog.csdn.net/ayawaya/
-  Exbot: http://blog.exbot.net/
-  Google: https://www.google.com.hk/
-  Shanghai Maritime University: http://www.shmtu.edu.cn/
-  Students FTP: ftp://10.67.11.100/
+  #Exbot: http://blog.exbot.net/
+  #Google: https://www.google.com.hk/
+  #Twitter: https://twitter.com/home
+  #Shanghai Maritime University: http://www.shmtu.edu.cn/
+  The Shared Disk: http://shmtuee.vicp.net/files/
   The Old Website: http://shmtuee.vicp.net/
-  The Shared Disk: http://10.10.85.107/indexed/
   DiskStation: https://ayawuyu168.cn4.quickconnect.cn/#/signin
+  Students FTP: ftp://10.67.11.100/
 
 toc:
   enable: true
