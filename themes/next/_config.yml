@@ -210,15 +210,15 @@ links_settings:
 links:
   #Title: http://example.com/
   #Baidu: http://www.baidu.com
-  CSDN: http://blog.csdn.net/ayawaya/
+  CSDN: http://blog.csdn.net/ayawaya
   #Exbot: http://blog.exbot.net/
   #Google: https://www.google.com.hk/
   #Twitter: https://twitter.com/home
-  #Shanghai Maritime University: http://www.shmtu.edu.cn/
-  The Shared Disk: http://shmtuee.vicp.net/files/
-  The Old Website: http://shmtuee.vicp.net/
+  Shanghai Maritime University: http://www.shmtu.edu.cn
+  The Shared Disk: http://http://shmtu-robot.imwork.net
+  The Old Website: http://shmtuee.vicp.net
   DiskStation: https://ayawuyu168.cn4.quickconnect.cn/#/signin
-  Students FTP: ftp://10.67.11.100/
+  Students FTP: ftp://10.67.11.100
 
 toc:
   enable: true
