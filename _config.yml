@@ -18,7 +18,7 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://ayawaya2014.github.io
-permalink: :title/
+permalink: :year/:title/
 # permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -69,7 +69,7 @@ index_generator:
   path: ''
   per_page: 6
   order_by: -date
-  single_language_index: false
+  single_language_index: true
 
 # Category & Tag
 default_category: uncategorized
