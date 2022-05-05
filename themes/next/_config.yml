@@ -276,7 +276,7 @@ tag_icon: false
 # Front-matter variable (unsupport animation).
 reward_settings:
   # If true, reward will be displayed in every article by default.
-  enable: true
+  enable: false
   animation: false
   comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
 
@@ -284,7 +284,7 @@ reward:
   #wechatpay: /images/wechatpay.jpg
   #alipay: /images/alipay.jpg
   #paypal: /images/paypal.png
-  bitcoin: /images/bitcoin.png
+  #bitcoin: /images/bitcoin.png
   #dogecoin: /images/DBUgvPzh151kJgB7rXW3ZXsxfXjXkDV1ez.png
 
 # Subscribe through Telegram Channel, Twitter, etc.
