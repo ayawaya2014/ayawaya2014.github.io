@@ -3,8 +3,6 @@
 <meta name="theme-color" content="{{ theme.android_chrome_color }}">
 <meta name="generator" content="Hexo {{ hexo_version }}">
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2110728203919454"  crossorigin="anonymous"></script>
-
 {%- if theme.favicon.apple_touch_icon %}
   <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for(theme.favicon.apple_touch_icon) }}">
 {%- endif %}
@@ -23,6 +21,8 @@
 {%- if theme.favicon.ms_browserconfig %}
   <meta name="msapplication-config" content="{{ url_for(theme.favicon.ms_browserconfig) }}">
 {%- endif %}
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2110728203919454" crossorigin="anonymous"></script>
 
 {%- if theme.disable_baidu_transformation %}
   <meta http-equiv="Cache-Control" content="no-transform">
