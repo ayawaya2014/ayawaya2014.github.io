@@ -33,7 +33,6 @@ custom_file_path:
   #mixin: source/_data/mixins.styl
   #style: source/_data/styles.styl
 
-
 # ---------------------------------------------------------------
 # Site Information Settings
 # See: https://theme-next.org/docs/getting-started/
@@ -214,11 +213,11 @@ links:
   #Exbot: http://blog.exbot.net/
   #Google: https://www.google.com.hk/
   #Twitter: https://twitter.com/home
-  Shanghai Maritime University: http://www.shmtu.edu.cn
-  The Shared Disk: http://shmtu-robot.imwork.net
+  #Shanghai Maritime University: http://www.shmtu.edu.cn
+  The Shared Disk: https://ayawuyu.ipv6d.my.id
   The Old Website: http://shmtuee.vicp.net
   DiskStation: https://ayawuyu168.cn4.quickconnect.cn/#/signin
-  Students FTP: ftp://10.67.11.100
+  #Students FTP: ftp://10.67.11.100
 
 toc:
   enable: true
