@@ -3,7 +3,7 @@ title: Dubins path planning codes
 date: 2019-03-31 08:18:52
 tags: [Programming, Robotics, Dubins, Path Planning]
 lang: zh-CN
-categories: 科研
+categories: Research
 ---
 
 Dubins path planning codes for robots with initial velocity with or without workloads balancing.

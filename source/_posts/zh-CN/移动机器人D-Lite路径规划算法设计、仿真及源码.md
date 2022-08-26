@@ -3,7 +3,9 @@ title: 移动机器人D*Lite路径规划算法设计、仿真及源码
 date: 2018-03-01 17:12:06
 lang: zh-CN
 tags: [Robotics,Github,CSDN]
-categories: 科研
+categories: 
+- [学习]
+- [Research]
 katex: true
 mathjax: true
 ---

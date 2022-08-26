@@ -3,7 +3,7 @@ title: Path Planning based on Artificial Potential Field Method Code Published
 date: 2018-03-05 13:19:23
 lang: zh-CN
 tags: [Programming, Robotics, AUV, APF, Path Planning]
-categories: 科研
+categories: Research
 ---
 Code of Path Planning based on Artificial Potential Field Method is Published on [Github](https://github.com/ayawaya2014/APF_Code)
 

@@ -2,7 +2,7 @@
 title: Adaptive sliding mode formation control
 date: 2019-04-20 09:17:19
 tags: [Programming, AUV, Water Flow, Formation Tracking]
-categories: 科研
+categories: Research
 mathjax: true
 lang: zh-CN
 ---
