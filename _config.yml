@@ -19,6 +19,7 @@ timezone: ''
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://ayawaya2014.github.io
 
+#permanent links 比较方便，还有permalink2在github，可以参考
 permalink: :year/:abbrlink/
 # permalink: :lang/:year/:title/
 # permalink: :year/:month/:day/:title/
