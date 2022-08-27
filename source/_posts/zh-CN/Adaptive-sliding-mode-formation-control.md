@@ -1,10 +1,15 @@
 ---
 title: Adaptive sliding mode formation control
-date: 2019-04-20 09:17:19
-tags: [Programming, AUV, Water Flow, Formation Tracking]
+tags:
+  - Programming
+  - AUV
+  - Water Flow
+  - Formation Tracking
 categories: Research
 mathjax: true
 lang: zh-CN
+abbrlink: 28d376f4
+date: 2019-04-20 09:17:19
 ---
 
 Adaptive sliding mode formation control for AUVs in water flow environment.

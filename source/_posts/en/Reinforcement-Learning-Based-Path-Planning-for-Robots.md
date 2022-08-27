@@ -1,11 +1,16 @@
 ---
 title: Reinforcement Learning Based Path Planning for Robots
 lang: en
-date: 2021-11-29 16:56:23
-tags: [path planning, robots, reinforcement learning, optimization]
+tags:
+  - path planning
+  - robots
+  - reinforcement learning
+  - optimization
 categories:
-- [Research]
-- [学习]
+  - - Research
+  - - 学习
+abbrlink: 2b025212
+date: 2021-11-29 16:56:23
 ---
 
 These days I have studied unmanned driving path planning and reinforcement learning, and have gained some preliminary knowledges.

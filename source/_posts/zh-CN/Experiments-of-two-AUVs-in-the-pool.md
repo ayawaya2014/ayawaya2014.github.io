@@ -1,9 +1,12 @@
 ---
 title: Experiments of two AUVs in the pool
-date: 2018-07-02 09:56:42
 lang: en
-tags: [Robotics, AUV]
+tags:
+  - Robotics
+  - AUV
 categories: Research
+abbrlink: 1792249b
+date: 2018-07-02 09:56:42
 ---
 
 

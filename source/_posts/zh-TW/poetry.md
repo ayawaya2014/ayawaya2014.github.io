@@ -1,9 +1,10 @@
 ---
 title: poetry
 lang: zh-TW
+categories: other
+abbrlink: ca5259af
 date: 2022-08-25 14:43:07
 tags:
-categories: other
 ---
 
 渡漢江
