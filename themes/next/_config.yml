@@ -45,8 +45,9 @@ favicon:
   #safari_pinned_tab: /images/logo.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
-  small: /images/alphabet_u_16px_1066576_easyicon.net.ico
-  medium: /images/alphabet_u_32px_1066576_easyicon.net.ico
+  small: /images/favicon2.ico
+  #medium: /images/alphabet_u_32px_1066576_easyicon.net.ico
+  medium: /images/favicon2m.png
   apple_touch_icon: /images/science_152.9756097561px_1200687_easyicon.net.png
   safari_pinned_tab: /images/science_1200687_easyicon.net.svg
 
