@@ -48,8 +48,8 @@ favicon:
   small: /images/favicon2.ico
   #medium: /images/alphabet_u_32px_1066576_easyicon.net.ico
   medium: /images/favicon2m.png
-  apple_touch_icon: /images/science_152.9756097561px_1200687_easyicon.net.png
-  safari_pinned_tab: /images/science_1200687_easyicon.net.svg
+  apple_touch_icon: /images/favicon2m.png
+  safari_pinned_tab: /images/alphabet_u_16px_1066576_easyicon.net.ico
 
 # Show multilingual switcher in footer.
 language_switcher: true
