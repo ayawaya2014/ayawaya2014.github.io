@@ -29,8 +29,6 @@ I received the B.S. degree in information engineering from Shanghai Jiaotong Uni
 
 -----
 
-[Homepage](https://ayawaya2014.github.io)
-[CSDN Blog](http://blog.csdn.net/ayawaya)
 [Papers](https://ayawaya2014.github.io/Publications/)
 [Email](mailto:lixin850224@163.com)
 
