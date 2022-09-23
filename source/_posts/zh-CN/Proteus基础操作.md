@@ -4,7 +4,7 @@ lang: zh-CN
 categories: [实验教学, 计算机组成原理与汇编]
 abbrlink: 129f7bce
 date: 2022-09-23 10:57:04
-tags: [实验教学, 微机原理]
+tags: [实验教学, 微机原理, 汇编语言]
 ---
 
 # 屏幕外观
