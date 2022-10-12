@@ -215,9 +215,12 @@ links:
   #Google: https://www.google.com.hk/
   #Twitter: https://twitter.com/home
   #Shanghai Maritime University: http://www.shmtu.edu.cn
-  The Shared Disk: http://shmtu-robot.imwork.net/
-  The Old Website: http://shmtuee.vicp.net
-  DiskStation: https://ayawuyu168.cn4.quickconnect.cn/#/signin
+  #The Shared Disk: http://shmtu-robot.imwork.net/
+  The Shared Files: ftp://shmtu-robot.imwork.net/
+  The Old Website: https://smucs.ipv6d.my.id
+  #The Old Website: http://shmtuee.vicp.net
+  #DiskStation: https://ayawuyu168.cn4.quickconnect.cn/#/signin
+  DiskStation: https://shmtuee.vicp.net/owncloud
   #Students FTP: ftp://10.67.11.100
 
 toc:
