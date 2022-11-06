@@ -210,18 +210,19 @@ links_settings:
 links:
   #Title: http://example.com/
   #Baidu: http://www.baidu.com
+  This Blog: https://ayawaya2014.github.io/
   CSDN: http://blog.csdn.net/ayawaya
   #Exbot: http://blog.exbot.net/
   #Google: https://www.google.com.hk/
   #Twitter: https://twitter.com/home
   #Shanghai Maritime University: http://www.shmtu.edu.cn
   #The Shared Disk: http://shmtu-robot.imwork.net/
-  The Shared Files: ftp://shmtu-robot.imwork.net/
-  The Old Website: https://smucs.ipv6d.my.id
+  The Shared Files 1: ftp://shmtu-robot.imwork.net/
+  The Shared Files 2: ftp://shmtuee.vicp.net/
+  The IPv6 Website: https://smucs.ipv6d.my.id
   #The Old Website: http://shmtuee.vicp.net
   #DiskStation: https://ayawuyu168.cn4.quickconnect.cn/#/signin
-  DiskStation: https://shmtuee.vicp.net/owncloud
-  #Students FTP: ftp://10.67.11.100
+  DiskStation: https://smunext.ipv6d.my.id
 
 toc:
   enable: true
