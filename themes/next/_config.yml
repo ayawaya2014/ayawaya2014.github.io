@@ -218,7 +218,8 @@ links:
   #Shanghai Maritime University: http://www.shmtu.edu.cn
   #The Shared Disk: http://shmtu-robot.imwork.net/
   The Shared Files 1: ftp://shmtu-robot.imwork.net/
-  The Shared Files 2: ftp://shmtuee.vicp.net/
+  The Shared Files 2: https://shmtuee.vicp.net/
+  The Local FTP: ftp://10.10.97.227/
   The IPv6 Website: https://smucs.ipv6d.my.id
   #The Old Website: http://shmtuee.vicp.net
   #DiskStation: https://ayawuyu168.cn4.quickconnect.cn/#/signin
