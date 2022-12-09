@@ -217,10 +217,10 @@ links:
   #Twitter: https://twitter.com/home
   #Shanghai Maritime University: http://www.shmtu.edu.cn
   #The Shared Disk: http://shmtu-robot.imwork.net/
-  The Shared Files 1: ftp://shmtu-robot.imwork.net/
-  Remote Shell: ssh://shmtu-robot.imwork.net/
-  The Shared Files: http://10.64.43.200/
-  The Local FTP: ftp://10.10.97.227/
+  The Shared Files 1: http://shmtu-robot.imwork.net/
+  Remote Shell: ssh://shmtuee.vicp.net/
+  The Shared Files 2: https://mynext.ipv6b.my.id/
+  FTP in Local Net: ftp://10.10.97.227/
   The IPv6 Website: https://smucs.ipv6d.my.id
   #The Old Website: http://shmtuee.vicp.net
   #DiskStation: https://ayawuyu168.cn4.quickconnect.cn/#/signin
