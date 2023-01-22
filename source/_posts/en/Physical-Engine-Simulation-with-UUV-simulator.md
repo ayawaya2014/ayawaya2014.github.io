@@ -6,8 +6,8 @@ tags:
   - underwater robots
   - trajectory tracking
 categories:
-  -- Research
-  -- 学习
+  - - Research
+  - - 学习
 abbrlink: ad3e3a66
 date: 2023-01-22 15:14:02
 ---
