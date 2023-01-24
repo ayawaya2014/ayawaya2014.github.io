@@ -1,5 +1,5 @@
 ---
-title: Bulletin Boarder System - 电子公告板系统
+title: Bulletin Board System - 电子公告板系统
 lang: zh-TW
 tags:
   - BBS
