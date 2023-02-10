@@ -6,9 +6,9 @@
 # title: LEEのBlog
 # title: 高山仰止
 # title: 总是随便写写
-title: 風生水起
-subtitle: "Stay hungry. Stay foolish."
-description: ''
+title: '風生水起|晚熟的人' # 标题 | 管道
+subtitle: "Stay hungry.<br>Stay foolish." # 副标题 分两行显示
+description: '心有猛虎 | 细嗅蔷薇' # 简介
 keywords:
 author: ayawuyu
 language: 
