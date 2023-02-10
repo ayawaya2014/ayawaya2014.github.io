@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="zh-CN,en,ja,zh-TW,default">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.2">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon2m.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon2m.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon2.ico">
+  <link rel="mask-icon" href="/images/alphabet_u_16px_1066576_easyicon.net.ico" color="#222">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2110728203919454" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"ayawaya2014.github.io","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":6},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+
+	 
+  <meta name="description" content="屏幕外观整个屏幕被分成三个区域——编辑窗口（EditingWindow）、预览窗口（Overview Window）、工具箱。 编辑窗口显示你正在编辑的电路原理图，可以通过View菜单的Redraw命令来刷新显示内容，同时预览窗口中的内容也将被刷新。当执行其它命令导致显示错乱时可以使用该特性恢复显示。要使编辑窗口显示一张大的电路图的其他部分，可以通过如下几种方式：  用鼠标左键点击预览窗口中想要显">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Proteus基础操作">
+<meta property="og:url" content="http://ayawaya2014.github.io/2022/129f7bce/index.html">
+<meta property="og:site_name" content="風生水起|晚熟的人">
+<meta property="og:description" content="屏幕外观整个屏幕被分成三个区域——编辑窗口（EditingWindow）、预览窗口（Overview Window）、工具箱。 编辑窗口显示你正在编辑的电路原理图，可以通过View菜单的Redraw命令来刷新显示内容，同时预览窗口中的内容也将被刷新。当执行其它命令导致显示错乱时可以使用该特性恢复显示。要使编辑窗口显示一张大的电路图的其他部分，可以通过如下几种方式：  用鼠标左键点击预览窗口中想要显">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://ayawaya2014.github.io/2022/129f7bce/重复布线.JPG">
+<meta property="og:image" content="http://ayawaya2014.github.io/2022/129f7bce/移动线段.JPG">
+<meta property="article:published_time" content="2022-09-23T02:57:04.000Z">
+<meta property="article:modified_time" content="2023-02-10T13:32:09.624Z">
+<meta property="article:author" content="ayawuyu">
+<meta property="article:tag" content="实验教学">
+<meta property="article:tag" content="微机原理">
+<meta property="article:tag" content="汇编语言">
+<meta property="article:tag" content="学习">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://ayawaya2014.github.io/2022/129f7bce/重复布线.JPG">
+
+<link rel="canonical" href="http://ayawaya2014.github.io/2022/129f7bce/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>Proteus基础操作 | 風生水起|晚熟的人</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">風生水起|晚熟的人</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">Stay hungry.<br>Stay foolish.</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">44</span></a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-list fa-fw"></i>分类<span class="badge">7</span></a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-file fa-fw"></i>归档<span class="badge">33</span></a>
+
+  </li>
+        <li class="menu-item menu-item-commonweal">
+
+    <a href="/404/" rel="section"><i class="fa fa-heartbeat fa-fw"></i>公益 404</a>
+
+  </li>
+        <li class="menu-item menu-item-sitemap">
+
+    <a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>站点地图</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://ayawaya2014.github.io/2022/129f7bce/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar2.jpg">
+      <meta itemprop="name" content="ayawuyu">
+      <meta itemprop="description" content="心有猛虎 | 细嗅蔷薇">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="風生水起|晚熟的人">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Proteus基础操作
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-09-23 10:57:04" itemprop="dateCreated datePublished" datetime="2022-09-23T10:57:04+08:00">2022-09-23</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-02-10 21:32:09" itemprop="dateModified" datetime="2023-02-10T21:32:09+08:00">2023-02-10</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6/" itemprop="url" rel="index"><span itemprop="name">实验教学</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E4%B8%8E%E6%B1%87%E7%BC%96/" itemprop="url" rel="index"><span itemprop="name">计算机组成原理与汇编</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/2022/129f7bce/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2022/129f7bce/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1 id="屏幕外观"><a href="#屏幕外观" class="headerlink" title="屏幕外观"></a>屏幕外观</h1><p>整个屏幕被分成三个区域——编辑窗口（EditingWindow）、预览窗口（Overview Window）、工具箱。</p>
+<p>编辑窗口显示你正在编辑的电路原理图，可以通过View菜单的Redraw命令来刷新显示内容，同时预览窗口中的内容也将被刷新。当执行其它命令导致显示错乱时可以使用该特性恢复显示。要使编辑窗口显示一张大的电路图的其他部分，可以通过如下几种方式：</p>
+<ol>
+<li><p>用鼠标左键点击预览窗口中想要显示的位置，这将使编辑窗口显示以鼠标点击处为中心的内容。</p>
+</li>
+<li><p>在编辑窗口内移动鼠标，按下SHIFT键，用鼠标“撞击”边框，这会使显示平移。我们把这称为Shift-Pan。</p>
+</li>
+<li><p>用鼠标指向编辑窗口并按缩放键（F6,F7,F8），会以鼠标指针位置为中心重新显示。</p>
+</li>
+</ol>
+<span id="more"></span>
+<h4 id="缩放"><a href="#缩放" class="headerlink" title="缩放"></a>缩放</h4><p>按F6键可以放大电路图（连续按会不断放大直到最大），按F7键可以缩小电路图（类似的连续按会不断缩小直到最小），这两种情况无论哪种都会使显示以当前鼠标位置为中心重新显示。按F8键可以把一整张图缩放到完全显出来。图的大小可以通过View菜单的Zoom命令或者是上述的功能键控制。无论何时你都可以使用功能键<br>控制缩放，即便是在滚动和拖放对象时。另外，按着SHIFT键，同时在一个特定的区域用鼠标左键拖一个框，则框内的部分就会被放大，这个框可以是<br>在编辑窗口内拖，也可以是在预览窗口内拖。</p>
+<h1 id="基本的编辑工具"><a href="#基本的编辑工具" class="headerlink" title="基本的编辑工具"></a>基本的编辑工具</h1><h4 id="对象放置"><a href="#对象放置" class="headerlink" title="对象放置"></a>对象放置</h4><p>ISIS支持多种类型的对象，每一类型对象的具体作用和功能将在下一章给出。虽然类型不同，但放置对象<br>的基本步骤都是一样的。放置对象的步骤如下（To place an object:）</p>
+<ol>
+<li>根据对象的类别在工具箱选择相应模式的图标（mode icon）。</li>
+<li>根据对象的具体类型选择子模式图标（sub-mode icon）。</li>
+<li>如果对象类型是元件、端点、管脚、图形、符号或标记，从选择器里（selector）选择你想要的对象的名字。对于元件、端点、管脚和符号，可能首先需要从库中调出。</li>
+<li>如果对象是有方向的，将会在预览窗口显示出来，你可以通过点击旋转和镜象图标来调整对象的朝向。</li>
+<li>最后，指向编辑窗口并点击鼠标左键放置对象。对于不同的对象，确切的步骤可能略有不同，但你会发现和其它的图形编辑软件是类似的，而且很直观。</li>
+</ol>
+<h4 id="选中对象"><a href="#选中对象" class="headerlink" title="选中对象"></a>选中对象</h4><p>用鼠标指向对象并点击右键可以选中该对象。该操作选中对象并使其高亮显示，然后可以进行编辑。</p>
+<ol>
+<li>选中对象时该对象上的所有连线同时被选中。</li>
+<li>要选中一组对象，可以通过依次在每个对象右击选中每个对象的方式。也可以通过右键拖出一个选择框<br>的方式，但只有完全位于选择框内的对象才可以被选中。</li>
+<li>在空白处点击鼠标右键可以取消所有对象的选择。</li>
+</ol>
+<h4 id="删除对象"><a href="#删除对象" class="headerlink" title="删除对象"></a>删除对象</h4><p>用鼠标指向选中的对象并点击右键可以删除该对象，同时删除该对象的所有连线。</p>
+<h4 id="拖动对象"><a href="#拖动对象" class="headerlink" title="拖动对象"></a>拖动对象</h4><p>用鼠标指向选中的对象并用左键拖曳可以拖动该对象。该方式不仅对整个对象有效，而且对对象中单独的labels也有效。</p>
+<ol>
+<li>如果Wire Auto Router功能被使能的话，被拖动对象上所有的连线将会重新排布或者’fixed up’。这将花<br>费一定的时间（10秒左右），尤其在对象有很多连线的情况下，这时鼠标指针将显示为一个沙漏。</li>
+<li>如果你误拖动一个对象，所有的连线都变成了一团糟，你可以使用Undo命令撤消操作恢复原来的状态。</li>
+</ol>
+<h4 id="拖动对象标签"><a href="#拖动对象标签" class="headerlink" title="拖动对象标签"></a>拖动对象标签</h4><p>许多类型的对象有一个或多个属性标签附着。例如，每个元件有一个“reference”标签和一个“value”标签。可以很容易地移动这些标签使你的电路图看起来更美观。<br>移动标签的步骤如下:</p>
+<ol>
+<li>选中对象</li>
+<li>用鼠标指向标签，按下鼠标左键。</li>
+<li>拖动标签到你需要的位置。如果想要定位的更精确的话，可以在拖动是改变捕捉的精度（使用F4、F3、F2、CTRL+F1键）。</li>
+</ol>
+<h4 id="调整对象大小"><a href="#调整对象大小" class="headerlink" title="调整对象大小"></a>调整对象大小</h4><p>子电路（Sub-circuits）、 图表、 线、 框和圆可以调整大小。 当你选中这些对象时， 对象周围会出现白色<br>小方块叫做“手柄” ， 可以通过拖动这些“手柄” 来调整对象的大小。</p>
+<h4 id="调整对象的朝向"><a href="#调整对象的朝向" class="headerlink" title="调整对象的朝向"></a>调整对象的朝向</h4><p>许多类型的对象可以调整朝向为0, 90, 270， 360或通过x轴y轴镜象。 当该类型对象被选中后，<br>“Rotation and Mirror “图标会从兰色变为红色， 然后就可以来改变对象的朝向。</p>
+<h4 id="编辑对象"><a href="#编辑对象" class="headerlink" title="编辑对象"></a>编辑对象</h4><p>许多对象具有图形或文本属性， 这些属性可以通过一个对话框进行编辑， 这是一中很常见的操作， 有多种实现方式。</p>
+<p>编辑单个对象的步骤是：</p>
+<ol>
+<li>选中对象<br>2.、 用鼠标左键点击对象。</li>
+</ol>
+<p>连续编辑多个对象的步骤是</p>
+<ol>
+<li>选择Main Mode图标， 再选择Instant Edit图标。</li>
+<li>依次用鼠标左键点击各个对象</li>
+</ol>
+<p>以特定的编辑模式编辑对象的步骤是：</p>
+<ol>
+<li>指向对象</li>
+<li>使用键盘CTRL+’E</li>
+</ol>
+<p>对于文本脚本来说， 这将启动外部的文本编辑器。 如果鼠标没有指向任何对象的话， 该命令将对当前的图进行编辑。</p>
+<p>通过元件的名称编辑元件的步骤如下：</p>
+<ol>
+<li>键入’E’</li>
+<li>在弹出的对话框中输入元件的名称。</li>
+</ol>
+<p>确定后将会弹出该项目中任何元件的编辑对话框， 并非只限于当前sheet的元件。 编辑完后， 画面将会以<br>该元件为中心重新显示。 你可以通过该方式来定位一个元件， 即便你并不想对其进行编辑。</p>
+<h4 id="拷贝所有选中的对象"><a href="#拷贝所有选中的对象" class="headerlink" title="拷贝所有选中的对象"></a>拷贝所有选中的对象</h4><p>拷贝一整块电路的方式</p>
+<ol>
+<li>选中需要的对象。</li>
+<li>用鼠标左键点击Copy图标。</li>
+<li>把拷贝的轮廓拖到需要的位置， 点击鼠标左键放置拷贝。</li>
+<li>重复步骤[3]放置多个拷贝。</li>
+<li>点击鼠标右键结束.</li>
+</ol>
+<p>当一组元件被拷贝后， 他们的标注自动重置为随机态， 用来为下一步的自动标注做准备， 防止出现重复的元件标注。</p>
+<h4 id="移动所有选中的对象"><a href="#移动所有选中的对象" class="headerlink" title="移动所有选中的对象"></a>移动所有选中的对象</h4><p>移动一组对象的步骤是</p>
+<ol>
+<li>选中需要的对象， 具体的方式参照上文的Tagging an Object部分。</li>
+<li>把轮廓拖到需要的位置， 点击鼠标左键放置。</li>
+</ol>
+<p>你可以使用块移动的方式来移动一组导线， 而不移动任何对象。 </p>
+<h4 id="删除所有选中的对象"><a href="#删除所有选中的对象" class="headerlink" title="删除所有选中的对象"></a>删除所有选中的对象</h4><p>1、 选中需要的对象。<br>2、 用鼠标左键点击Delete图标。</p>
+<p>如果错误删除了对象， 可以使用Undo命令来恢复原状。</p>
+<h1 id="画线（-WIRING-UP）"><a href="#画线（-WIRING-UP）" class="headerlink" title="画线（ WIRING UP）"></a>画线（ WIRING UP）</h1><p>你一定发现没有画线的图标按钮。 这是因为ISIS的智能化足以在你想要画线的时候进行自动检测。 这就省去了选择画线模式的麻烦。</p>
+<h4 id="在两个对象间连线"><a href="#在两个对象间连线" class="headerlink" title="在两个对象间连线"></a>在两个对象间连线</h4><ol>
+<li>左击第一个对象连接点。</li>
+<li>如果你想让ISIS自动定出走线路径， 只需左击另一个连接点。 另一方面， 如果你想自己决定走线路径， 只需在想要拐点处点击鼠标左键。</li>
+</ol>
+<p>一个连接点可以精确的连到一根线。 在元件和终端的管脚末端都有连接点。 一个圆点从中心出发有四个连接点，可以连四根线。</p>
+<p>由于一般都希望能连接到现有的线上， ISIS也将线视作连续的连接点。 此外， 一个连接点意味着3根线汇于一点，ISIS提供了一个圆点， 避免由于错漏点而引起的混乱。</p>
+<h4 id="线路自动路径器"><a href="#线路自动路径器" class="headerlink" title="线路自动路径器"></a>线路自动路径器</h4><p>线路自动路径器(WAR)为你省去了必须标明每根线具体路径的麻烦。 该功能默认是打开的， 但可通过两种途径方式略过该功能。</p>
+<p>如果你只是在两个连接点左击， WAR将选择一个合适的线径。 但如果你点了一个连接点， 然后点一个或几个非连接点的位置， ISIS将认为你在手工定线的路径， 将会让你点击线的路径的每个角。 路径是是通过左击另一个连接点来完成的。</p>
+<p>WAR可通过使用工具菜单里的WAR命令来关闭。 这功能在你想在两个连接点间直接定出对角线时是很有用的。</p>
+<h4 id="重复布线"><a href="#重复布线" class="headerlink" title="重复布线"></a>重复布线</h4><p>假设你要连接一个8字节ROM数据总线到电路图主要数据总线， 你已将ROM， 总线和总线插入点如以下放置。</p>
+<p>首先左击A， 然后左击B， 在AB间画一根水平线。 双击C， 重复布线功能会被激活， 自动在CD间布线。 双击E、F， 以下类同。</p>
+<p>重复布线完全复制了上一根线的路径。 如果上一根线已经是自动重复布线将仍旧自动复制该路径。 另一方面，如果上一根线为手工布线， 那么将精确复制用于新的线。<br><img src="重复布线.JPG" alt="重复布线"></p>
+<h4 id="移动线段或线段组"><a href="#移动线段或线段组" class="headerlink" title="移动线段或线段组"></a>移动线段或线段组</h4><p><img src="移动线段.JPG" alt="移动线段或线段组"></p>
+<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><p><a href="Proteus Manual.pdf">原版英文</a></p>
+
+    </div>
+
+    
+    
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>ayawuyu
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://ayawaya2014.github.io/2022/129f7bce/" title="Proteus基础操作">http://ayawaya2014.github.io/2022/129f7bce/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/en" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6/" rel="tag"># 实验教学</a>
+              <a href="/tags/%E5%BE%AE%E6%9C%BA%E5%8E%9F%E7%90%86/" rel="tag"># 微机原理</a>
+              <a href="/tags/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/" rel="tag"># 汇编语言</a>
+              <a href="/tags/%E5%AD%A6%E4%B9%A0/" rel="tag"># 学习</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/c0155143/" rel="prev" title="blog">
+      <i class="fa fa-chevron-left"></i> blog
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2022/2a921c01/" rel="next" title="清华科教TPC-USB实验箱操作">
+      清华科教TPC-USB实验箱操作 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+    
+  <div class="comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+  </div>
+  
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B1%8F%E5%B9%95%E5%A4%96%E8%A7%82"><span class="nav-number">1.</span> <span class="nav-text">屏幕外观</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BC%A9%E6%94%BE"><span class="nav-number">1.0.0.1.</span> <span class="nav-text">缩放</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E7%9A%84%E7%BC%96%E8%BE%91%E5%B7%A5%E5%85%B7"><span class="nav-number">2.</span> <span class="nav-text">基本的编辑工具</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AF%B9%E8%B1%A1%E6%94%BE%E7%BD%AE"><span class="nav-number">2.0.0.1.</span> <span class="nav-text">对象放置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%80%89%E4%B8%AD%E5%AF%B9%E8%B1%A1"><span class="nav-number">2.0.0.2.</span> <span class="nav-text">选中对象</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%A0%E9%99%A4%E5%AF%B9%E8%B1%A1"><span class="nav-number">2.0.0.3.</span> <span class="nav-text">删除对象</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%8B%96%E5%8A%A8%E5%AF%B9%E8%B1%A1"><span class="nav-number">2.0.0.4.</span> <span class="nav-text">拖动对象</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%8B%96%E5%8A%A8%E5%AF%B9%E8%B1%A1%E6%A0%87%E7%AD%BE"><span class="nav-number">2.0.0.5.</span> <span class="nav-text">拖动对象标签</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%B0%83%E6%95%B4%E5%AF%B9%E8%B1%A1%E5%A4%A7%E5%B0%8F"><span class="nav-number">2.0.0.6.</span> <span class="nav-text">调整对象大小</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%B0%83%E6%95%B4%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%9C%9D%E5%90%91"><span class="nav-number">2.0.0.7.</span> <span class="nav-text">调整对象的朝向</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BC%96%E8%BE%91%E5%AF%B9%E8%B1%A1"><span class="nav-number">2.0.0.8.</span> <span class="nav-text">编辑对象</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%8B%B7%E8%B4%9D%E6%89%80%E6%9C%89%E9%80%89%E4%B8%AD%E7%9A%84%E5%AF%B9%E8%B1%A1"><span class="nav-number">2.0.0.9.</span> <span class="nav-text">拷贝所有选中的对象</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%A7%BB%E5%8A%A8%E6%89%80%E6%9C%89%E9%80%89%E4%B8%AD%E7%9A%84%E5%AF%B9%E8%B1%A1"><span class="nav-number">2.0.0.10.</span> <span class="nav-text">移动所有选中的对象</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%A0%E9%99%A4%E6%89%80%E6%9C%89%E9%80%89%E4%B8%AD%E7%9A%84%E5%AF%B9%E8%B1%A1"><span class="nav-number">2.0.0.11.</span> <span class="nav-text">删除所有选中的对象</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%94%BB%E7%BA%BF%EF%BC%88-WIRING-UP%EF%BC%89"><span class="nav-number">3.</span> <span class="nav-text">画线（ WIRING UP）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9C%A8%E4%B8%A4%E4%B8%AA%E5%AF%B9%E8%B1%A1%E9%97%B4%E8%BF%9E%E7%BA%BF"><span class="nav-number">3.0.0.1.</span> <span class="nav-text">在两个对象间连线</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BA%BF%E8%B7%AF%E8%87%AA%E5%8A%A8%E8%B7%AF%E5%BE%84%E5%99%A8"><span class="nav-number">3.0.0.2.</span> <span class="nav-text">线路自动路径器</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%87%8D%E5%A4%8D%E5%B8%83%E7%BA%BF"><span class="nav-number">3.0.0.3.</span> <span class="nav-text">重复布线</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%A7%BB%E5%8A%A8%E7%BA%BF%E6%AE%B5%E6%88%96%E7%BA%BF%E6%AE%B5%E7%BB%84"><span class="nav-number">3.0.0.4.</span> <span class="nav-text">移动线段或线段组</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%B6%E4%BB%96"><span class="nav-number">4.</span> <span class="nav-text">其他</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="ayawuyu"
+      src="/images/avatar2.jpg">
+  <p class="site-author-name" itemprop="name">ayawuyu</p>
+  <div class="site-description" itemprop="description">心有猛虎 | 细嗅蔷薇</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">33</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">44</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="mailto:lixin850224@163.com" title="E-Mail → mailto:lixin850224@163.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/en" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+  <div class="links-of-blogroll motion-element">
+    <div class="links-of-blogroll-title"><i class="fa fa-link fa-fw"></i>
+      Links
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://ayawaya2014.github.io/" title="https:&#x2F;&#x2F;ayawaya2014.github.io&#x2F;">This Blog</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="http://blog.csdn.net/ayawaya" title="http:&#x2F;&#x2F;blog.csdn.net&#x2F;ayawaya" rel="noopener" target="_blank">CSDN</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="http://shmtuee.vicp.net/" title="http:&#x2F;&#x2F;shmtuee.vicp.net&#x2F;" rel="noopener" target="_blank">The Shared Files 1</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="ssh://shmtu-robot.imwork.net:50581/" title="ssh:&#x2F;&#x2F;shmtu-robot.imwork.net:50581&#x2F;" rel="noopener" target="_blank">Remote Shell</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://nextcloud.ipv6b.my.id/nextcloud/" title="https:&#x2F;&#x2F;nextcloud.ipv6b.my.id&#x2F;nextcloud&#x2F;" rel="noopener" target="_blank">The Shared Files 2</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="ftp://10.10.97.227/" title="ftp:&#x2F;&#x2F;10.10.97.227&#x2F;" rel="noopener" target="_blank">FTP in Local Net</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://smucs.ipv6d.my.id/" title="https:&#x2F;&#x2F;smucs.ipv6d.my.id" rel="noopener" target="_blank">The IPv6 Website</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://smunext.ipv6d.my.id/" title="https:&#x2F;&#x2F;smunext.ipv6d.my.id" rel="noopener" target="_blank">DiskStation</a>
+        </li>
+    </ul>
+  </div>
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+  <div class="languages">
+    <label class="lang-select-label">
+      <i class="fa fa-language"></i>
+      <span>简体中文</span>
+      <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </label>
+    <select class="lang-select" data-canonical="">
+      
+        <option value="zh-CN" data-href="/2022/129f7bce/" selected="">
+          简体中文
+        </option>
+      
+        <option value="en" data-href="/en/2022/129f7bce/" selected="">
+          English
+        </option>
+      
+        <option value="ja" data-href="/ja/2022/129f7bce/" selected="">
+          日本語
+        </option>
+      
+        <option value="zh-TW" data-href="/zh-TW/2022/129f7bce/" selected="">
+          繁體中文
+        </option>
+      
+    </select>
+  </div>
+
+        
+  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">null </a>
+      <img src="/images/%E5%A4%87%E6%A1%88%E5%9B%BE%E6%A0%87.png" style="display: inline-block;">
+  </div>
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Xin Li @ SMU</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+  <script>
+    (function(){
+      var canonicalURL, curProtocol;
+      //Get the <link> tag
+      var x=document.getElementsByTagName("link");
+		//Find the last canonical URL
+		if(x.length > 0){
+			for (i=0;i<x.length;i++){
+				if(x[i].rel.toLowerCase() == 'canonical' && x[i].href){
+					canonicalURL=x[i].href;
+				}
+			}
+		}
+    //Get protocol
+	    if (!canonicalURL){
+	    	curProtocol = window.location.protocol.split(':')[0];
+	    }
+	    else{
+	    	curProtocol = canonicalURL.split(':')[0];
+	    }
+      //Get current URL if the canonical URL does not exist
+	    if (!canonicalURL) canonicalURL = window.location.href;
+	    //Assign script content. Replace current URL with the canonical URL
+      !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=canonicalURL,t=document.referrer;if(!e.test(r)){var n=(String(curProtocol).toLowerCase() === 'https')?"https://sp0.baidu.com/9_Q4simg2RQJ8t7jm9iCKT-xh_/s.gif":"//api.share.baidu.com/s.gif";t?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var i=new Image;i.src=n}}(window);})();
+  </script>
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+<script>
+  function loadCount() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://ayawuyu.disqus.com/count.js';
+    s.id = 'dsq-count-scr';
+    (d.head || d.body).appendChild(s);
+  }
+  // defer loading until the whole page loading is completed
+  window.addEventListener('load', loadCount, false);
+</script>
+<script>
+  var disqus_config = function() {
+    this.page.url = "http://ayawaya2014.github.io/2022/129f7bce/";
+    this.page.identifier = "2022/129f7bce/";
+    this.page.title = "Proteus基础操作";
+    };
+  NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {
+    if (window.DISQUS) {
+      DISQUS.reset({
+        reload: true,
+        config: disqus_config
+      });
+    } else {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://ayawuyu.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', '' + +new Date());
+      (d.head || d.body).appendChild(s);
+    }
+  });
+</script>
+
+</body>
+</html>

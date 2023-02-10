@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Heuristic Neural Network Method for Multi-AUV Search Control</title>
+    <url>/2019/2d73fcc4/</url>
+    <content><![CDATA[<p>In the computational mathematics and computing algorithm research field, there are two branches that developed for many years. One is the optimal computing method, and the other is the heuristic computing algorithm.</p>
+<span id="more"></span>
+]]></content>
+      <categories>
+        <category>Research</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>AUV</tag>
+        <tag>Neural Networks</tag>
+        <tag>Search</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Physical Engine Simulation with UUV-simulator</title>
+    <url>/2023/ad3e3a66/</url>
+    <content><![CDATA[<p>It is a good idea to use UUV-simulator for control simulations of Unmanned Underwater Vehicles.</p>
+<p>MAC3 and Casadi control optimizaiton tools are used to apply PID and none model based <a href="https://arxiv.org/abs/2206.04264v2">sliding mode control</a>. </p>
+<p>The Framework is based on ROS, mainly in  C++ and Python.</p>
+<p>Matlab can be combined with ROS, as well as V-rep simulation software.</p>
+<span id="more"></span>
+<p>SOM method can also be used for tracking of multiple coexisting trajectories for autonomous underwater vehicles.</p>
+<p>Dubins path planner can be used for AUV formation tracking.</p>
+<p><img src="2023-01-22_153409.jpg" alt=""></p>
+<p><img src="2023-01-22_153434.jpg" alt=""></p>
+<p><img src="2023-01-22_161043.jpg" alt=""></p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>physical engine simulation</tag>
+        <tag>underwater robots</tag>
+        <tag>trajectory tracking</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Welcome to my blog</title>
+    <url>/2021/9e59ef80/</url>
+    <content><![CDATA[<p>Welcome to my blog!</p>
+]]></content>
+      <categories>
+        <category>other</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>one day fortune</title>
+    <url>/2022/148749d8/</url>
+    <content><![CDATA[<p>It is no use doing what you like; you have got to like what you do.</p>
+<p>It’s better to light a candle than curse the darkness.</p>
+<p>Patience is bitter, but it’s fruit is sweet.</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Reinforcement Learning Based Path Planning for Robots</title>
+    <url>/2021/2b025212/</url>
+    <content><![CDATA[<p>These days I have studied unmanned driving path planning and reinforcement learning, and have gained some preliminary knowledges.</p>
+<p>In reinforcement learning, there are some simple models, such as letting the agents find a way out of the maze, which may be similar to unmanned driving path planning. To do this kind of reinforcement learning problems, the most used way is try-and-error. That is a lot of attempts, according to the final return (find the exit or not) to update themselves in a certain state (position). Then the agents select a certain action (moving forward, backward, left, and right), so as to explore an optimal policy.</p>
+<p>The advantage of using reinforcement learning to do this is that you only need to tell the agents your purpose (find the way out), without telling them how to do it. As long as you try more times, the agent can always find a more ideal strategy (the value function converges), which is the path of action. The specific algorithms can be Monte Carlo or Q-learning. You also can try the Dyna-Q algorithm.</p>
+<span id="more"></span>
+<p>$ Q-learning is the core of RL $</p>
+<p>$ Q stands for Quality $</p>
+]]></content>
+      <categories>
+        <category>Research</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>path planning</tag>
+        <tag>robots</tag>
+        <tag>reinforcement learning</tag>
+        <tag>optimization</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Bulletin Board System - 电子公告板系统</title>
+    <url>/2022/a17b9995/</url>
+    <content><![CDATA[<p>BBS历史很久，近年来逐渐淡出，但是在技术人员的眼中依然是一个方便迅速的交流渠道。</p>
+<p>FireBird BBS 系统是运行于Linux/Unix的TelnetBBS系统，经历了至少10多年的发展，功能异常强劲，是各大学网络的不可缺部分。清华大学的水木清华（版本2.7，用户约20万）、上海交大的饮水思源（版本2.5，用户约1万）就是使用FireBird系统。自从上海交大的Only发明FireBird的web界面bbs2www后，人们可以通过web浏览器来上FireBird BBS看文和写贴，使得FireBird焕发青春。</p>
+<p>在200x年代，BBS发展达到一个高峰期，各种Web技术得到应用，包括PHP、JS和数据库技术等等，给BBS传统的Telenet系统加上了丰富多彩的Web界面。</p>
+<p>用于研究学习使用的BBS系统依然多采用FireBird系列，在早期版本的UNIX/Linux系统上可以很好运行。只不过编码多是大五码繁体字，据说GB的版本也有研发，不过现今难以找到，好在转码并不是很难。其它一些系统，如maple，maple的同类sob、powerbbs、phonix，都很少推出gb版本。另外，水木社区的版本smthbbs发展也很好，且本身就是简体编码。<a href="http://www.mysmth.net">水木社区</a>也是现今为数不多的传统BBS论坛之一。</p>
+<p>随着技术的不断发展，Linux系统库函数也在变化，BBS系统也随之进化，不过现在继续开发跟进者已经很少了。</p>
+]]></content>
+      <categories>
+        <category>學習</category>
+      </categories>
+      <tags>
+        <tag>BBS</tag>
+        <tag>Unix</tag>
+        <tag>Linux</tag>
+        <tag>Forum</tag>
+        <tag>OS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>poetry</title>
+    <url>/2022/ca5259af/</url>
+    <content><![CDATA[<p>渡漢江</p>
+<p><em>唐代 宋之問</em></p>
+<p>嶺外音書斷</p>
+<p>經冬複歷春</p>
+<p>近鄉情更怯</p>
+<p>不敢問來人</p>
+]]></content>
+      <categories>
+        <category>other</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>百年艱辛真如鐵 而今邁步從頭越</title>
+    <url>/2021/bac04fa5/</url>
+    <content><![CDATA[<p>百年征程波瀾壯闊，百年初心曆久彌堅。“100”的背後是什麼？是不忘初心，是唯有奮鬥，是一個你我接過時代的接力棒，奮勇直前。一百年恰是風華正茂，新征程仍需砥礪前行。</p>
+]]></content>
+      <categories>
+        <category>other</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>冬雨夜讀通鑒</title>
+    <url>/2022/dc3efeef/</url>
+    <content><![CDATA[<p>奇才難用 唯信難樹 鼓勵異見 不與衆謀</p>
+]]></content>
+      <categories>
+        <category>學習</category>
+      </categories>
+      <tags>
+        <tag>古文</tag>
+        <tag>study</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>いらっしゃいませ！</title>
+    <url>/2021/cfff1b6/</url>
+    <content><![CDATA[<p>私のブログへようこそ！</p>
+]]></content>
+      <categories>
+        <category>other</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>藜口莧腸者</title>
+    <url>/2022/735cca4c/</url>
+    <content><![CDATA[<p>能甘於粗茶淡飯的人，心性必定冰清玉潔。</p>
+<p>追求繁華富貴，錦衣美食的人，往往會因利益，而像奴婢般的去諂媚權貴。</p>
+<p>甘於淡泊不爲物役，抱負即能得以伸張！</p>
+<p>貪圖物欲，名節即因而喪失。</p>
+<p>藜口莧腸者，多冰清玉潔；</p>
+<p>袞衣玉食者，甘婢膝奴顔。</p>
+<p>蓋志以澹泊明，而節從肥甘喪也。</p>
+<blockquote>
+<p>人不求人自然直，甘於粗茶淡飯的人，<br>任何利益都不能使他改變立場。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>other</category>
+      </categories>
+      <tags>
+        <tag>古文</tag>
+        <tag>study</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>醲肥辛甘非真味</title>
+    <url>/2022/39a0bf07/</url>
+    <content><![CDATA[<p>濃酒、美食、辣味、甜品不是自然的口味；</p>
+<p>真正自然的口味只是【淡】。</p>
+<p>具有神奇特異才能的人，不是最高超的人；</p>
+<p>最高超的人，言行只是【平凡】。</p>
+<blockquote>
+<p>刺激、新奇的事物不能長久，清淡平常才能保長。<br>任何刻意成就的，往往失去了本來面目，自然才是真。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>古文</tag>
+        <tag>study</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Adaptive sliding mode formation control</title>
+    <url>/2019/28d376f4/</url>
+    <content><![CDATA[<p>Adaptive sliding mode formation control for AUVs in water flow environment.</p>
+<p><a href="https://github.com/ayawaya2014/smc_code">Source Code</a></p>
+<span id="more"></span>
+<ol>
+<li><p>Sliding mode control (dynamics).</p>
+</li>
+<li><p>Water flow (Ocean Current) mathematic model. </p>
+<p>Model of water flow is established for simulation. Red lines defines the potentials and blue arrows are velocities of the flow field.</p>
+<p>The first current model is </p>
+<script type="math/tex; mode=display">
+Fc = 1 - tanh\frac{y-B(t)*cos(k*(x-c*t)+\alpha)}{\sqrt{(1+k^2*B^2(t)*sin^2(k*(x-c*t)+\alpha)}}</script><p>where </p>
+<script type="math/tex; mode=display">
+B(t) = B_0+e*cos(w*t+\theta)</script><p>according to literature [1], [2].</p>
+<p>​</p>
+<p><img src="/images/oc1.png" alt="oc"></p>
+<p><img src="" alt=""></p>
+</li>
+<li><p>To  be continued…</p>
+</li>
+</ol>
+<p>[1] 徐玉如, 姚耀中. 考虑海流影响的水下机器人全局路径规划研究[J]. 中国造船, 2008, 49(4): 109-114.</p>
+<p>[2] Alvarez A, Caiti A and Onken R. Evolutionary path planning for autonomous underwater vehicles in a variable ocean[J]. IEEE Journal of Oceanic Engineering, Apr. 2004, 29(2): 418-429.</p>
+]]></content>
+      <categories>
+        <category>Research</category>
+      </categories>
+      <tags>
+        <tag>AUV</tag>
+        <tag>Programming</tag>
+        <tag>Water Flow</tag>
+        <tag>Formation Tracking</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Basic Formation Control using SOM Codes on Github</title>
+    <url>/2021/ad225296/</url>
+    <content><![CDATA[<p>This is my preliminary codes using SOM method (Self-organizing Map Neural Network) to help you with your own formation control research. Please refer to <em><a href="https://github.com/ayawaya2014/Formation_Control_SOM_1">Github</a></em></p>
+<p>Authors: Xin Li</p>
+<p>Email: lixin850224@163.com</p>
+<p>Shanghai Maritime University</p>
+]]></content>
+      <categories>
+        <category>Research</category>
+      </categories>
+      <tags>
+        <tag>Neural Networks</tag>
+        <tag>Programming</tag>
+        <tag>Multi-agent System</tag>
+        <tag>Robots</tag>
+        <tag>Formation Control</tag>
+        <tag>SOM</tag>
+        <tag>Control</tag>
+        <tag>Decision Making</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Dubins path planning codes</title>
+    <url>/2019/ebaad12e/</url>
+    <content><![CDATA[<p>Dubins path planning codes for robots with initial velocity with or without workloads balancing.</p>
+<span id="more"></span>
+<p><img src="/images/dubins1.png" alt="Dubins-1"><br><img src="/images/dubins2.png" alt="Dubins-2"><br><img src="/images/dubins3.png" alt="Dubins-3"></p>
+<p>Codes is Published on <a href="https://github.com/ayawaya2014/dubins">Github</a><br><a href="https://blog.csdn.net/ayawaya/article/details/88923944">Blog</a></p>
+]]></content>
+      <categories>
+        <category>Research</category>
+      </categories>
+      <tags>
+        <tag>Programming</tag>
+        <tag>Robotics</tag>
+        <tag>Dubins</tag>
+        <tag>Path Planning</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Experiments of two AUVs in the pool</title>
+    <url>/2018/1792249b/</url>
+    <content><![CDATA[<p><a href="https://v.youku.com/v_show/id_XMzY5OTA2NTMwOA==.html?spm=a2hzp.8244740.0.0">exp_1</a></p>
+<span id="more"></span>
+<p><a href="https://v.youku.com/v_show/id_XMzY5OTA2NzM1Mg==.html?spm=a2hzp.8244740.0.0">exp_2</a></p>
+]]></content>
+      <categories>
+        <category>Research</category>
+      </categories>
+      <tags>
+        <tag>AUV</tag>
+        <tag>Robotics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Another Formation Control Code</title>
+    <url>/2021/15ea8127/</url>
+    <content><![CDATA[<p>This is another SOM based formation control code in 2-D and 3-D space. Please refer to <em><a href="https://github.com/ayawaya2014/Formation_Control_SOM_2">Github</a></em></p>
+<p>Email: lixin850224@163.com</p>
+]]></content>
+      <categories>
+        <category>Research</category>
+      </categories>
+      <tags>
+        <tag>Neural Networks</tag>
+        <tag>Programming</tag>
+        <tag>Robots</tag>
+        <tag>Formation Control</tag>
+        <tag>SOM</tag>
+        <tag>Control</tag>
+        <tag>Decision Making</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Multi-Agent-Task-Assignment-based-on-SOM-Method-Code-Published</title>
+    <url>/2018/43b01849/</url>
+    <content><![CDATA[<p>Code of Multi-Agent Task-Assignment based on SOM Neural Network Method is Published on <a href="https://github.com/ayawaya2014/SOM_Code">Github</a></p>
+<p>Authors: Xin Li, Daqi Zhu</p>
+<p>Email: lixin850224@163.com; zdq367@aliyun.com</p>
+<p>Laboratory of Underwater Vehicles and Intelligent Systems</p>
+<p>Shanghai Maritime University</p>
+<span id="more"></span>
+<p><img src="/images/som-2.png" alt="SOM-1"></p>
+]]></content>
+      <categories>
+        <category>Research</category>
+      </categories>
+      <tags>
+        <tag>Robotics</tag>
+        <tag>Multi-agent</tag>
+        <tag>AUVs</tag>
+        <tag>Task Assignment</tag>
+        <tag>SOM Neural Networks</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Path Planning based on Artificial Potential Field Method Code Published</title>
+    <url>/2018/74e42c3/</url>
+    <content><![CDATA[<p>Code of Path Planning based on Artificial Potential Field Method is Published on <a href="https://github.com/ayawaya2014/APF_Code">Github</a></p>
+<p>MATLAB Code of Artificial Potencial Field Method for Robot Path Planning</p>
+<p>Authors: Xin Li, Daqi Zhu</p>
+<p>Email: lixin850224@163.com; zdq367@aliyun.com</p>
+<p>Laboratory of Underwater Vehicles and Intelligent Systems</p>
+<p>Shanghai Maritime University</p>
+<span id="more"></span>
+<p><img src="/images/apf-1.png" alt="apf-1"><br><img src="/images/apf-2.png" alt="apf-2"><br><img src="/images/apf.png" alt="apf-3"></p>
+]]></content>
+      <categories>
+        <category>Research</category>
+      </categories>
+      <tags>
+        <tag>AUV</tag>
+        <tag>Programming</tag>
+        <tag>Robotics</tag>
+        <tag>Path Planning</tag>
+        <tag>APF</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Proteus基础操作</title>
+    <url>/2022/129f7bce/</url>
+    <content><![CDATA[<h1 id="屏幕外观"><a href="#屏幕外观" class="headerlink" title="屏幕外观"></a>屏幕外观</h1><p>整个屏幕被分成三个区域——编辑窗口（EditingWindow）、预览窗口（Overview Window）、工具箱。</p>
+<p>编辑窗口显示你正在编辑的电路原理图，可以通过View菜单的Redraw命令来刷新显示内容，同时预览窗口中的内容也将被刷新。当执行其它命令导致显示错乱时可以使用该特性恢复显示。要使编辑窗口显示一张大的电路图的其他部分，可以通过如下几种方式：</p>
+<ol>
+<li><p>用鼠标左键点击预览窗口中想要显示的位置，这将使编辑窗口显示以鼠标点击处为中心的内容。</p>
+</li>
+<li><p>在编辑窗口内移动鼠标，按下SHIFT键，用鼠标“撞击”边框，这会使显示平移。我们把这称为Shift-Pan。</p>
+</li>
+<li><p>用鼠标指向编辑窗口并按缩放键（F6,F7,F8），会以鼠标指针位置为中心重新显示。</p>
+</li>
+</ol>
+<span id="more"></span>
+<h4 id="缩放"><a href="#缩放" class="headerlink" title="缩放"></a>缩放</h4><p>按F6键可以放大电路图（连续按会不断放大直到最大），按F7键可以缩小电路图（类似的连续按会不断缩小直到最小），这两种情况无论哪种都会使显示以当前鼠标位置为中心重新显示。按F8键可以把一整张图缩放到完全显出来。图的大小可以通过View菜单的Zoom命令或者是上述的功能键控制。无论何时你都可以使用功能键<br>控制缩放，即便是在滚动和拖放对象时。另外，按着SHIFT键，同时在一个特定的区域用鼠标左键拖一个框，则框内的部分就会被放大，这个框可以是<br>在编辑窗口内拖，也可以是在预览窗口内拖。</p>
+<h1 id="基本的编辑工具"><a href="#基本的编辑工具" class="headerlink" title="基本的编辑工具"></a>基本的编辑工具</h1><h4 id="对象放置"><a href="#对象放置" class="headerlink" title="对象放置"></a>对象放置</h4><p>ISIS支持多种类型的对象，每一类型对象的具体作用和功能将在下一章给出。虽然类型不同，但放置对象<br>的基本步骤都是一样的。放置对象的步骤如下（To place an object:）</p>
+<ol>
+<li>根据对象的类别在工具箱选择相应模式的图标（mode icon）。</li>
+<li>根据对象的具体类型选择子模式图标（sub-mode icon）。</li>
+<li>如果对象类型是元件、端点、管脚、图形、符号或标记，从选择器里（selector）选择你想要的对象的名字。对于元件、端点、管脚和符号，可能首先需要从库中调出。</li>
+<li>如果对象是有方向的，将会在预览窗口显示出来，你可以通过点击旋转和镜象图标来调整对象的朝向。</li>
+<li>最后，指向编辑窗口并点击鼠标左键放置对象。对于不同的对象，确切的步骤可能略有不同，但你会发现和其它的图形编辑软件是类似的，而且很直观。</li>
+</ol>
+<h4 id="选中对象"><a href="#选中对象" class="headerlink" title="选中对象"></a>选中对象</h4><p>用鼠标指向对象并点击右键可以选中该对象。该操作选中对象并使其高亮显示，然后可以进行编辑。</p>
+<ol>
+<li>选中对象时该对象上的所有连线同时被选中。</li>
+<li>要选中一组对象，可以通过依次在每个对象右击选中每个对象的方式。也可以通过右键拖出一个选择框<br>的方式，但只有完全位于选择框内的对象才可以被选中。</li>
+<li>在空白处点击鼠标右键可以取消所有对象的选择。</li>
+</ol>
+<h4 id="删除对象"><a href="#删除对象" class="headerlink" title="删除对象"></a>删除对象</h4><p>用鼠标指向选中的对象并点击右键可以删除该对象，同时删除该对象的所有连线。</p>
+<h4 id="拖动对象"><a href="#拖动对象" class="headerlink" title="拖动对象"></a>拖动对象</h4><p>用鼠标指向选中的对象并用左键拖曳可以拖动该对象。该方式不仅对整个对象有效，而且对对象中单独的labels也有效。</p>
+<ol>
+<li>如果Wire Auto Router功能被使能的话，被拖动对象上所有的连线将会重新排布或者’fixed up’。这将花<br>费一定的时间（10秒左右），尤其在对象有很多连线的情况下，这时鼠标指针将显示为一个沙漏。</li>
+<li>如果你误拖动一个对象，所有的连线都变成了一团糟，你可以使用Undo命令撤消操作恢复原来的状态。</li>
+</ol>
+<h4 id="拖动对象标签"><a href="#拖动对象标签" class="headerlink" title="拖动对象标签"></a>拖动对象标签</h4><p>许多类型的对象有一个或多个属性标签附着。例如，每个元件有一个“reference”标签和一个“value”标签。可以很容易地移动这些标签使你的电路图看起来更美观。<br>移动标签的步骤如下:</p>
+<ol>
+<li>选中对象</li>
+<li>用鼠标指向标签，按下鼠标左键。</li>
+<li>拖动标签到你需要的位置。如果想要定位的更精确的话，可以在拖动是改变捕捉的精度（使用F4、F3、F2、CTRL+F1键）。</li>
+</ol>
+<h4 id="调整对象大小"><a href="#调整对象大小" class="headerlink" title="调整对象大小"></a>调整对象大小</h4><p>子电路（Sub-circuits）、 图表、 线、 框和圆可以调整大小。 当你选中这些对象时， 对象周围会出现白色<br>小方块叫做“手柄” ， 可以通过拖动这些“手柄” 来调整对象的大小。</p>
+<h4 id="调整对象的朝向"><a href="#调整对象的朝向" class="headerlink" title="调整对象的朝向"></a>调整对象的朝向</h4><p>许多类型的对象可以调整朝向为0, 90, 270， 360或通过x轴y轴镜象。 当该类型对象被选中后，<br>“Rotation and Mirror “图标会从兰色变为红色， 然后就可以来改变对象的朝向。</p>
+<h4 id="编辑对象"><a href="#编辑对象" class="headerlink" title="编辑对象"></a>编辑对象</h4><p>许多对象具有图形或文本属性， 这些属性可以通过一个对话框进行编辑， 这是一中很常见的操作， 有多种实现方式。</p>
+<p>编辑单个对象的步骤是：</p>
+<ol>
+<li>选中对象<br>2.、 用鼠标左键点击对象。</li>
+</ol>
+<p>连续编辑多个对象的步骤是</p>
+<ol>
+<li>选择Main Mode图标， 再选择Instant Edit图标。</li>
+<li>依次用鼠标左键点击各个对象</li>
+</ol>
+<p>以特定的编辑模式编辑对象的步骤是：</p>
+<ol>
+<li>指向对象</li>
+<li>使用键盘CTRL+’E</li>
+</ol>
+<p>对于文本脚本来说， 这将启动外部的文本编辑器。 如果鼠标没有指向任何对象的话， 该命令将对当前的图进行编辑。</p>
+<p>通过元件的名称编辑元件的步骤如下：</p>
+<ol>
+<li>键入’E’</li>
+<li>在弹出的对话框中输入元件的名称。</li>
+</ol>
+<p>确定后将会弹出该项目中任何元件的编辑对话框， 并非只限于当前sheet的元件。 编辑完后， 画面将会以<br>该元件为中心重新显示。 你可以通过该方式来定位一个元件， 即便你并不想对其进行编辑。</p>
+<h4 id="拷贝所有选中的对象"><a href="#拷贝所有选中的对象" class="headerlink" title="拷贝所有选中的对象"></a>拷贝所有选中的对象</h4><p>拷贝一整块电路的方式</p>
+<ol>
+<li>选中需要的对象。</li>
+<li>用鼠标左键点击Copy图标。</li>
+<li>把拷贝的轮廓拖到需要的位置， 点击鼠标左键放置拷贝。</li>
+<li>重复步骤[3]放置多个拷贝。</li>
+<li>点击鼠标右键结束.</li>
+</ol>
+<p>当一组元件被拷贝后， 他们的标注自动重置为随机态， 用来为下一步的自动标注做准备， 防止出现重复的元件标注。</p>
+<h4 id="移动所有选中的对象"><a href="#移动所有选中的对象" class="headerlink" title="移动所有选中的对象"></a>移动所有选中的对象</h4><p>移动一组对象的步骤是</p>
+<ol>
+<li>选中需要的对象， 具体的方式参照上文的Tagging an Object部分。</li>
+<li>把轮廓拖到需要的位置， 点击鼠标左键放置。</li>
+</ol>
+<p>你可以使用块移动的方式来移动一组导线， 而不移动任何对象。 </p>
+<h4 id="删除所有选中的对象"><a href="#删除所有选中的对象" class="headerlink" title="删除所有选中的对象"></a>删除所有选中的对象</h4><p>1、 选中需要的对象。<br>2、 用鼠标左键点击Delete图标。</p>
+<p>如果错误删除了对象， 可以使用Undo命令来恢复原状。</p>
+<h1 id="画线（-WIRING-UP）"><a href="#画线（-WIRING-UP）" class="headerlink" title="画线（ WIRING UP）"></a>画线（ WIRING UP）</h1><p>你一定发现没有画线的图标按钮。 这是因为ISIS的智能化足以在你想要画线的时候进行自动检测。 这就省去了选择画线模式的麻烦。</p>
+<h4 id="在两个对象间连线"><a href="#在两个对象间连线" class="headerlink" title="在两个对象间连线"></a>在两个对象间连线</h4><ol>
+<li>左击第一个对象连接点。</li>
+<li>如果你想让ISIS自动定出走线路径， 只需左击另一个连接点。 另一方面， 如果你想自己决定走线路径， 只需在想要拐点处点击鼠标左键。</li>
+</ol>
+<p>一个连接点可以精确的连到一根线。 在元件和终端的管脚末端都有连接点。 一个圆点从中心出发有四个连接点，可以连四根线。</p>
+<p>由于一般都希望能连接到现有的线上， ISIS也将线视作连续的连接点。 此外， 一个连接点意味着3根线汇于一点，ISIS提供了一个圆点， 避免由于错漏点而引起的混乱。</p>
+<h4 id="线路自动路径器"><a href="#线路自动路径器" class="headerlink" title="线路自动路径器"></a>线路自动路径器</h4><p>线路自动路径器(WAR)为你省去了必须标明每根线具体路径的麻烦。 该功能默认是打开的， 但可通过两种途径方式略过该功能。</p>
+<p>如果你只是在两个连接点左击， WAR将选择一个合适的线径。 但如果你点了一个连接点， 然后点一个或几个非连接点的位置， ISIS将认为你在手工定线的路径， 将会让你点击线的路径的每个角。 路径是是通过左击另一个连接点来完成的。</p>
+<p>WAR可通过使用工具菜单里的WAR命令来关闭。 这功能在你想在两个连接点间直接定出对角线时是很有用的。</p>
+<h4 id="重复布线"><a href="#重复布线" class="headerlink" title="重复布线"></a>重复布线</h4><p>假设你要连接一个8字节ROM数据总线到电路图主要数据总线， 你已将ROM， 总线和总线插入点如以下放置。</p>
+<p>首先左击A， 然后左击B， 在AB间画一根水平线。 双击C， 重复布线功能会被激活， 自动在CD间布线。 双击E、F， 以下类同。</p>
+<p>重复布线完全复制了上一根线的路径。 如果上一根线已经是自动重复布线将仍旧自动复制该路径。 另一方面，如果上一根线为手工布线， 那么将精确复制用于新的线。<br><img src="重复布线.JPG" alt="重复布线"></p>
+<h4 id="移动线段或线段组"><a href="#移动线段或线段组" class="headerlink" title="移动线段或线段组"></a>移动线段或线段组</h4><p><img src="移动线段.JPG" alt="移动线段或线段组"></p>
+<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><p><a href="Proteus Manual.pdf">原版英文</a></p>
+]]></content>
+      <categories>
+        <category>实验教学</category>
+        <category>计算机组成原理与汇编</category>
+      </categories>
+      <tags>
+        <tag>实验教学</tag>
+        <tag>微机原理</tag>
+        <tag>汇编语言</tag>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>blog</title>
+    <url>/2022/c0155143/</url>
+    <content><![CDATA[<p>2022</p>
+]]></content>
+      <categories>
+        <category>other</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Simulation for Formation Control Based on Adaptive SOM Method</title>
+    <url>/2018/cf7db0a1/</url>
+    <content><![CDATA[<p>X. Li and D. Zhu, “An Adaptive SOM Neural Network Method to Distributed Formation Control of a Group of AUVs,” in IEEE Transactions on Industrial Electronics, vol. 65, no. 10, pp. 8260-8270. doi: 10.1109/TIE.2018.2807368</p>
+<span id="more"></span>
+<!-- ![simulation-1](/images/SOM-2.avi) -->
+<p><a href="http://v.youku.com/v_show/id_XMzQ3MTAxNDYzNg==.html?spm=a2hzp.8244740.0.0">simulation</a></p>
+]]></content>
+      <categories>
+        <category>Research</category>
+      </categories>
+      <tags>
+        <tag>AUV</tag>
+        <tag>Programming</tag>
+        <tag>Robotics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【转载】发展职业教育、培养技能人才的前提，是要真正重视人的价值。</title>
+    <url>/2022/549fc701/</url>
+    <content><![CDATA[<p>日前，媒体报道了这样一个案例：一家制造企业的人力资源负责人说，今年2月，公司去一家985大学招聘机械、液压专业学生，给出的月薪高达1.4万元，“我们下了很大的决心，才给出这样的标准，是公司历史上从未有过的”。但是，这次专场招聘竟无人问津，“一个学生都没走进来”。后来一打听，这一届的学生早已被其他大厂以更高的工资提前签约锁定，“人家一开口就是年薪二十几万三十几万”。</p>
+<p>一方面，是社会整体的就业压力，另一方面，是制造业普遍缺少技术工人，这种结构性就业矛盾，其实并非新鲜事。近年来，随着制造业升级，对于技术工人，尤其是高级技工的需求进一步增大，这种矛盾更是有加剧的趋势。</p>
+<span id="more"></span>
+<p>有统计显示，目前全国技能人才的总量占比在不断提高，但是与庞大的劳动力人口对比来看，比重还是偏低——不到30%，而德国、日本等制造业强国的这一比例达到70%～80%。这种背景下，出现制造巨头开出“前所未有”的高薪依然抢不到人的一幕，也就不让人意外了。</p>
+<p>对于这种情况，很多人都会想到近年来时常被讨论的“年轻人宁愿送外卖也不去工厂”的话题。这当然是一种客观现象，但仅仅看到这一现象是不够的，更要看到背后的原因。一方面，从国人观念来看，不少人对工人的认知还停留在“流水线”“脏繁重累”的记忆之中；另一方面，制造业的平均待遇、企业管理文化，以及技能人才所受到的社会尊重程度等，确实还有很大的改善空间。举个简单的例子，这些年很多城市都在“抢人”，但界定人才的标准基本都还是学历，对于技能型人才的倾斜虽有涉及，但还明显不足。如此社会现实之下，大多年轻人对工厂自然没有足够的热情。</p>
+<p>另一个不容忽视的原因就是职业教育的质量有待提升。近些年，从国家到地方对于职业教育的投入力度明显加大，包括引发热议的“职普分流”等，都可以看作是发展职业教育的信号。但是，职业教育的发展有其自身规律，不能套用学历教育的方式去发展，这是一个仍有待正视的问题。比如，在技术工人才缺乏的另一方面，其实还有很多职业技校学生面临着就业问题。去年，一篇《40%：“毫不重要”的中职世界》的网文就引起了很多人关注，它指出一个事实：中国15到18岁的人群中，大约有40%在完成义务教育后上中等职业学校，但他们所接受技能培训，是否真的为社会所需，却不得不打上一个问号。</p>
+<p>有专家指出，我国职业教育直到目前为止采用的主要还是学校教育模式，其特点是：职业教育的规模由政府规划来确定，更多遵循的是学校教育的规律，而对工作世界的要求和企业的实际需要关注相对较少，或者不能很快反映企业的实际需求。由于过度强调学校教育的特征，此类教育的职业性和专业性很容易受到削弱。而从成熟经验来看，成功的职业教育，一定离不开企业的参与。据此，遵循职业教育的发展规律，构建一个更具开放性、市场化的技术人才培养体系，仍需加快探索。</p>
+<p>同时，也要提醒的一点是，重视职业教育发展和技能人才培养，也要避免功利化、狭隘化的认知。比如，不少人都想当然地认为随着人工智能的发展，社会对工人的需求会下降，甚至我们会不自觉地把机器对人的替代率作为技术进步的标志，这其实是一种偏见，也会在无形中弱化我们对技能人才的尊重程度。事实上，且不说很多岗位短期内没法被机器人代替的，发明和保养机器人本身也还是离不开人。如之前有报道指出，由于中高级焊接人才不足，焊接机器人的普及也受到影响。这其实提醒我们，发展职业教育、培养技能人才的前提，还是要真正重视人的价值，消除高低之分的观念。</p>
+<p>红星新闻特约评论员 朱昌俊</p>
+<p>编辑 黄静</p>
+]]></content>
+      <categories>
+        <category>other</category>
+      </categories>
+      <tags>
+        <tag>society</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一刻不停的 是小人之心</title>
+    <url>/2022/4e2890f3/</url>
+    <content><![CDATA[<p>古人云，君子坦荡荡，小人常戚戚。事实是，碰到了小人，把你搞得戚戚。永不停息的，是小人手段。</p>
+<p>轰轰烈烈的，勇者之心；乐山乐水的，仁者之心。 稀见了。</p>
+]]></content>
+      <categories>
+        <category>other</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>全国大学生电子设计竞赛校内赛</title>
+    <url>/2022/850d835d/</url>
+    <content><![CDATA[<hr>
+<p><a href="关于举办2022年全国大学生电子设计大赛校内赛的通知.pdf">关于举办2022年全国大学生电子设计大赛校内赛的通知</a></p>
+<hr>
+<p><a href="附件1.2022年大学生电子设计大赛校内赛赛题.pdf">附件1. 2022年大学生电子设计大赛校内赛赛题</a></p>
+<hr>
+<p><a href="附件2.2022年大学生电子设计大赛校内赛报名表.xlsx">附件2. 2022年大学生电子设计大赛校内赛报名表</a></p>
+<hr>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>study</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一种仿生软体机器鱼</title>
+    <url>/2022/ffdc711a/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>水下机器人技术不断发展，应用不断增加，仿生机器鱼作为水下机器人中的一种，获得越来越多的关注。仿生机器鱼同时作为一种仿生学的产物，具有很多先天的优势。例如，运行噪音小，体积小，灵活性高，可以很好的融入水下生态环境。</p>
+<hr>
+<h1 id="一、仿生软体机器鱼的机械设计与材料选择"><a href="#一、仿生软体机器鱼的机械设计与材料选择" class="headerlink" title="一、仿生软体机器鱼的机械设计与材料选择"></a>一、仿生软体机器鱼的机械设计与材料选择</h1><p><code>优良的机械设计是仿生机器人的应用基础。</code></p>
+<span id="more"></span>
+<p><img src="/images/shape_ref.JPG" alt="robofish body"></p>
+<h2 id="1-机器鱼主体"><a href="#1-机器鱼主体" class="headerlink" title="1. 机器鱼主体"></a>1. 机器鱼主体</h2><p>鱼体设计应符合流体动力学，结构紧凑合理，防水性能好。<br>国外某高校研究机构的最新设计，可以扩大或缩小的鱼体。</p>
+<h2 id="2-鱼尾"><a href="#2-鱼尾" class="headerlink" title="2. 鱼尾"></a>2. 鱼尾</h2><p>仿生机器鱼的推进器，早期有采用小型螺旋桨的，目前根据仿生学多采用新型软体材料，是仿生软体机器鱼非常重要的组成部分。</p>
+<p><code>流体动力学，软体材料。</code></p>
+<h2 id="3-鱼鳍"><a href="#3-鱼鳍" class="headerlink" title="3. 鱼鳍"></a>3. 鱼鳍</h2><p>主要是升降舵的作用。</p>
+<h2 id="4-传感器"><a href="#4-传感器" class="headerlink" title="4. 传感器"></a>4. 传感器</h2><p>姿态（陀螺仪、加速度计，电子罗盘），摄像头等。</p>
+<h2 id="5-附属结构"><a href="#5-附属结构" class="headerlink" title="5. 附属结构"></a>5. 附属结构</h2><p>其他传感器接口等。</p>
+<h1 id="二、仿生软体机器鱼的电控设计"><a href="#二、仿生软体机器鱼的电控设计" class="headerlink" title="二、仿生软体机器鱼的电控设计"></a>二、仿生软体机器鱼的电控设计</h1><h2 id="1-控制系统的硬件组成"><a href="#1-控制系统的硬件组成" class="headerlink" title="1. 控制系统的硬件组成"></a>1. 控制系统的硬件组成</h2><p>随着控制算法越来越复杂，人工智能算法的应用，电控模块多可采用嵌入式系统，运行嵌入式Linux，如BeagleBone Black, Raspberry Pi等微型电脑。</p>
+<p><code>控制模式一般为：上位机 &lt;-- 嵌入式微控制器- -&gt; 执行机构</code></p>
+<p>考虑到机器鱼的特殊性，通讯模式一般采用水面WiFi，某些应用中采用声学；<br>水下可以用惯导；<br>传感器和照明等设备也必不可少。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\\ Sound Control</span><br><span class="line">\\ 小型超声波接收器--I2C/UART--Arduino</span><br></pre></td></tr></table></figure>
+<p><img src="/images/assembly.JPG" alt="fish assembly"></p>
+<h2 id="2-人工智能算法"><a href="#2-人工智能算法" class="headerlink" title="2. 人工智能算法"></a>2. 人工智能算法</h2><p><code>优良的算法及其应用是仿生机器鱼的灵魂。</code> </p>
+<p>机器鱼水下环境信息的获取主要是摄像头和红外避障传感器。因此，我们采用机器视觉方法来获取环境信息，指导机器鱼的运行。针对仿生软体机器鱼的特点，采用某种人工智能\机器学习方法。</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>本文仅仅简单介绍了仿生机器鱼的设计和应用，并提供模型供有兴趣的小伙伴参考。</p>
+<p><a href="https://download.csdn.net/download/ayawaya/85034809">一种仿生软体机器鱼模型</a>  <a href="https://blog.csdn.net/ayawaya/article/details/123728919">CSDN Blog</a></p>
+]]></content>
+      <categories>
+        <category>Research</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>robots</tag>
+        <tag>study</tag>
+        <tag>robotic fish</tag>
+        <tag>OpenCV</tag>
+        <tag>mechanical</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博士学位论文摘要</title>
+    <url>/2018/eec9d8aa/</url>
+    <content><![CDATA[<p><a href="https://github.com/ayawaya2014/PhD-Thesis">全文PDF</a>  <a href="https://github.com/ayawaya2014/PhD-Thesis">答辩PPT</a> <a href="https://github.com/ayawaya2014/Formation_Control_SOM_1">部分代码</a></p>
+<h1 id="多AUV水下编队控制方法研究"><a href="#多AUV水下编队控制方法研究" class="headerlink" title="多AUV水下编队控制方法研究"></a>多AUV水下编队控制方法研究</h1><h2 id="摘-要"><a href="#摘-要" class="headerlink" title="摘 要"></a>摘 要</h2><span id="more"></span>
+<p>本论文主要研究多自治水下机器人（Autonomous Underwater Vehicle，AUV）水下编队控制问题。编队控制（Formation Control）是指人们在控制多个机器人（Robots）或智能体（Agents）前往某个目的地或完成某项工作任务的过程中，使其既遵循一定的队形约束，又适应环境约束(如躲避障碍物或空间的物理限制)的控制方法或技术。海洋工作环境复杂、多变、难以预测，多个AUV要在高度自治、能源有限的条件下高效完成编队作业任务，就需要能够有效避开障碍物，能够应对海流的扰动，因此，其水下编队控制的研究十分关键。<br>本论文以多个AUV组成的系统为研究对象，综合利用改进的自组织映射神经网络（Self-organizing Map，SOM），自组织人工势场（Artificial Potential Field，APF），自适应高阶滑模控制（Sliding Mode Control，SMC）等方法，进行多AUV编队控制，实现了复杂海洋环境下的编队队形变换（Formation Transformation），编队跟踪（Formation Tracking）与编队安全避障。本论文主要进行了以下研究工作。</p>
+<ol>
+<li>结合国内外已有文献，对多智能体编队控制方法进行分类总结，对现有的编队控制方法进行分析，找出多AUV水下编队控制的若干主要难点问题。</li>
+<li>针对水下环境的特殊性和AUV水下作业任务的需求，设计了一种分层次的控制器结构，以单AUV混合控制体系为基本组成单元，建立一个开放的多AUV控制系统。对于具体任务执行时的协调，采用基于行为的控制方式。通过设计分层次的控制器架构，建设了一种以领航–跟随模式为基础，以改进自组织映射算法和自适应滑模控制器为核心，融合多种编队控制方法的控制系统，从而为处理多AUV水下编队问题提供了一种开放的、分布式的控制器架构。</li>
+<li>提出了一种自适应的自组织映射神经网络方法，将其应用于多AUV的水下编队控制，设计了新的邻域函数与负载均衡策略，解决了多AUV系统的运动学编队控制问题。该方法可以有效的处理多AUV编队的轨迹跟踪问题，同时保持整个编队的负载平衡，而不需要过多的编队内部信息交互；它还可以自动实现编队的队形变换与复原；该方法改进了传统的领航–跟随与编队方法，具有自适应与分布式的特性，在编队中的领航AUV出现故障失效时，具有容错能力，能够保持编队的正常运行。与传统的编队控制方法进行比较，该方法具有较明显的优点。</li>
+<li>针对障碍物环境下的多AUV编队避障问题，改进了人工势场方法的势场函数和算法流程，将其与自组织映射编队控制策略相结合，实现了一种自组织人工势场方法。当编队遇到复杂障碍物环境时，该方法可以有效的实现编队的整体避障，保证编队的安全运行。通过设计虚拟AUV与局部最小点问题分析，进一步提高了人工势场法的可用性，在二维（Two-Dimensional，2-D）和三维（Three-Dimensional，3-D）环境中进行了仿真实验验证。采用Dubins方法，控制编队内AUV完成运动学约束下的避障路径规划。</li>
+<li>在编队路径规划研究的基础上，进一步研究了多AUV系统的动力学控制问题，对欠驱动AUV进行动力学建模，根据其数学模型设计了一种高阶滑模控制器，消除了控制器抖振问题，并证明了其稳定性。对于多AUV水下编队的工作环境复杂性问题，本文针对海流的影响进行探讨，分别处理了定海流与时变海流问题，建立典型的海流数学模型用于仿真实验；在高阶滑模控制器的基础上加入自适应特性，用于处理有界时变海流的扰动。最后，分别在二维和三维环境下进行了仿真实验验证，表明该自适应高阶滑模控制器具有较好的抗干扰能力。</li>
+</ol>
+<h4 id="关键词：-自治水下机器人，-编队控制，自组织映射，人工势场，滑模控制，-领航–跟随，-编队跟踪，-队形变换，-动力学，-海流"><a href="#关键词：-自治水下机器人，-编队控制，自组织映射，人工势场，滑模控制，-领航–跟随，-编队跟踪，-队形变换，-动力学，-海流" class="headerlink" title="关键词： 自治水下机器人， 编队控制，自组织映射，人工势场，滑模控制， 领航–跟随， 编队跟踪， 队形变换， 动力学， 海流"></a>关键词： 自治水下机器人， 编队控制，自组织映射，人工势场，滑模控制， 领航–跟随， 编队跟踪， 队形变换， 动力学， 海流</h4><h1 id="STUDY-OF-UNDERWATER-FORMATION-CONTROL-METHODS-FOR-MULTI-AUV-SYSTEMS"><a href="#STUDY-OF-UNDERWATER-FORMATION-CONTROL-METHODS-FOR-MULTI-AUV-SYSTEMS" class="headerlink" title="STUDY OF UNDERWATER FORMATION CONTROL METHODS FOR MULTI-AUV SYSTEMS"></a>STUDY OF UNDERWATER FORMATION CONTROL METHODS FOR MULTI-AUV SYSTEMS</h1><h2 id="ABSTRACT"><a href="#ABSTRACT" class="headerlink" title="ABSTRACT"></a>ABSTRACT</h2><p>This thesis mainly studies the underwater formation control problem for multi-AUV (Autonomous Underwater Vehicle) systems. Formation control is a technology to control a group of robots or agents including ground robots, aerial crafts, surface vehicles and AUVs, moving to some destinations or moving along desired paths as the tasks require, at the same time maintaining desired formation patterns, and adapting to the environmental constraints, such as obstacles, limited space, ocean current and communication constraints. AUVs’ working environment in the ocean is complex, volatile and unpredictable. Multi-AUV system with finite energy must be highly autonomous to complete the formation’s tasks very efficiently. They have to to be able to avoid obstacles and deal with the ocean current disturbance. Therefore, the research of the underwater formation control technology is critical.<br>This paper takes the multi-AUV system as the research object, and comprehensively utilizes the improved SOM (Self-organizing Mapping) neural network, self-organized APF (Artificial Potential Field), adaptive higher order SMC (Sliding Mode Control) methods to formation control. At last, formation control of AUVs, including formation transformation, formation tracking and obstacle avoidance of the whole formaiton under complex ocean environments are realized. This thesis mainly conducts the following research details.</p>
+<ol>
+<li>Based on the existing literature at home and abroad, the multi-agent formation control methods are classified into several categories. The existing formation control approaches are analyzed, and major difficult problems in underwater formaiton control of AUVs are proposed.</li>
+<li>According to the particularity of underwater environment and the demands of the AUVs’ underwater tasks, we design a hierarchical controller structure. Based on the single AUV hybrid control system as the basic composition unit, an open structure of multi-AUV control system is established. For a specific task execution’s coordination, the control method is based on the behavior of the AUVs. Through the design of controller’s hierarchical architecture, employing the leader-follower patterns as the basic structure, and the improved SOM algorithm with the adaptive SMC as the core, and the fusion of a variety of formation control methods for the control system, an opened, distributed controller is provided to deal with underwater formation control of multi-AUV systems.</li>
+<li>An adaptive self-organizing mapping neural network method is proposed for the distributed formation control of the multi-AUV system. In the algorithm, new neighborhood function and workload balance strategy are designed to solve the kinematic formation control problem. This method can effectively handle the trajectory tracking problem, while maintaining the entire team’s workload balance, only with limited information of the AUVs in the formation. It can automatically realize the formation transformation and restoration. This method improved the traditional leader-follower formation approach, thus it has the distribution and adaption characteristics. In the case of some AUVs in the formation break down, this controller has fault-tolerance ability, which can maintain the normal operation of the team. Comparing with the traditional formation control, the proposed method has obvious advantages.</li>
+<li>To solve the obstacle avoidance problem of the multi-AUV formation system, the artificial potential field algorithm and the potential functions are improved. Combined with the self-organizing mapping based formation control strategy, a kind of self-organized artificial potential field method could be implemented. When the formation encounters complex environments with obstacles, this method effectively realizes the whole formation’s avoidance action, which guarantees the safety of the unit. Virtual agent method is designed and the local minima problems are analyzed, which further improves the availability of the proposed method. Simulation demonstrations have been done in 2-D (Two-Dimensional) and 3-D (Three-Dimensional) obstacle environments. Using the Dubins method, AUVs in the formation are controlled to complete obstacle avoidance path planning under kinematic constraints.</li>
+<li>Based on the research of formation’s path planning, the problem of dynamic formation control for the multi-AUV system is further studied. Dynamic model of the underactuated AUV is established with its mathematical model to design a kind of higher order sliding mode controller, which eliminates the chattering problem of the conventional controller, and the new controller’s stability is approved. For the underwater working environment’s complexity problem, this paper studies the influence of ocean currents, dealing with the constant current and time-varying current respectively. Mathematical models of the typical ocean currents are established for simulation experiment. Adaptive feature is added to the higher order sliding mode controller to deal with bounded time-varying current’s disturbance. Finally, simulation experiments are implemented in the 2-D and 3-D environments, which show that the adaptive higher order sliding mode controller has anti-interference ability.</li>
+</ol>
+<h4 id="Keywords-AUV-formation-control-SOM-APF-SMC-leader-follower-formation-tracking-formation-transformation-dynamics-ocean-current"><a href="#Keywords-AUV-formation-control-SOM-APF-SMC-leader-follower-formation-tracking-formation-transformation-dynamics-ocean-current" class="headerlink" title="Keywords: AUV, formation control, SOM, APF, SMC, leader-follower, formation tracking, formation transformation, dynamics, ocean current"></a>Keywords: AUV, formation control, SOM, APF, SMC, leader-follower, formation tracking, formation transformation, dynamics, ocean current</h4>]]></content>
+      <categories>
+        <category>Research</category>
+      </categories>
+      <tags>
+        <tag>AUV</tag>
+        <tag>Formation Control</tag>
+        <tag>Robotics</tag>
+        <tag>PhD Dissertation</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于举办上海海事大学第十八届大学生数学建模竞赛的通知</title>
+    <url>/2022/36272f3e/</url>
+    <content><![CDATA[<p> 各位同学：</p>
+<p>为了激励学生学习数学的积极性，提高学生独立分析问题、建立数学模型、运用计算机技术解决实际问题以及论文写作等能力，培养学生的创造精神及合作意识，塑造同学们的科创意识与团队精神，为2022年全国大学生数学建模竞赛选拔人才，经研究决定举办上海海事大学第十八届大学生数学建模竞赛。现将竞赛有关事项通知如下：</p>
+<span id="more"></span>
+<p>一、竞赛内容</p>
+<p>竞赛题目一般来源于工程技术和管理科学等方面经过适当简化加工的实际问题，不要求参赛者预先掌握深入的专门知识，只需要学过普通高校的数学课程。题目有较大的灵活性，使参赛者能发挥其创造能力。参赛者应根据题目要求，完成一篇包括模型的假设、建立和求解，计算方法的设计和计算机的实现，计算结果的分析和检验，模型的改进等方面内容的论文（即答卷）。竞赛评奖以假设的合理性、建模的创造性、结果的正确性和文字表述的清晰程度为主要标准。</p>
+<p>二、参赛对象</p>
+<p>我校全日制在校本科学生，专业不限。</p>
+<p>三、竞赛程序</p>
+<ol>
+<li><p>参赛学生以队为单位，每队人数3名，专业不限，自由组合。</p>
+</li>
+<li><p>参赛队伍需提交报名登记表，请下载本通知后的附件：上海海海事大学第十八届大学生数学建模竞赛报名登记表。填写完整后，于2022年5月3日晚20:00前发送到指定邮箱：smumcm2022@163.com，未按要求发送信息的将无法参加此次竞赛。</p>
+</li>
+<li><p>登记表发送成功后请参赛队员加入竞赛QQ群：314396894，之前已经入群的队伍也需在5月3日20:00前发送登记表到指定邮箱。赛题将于5月4日上午9:00左右在群中公布。</p>
+</li>
+</ol>
+<p><img src="473d066a-7ac9-4eb0-ad91-549ba7593134.png" alt=""></p>
+<p>四、竞赛日程</p>
+<ol>
+<li><p>竞赛时间：2022年5月4日（周三）起至2022年5月14日（周六）中午12:00。</p>
+</li>
+<li><p>赛题发布：本次赛题将采用2022年度我国部分地区数学建模联赛赛题，赛题将于5月4日上午9:00左右在QQ群：314396894中公布。</p>
+</li>
+</ol>
+<p>五、论文提交</p>
+<ol>
+<li><p>论文提交电子版。</p>
+</li>
+<li><p>论文电子版（含附录中的源程序电子版等）压缩到一个文件中，一般不要超过20MB。压缩包文件名为赛题类型（如“A题”等）-队员1姓名-队员2姓名-队员3姓名，于2022年5月14日中午12:00前发送到指定邮箱：smumcm2022@163.com，超时发送无效。</p>
+</li>
+</ol>
+<p>六、论文格式</p>
+<ol>
+<li><p>论文题目、摘要和关键词写在论文第一页上（无需译成英文），第二页开始是论文正文（无需目录），从第二页开始编写页码；页码必须位于每页页脚中部，用阿拉伯数字从“1”开始连续编号。注意：摘要应该是一份简明扼要的详细摘要，请认真书写（但篇幅不能超过一页）。</p>
+</li>
+<li><p>论文的页眉分为两部分，总共不要超过一行；第一部分为“上海海事大学第十八届数学建模竞赛参赛论文”，靠左对齐；第二部分为赛题类型，如“A题”、“B题”、“C题”，靠右对齐。</p>
+</li>
+<li><p>论文撰写应思路清晰，表达简洁（正文尽量控制在25页左右，附录页数不限）。</p>
+</li>
+<li><p>引用别人的成果或其他公开的资料(包括网上查到的资料) 必须按照规定的参考文献的表述方式在正文引用处和参考文献中均明确列出。正文引用处用方括号标示参考文献的编号，如[1][2]等；引用书籍还必须指出页码。参考文献按正文中的引用次序列出，其中书籍的表述方式为：</p>
+</li>
+</ol>
+<p>[编号] 作者，书名，出版地：出版社，出版年。</p>
+<p>参考文献中期刊杂志论文的表述方式为：</p>
+<p>[编号] 作者，论文名，杂志名，卷期号：起止页码，出版年。</p>
+<p>参考文献中网上资源的表述方式为：</p>
+<p>[编号] 作者，资源标题，网址，访问时间（年月日）。</p>
+<ol>
+<li><p>在论文附录中，应给出参赛者实际使用的软件名称、命令和编写的全部计算机源程序。</p>
+</li>
+<li><p>本规范中未作规定的，如排版格式（字号、字体、行距、颜色等）等不做统一要求，可按照历年全国大学生数学建模竞赛中优秀范文的排版自行确定。</p>
+</li>
+</ol>
+<p>七、竞赛奖励及其它</p>
+<ol>
+<li><p>按参赛学生比例评选一、二、三等奖。</p>
+</li>
+<li><p>获奖学生按照《上海海事大学第二课堂学分管理规定》给予相应学分认定。</p>
+</li>
+<li><p>学校将在本次比赛中选拔优秀队伍参加2022年全国大学生数学建模竞赛。</p>
+</li>
+</ol>
+<p>请同学们相互转告，特此通知。</p>
+<p>如有疑问可咨询：38282218（疫情期间：QQ631171854）  马老师</p>
+<p>教务处</p>
+<p>文理学院</p>
+<p>2022年4月26日</p>
+<p><a href="https://jwc.shmtu.edu.cn/2022/0426/c8546a174854/page.htm">原文Link</a></p>
+<p><a href="报名登记表.xls">附件：上海海事大学第十八届大学生数学建模竞赛报名登记表.xls</a></p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>study</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>天地寂然不動</title>
+    <url>/2022/336cf9cc/</url>
+    <content><![CDATA[<p>天地像似寂然不動，但氣候變化從不停息；</p>
+<p>日夜不停的交替，但日月的光明，卻萬古不變。</p>
+<p>所以，君子閑時應居安思危，</p>
+<p>忙時應忙裏偷閑。</p>
+<p>人要效法天地，不變中有變，變種有不變。</p>
+<p>平時心中不過於鬆懈，臨事内心不可浮躁。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>宰我问曰</title>
+    <url>/2022/d312055/</url>
+    <content><![CDATA[<p>【原文】<br>宰我问曰：“仁者，虽告之曰‘井有仁焉’，其从之也？”子曰：“何为其然也？君子可逝也，不可陷也；可欺也，不可罔也。”</p>
+<p>【翻译】<br> 宰我问道：“一个有仁德的人，如果别人告诉他‘井里掉下一位仁人’他是不是会跟着跳下去呢？”孔子说：“为什么要这样做呢？君子可以到井边设法救人，不让自己陷人井中；可以被人用正当的理由欺骗，但不可以被愚弄。”</p>
+<p>【解读】<br>因白天睡觉而受到孔子批评的宰我，向孔子提出了一个很尖锐的问题：一个有仁德的人，如果别人告诉他井里掉下一位仁人，他是不是会跟着跳下去呢？孔子没有正面地回答。他认为君子会想方设法救助落难的人，但不会陷自己于危险境地。然后批评宰我问的问题不道德，说君子可以被人用正当的理由欺骗，但不可以被愚弄。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>清华科教TPC-USB实验箱操作</title>
+    <url>/2022/2a921c01/</url>
+    <content><![CDATA[<h2 id="操作规范"><a href="#操作规范" class="headerlink" title="操作规范"></a>操作规范</h2><p>a. 实验箱连线操作时先要关闭实验箱电源，连接完成后再打开电源。</p>
+<p>b. 无需也不可自行插拔实验箱上的芯片和组件。</p>
+<p>c. 严禁未整理好实验箱，老师也未检查实验结果，擅自离开实验室。</p>
+<h2 id="基础实验"><a href="#基础实验" class="headerlink" title="基础实验"></a>基础实验</h2>]]></content>
+      <categories>
+        <category>实验教学</category>
+        <category>微机原理实验</category>
+      </categories>
+      <tags>
+        <tag>微机原理</tag>
+        <tag>汇编语言</tag>
+        <tag>学习</tag>
+        <tag>硬件实验</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>待小人不恶，待君子有礼</title>
+    <url>/2022/c16bdccb/</url>
+    <content><![CDATA[<p>待小人，不难于严，而难于不恶；</p>
+<p>待君子，不难于恭，而难于有礼。</p>
+<p>文章做到极处，无有他奇，只是恰好；</p>
+<p>人品做到极处，无有他异，只是本然。</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>莫言</title>
+    <url>/2022/f3fe9c62/</url>
+    <content><![CDATA[<p>人性的丑陋就是，在无权、无势、善良的人身上挑毛病，在有权、有势、缺德的人身上找优点。当无权、无势、善良的人，受到伤害的时候，却还要站在所谓的道德至高点上，假惺惺的劝说无权、无势、善良的人，一定要忍耐，一定要大度。</p>
+<p>Mo Yan, contemporary writer, Nobel Prize winner.</p>
+]]></content>
+  </entry>
+</search>
