@@ -6,7 +6,7 @@ categories: 关于本站
 # About me
 
 <img src="/images/photo.lx.github.io.jpg" class="floatpic" width="300" height="360">
-My name is Xin Li. I am now a faculty member at Shanghai Maritime University. I am interested in computer algorithms, artificial neural networks, model predictive control, etc. 
+My name is Xin Li. I am now a faculty member at College of information Engineering, Shanghai Maritime University. I am interested in computer algorithms, artificial neural networks, operations research, etc. 
 <!-- ![photo_1](/images/photo.jpg) -->
 
 <!--and deep learning based algorithms, -->
@@ -17,14 +17,14 @@ I received the B.S. degree in information engineering from Shanghai Jiaotong Uni
 
 ## Research interests
 
-- Neural Networks and Machine Learning 
-  Advanced algorithms of neural networks or machine learning to deal with real-world applications.
-- Control of Underwater Vehicles
-  Algorithms on path planning, multi-task assignment, formation control, fault tolerence. 
+- Machine Learning 
+  Advanced machine learning algorithms to deal with real-world applications.
+- Control of Automatic Vehicles
+  Path planning, multi-task assignment, model predictive control, etc. 
   Electronical control units. 
-  Biomimetic marine platforms and simulations. 
-  Underwater image & video processing. 
-- Unmanned surface vessel and shipping information network
+  Biomimetic marine platforms with simulations. 
+  Image & video processing. 
+- Logistics, shipping information network, optimization methods
 
 
 -----
