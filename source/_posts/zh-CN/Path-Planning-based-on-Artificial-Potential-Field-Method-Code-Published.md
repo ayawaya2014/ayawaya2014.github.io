@@ -15,11 +15,9 @@ Code of Path Planning based on Artificial Potential Field Method is Published on
 
 MATLAB Code of Artificial Potencial Field Method for Robot Path Planning
 
-Authors: Xin Li, Daqi Zhu
+Authors: Xin Li
 
-Email: lixin850224@163.com; zdq367@aliyun.com
-
-Laboratory of Underwater Vehicles and Intelligent Systems
+Email: lixin850224@163.com
 
 Shanghai Maritime University
 

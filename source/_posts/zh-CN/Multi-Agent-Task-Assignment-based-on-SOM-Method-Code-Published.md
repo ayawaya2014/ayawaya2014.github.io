@@ -14,11 +14,9 @@ date: 2018-03-06 14:46:11
 
 Code of Multi-Agent Task-Assignment based on SOM Neural Network Method is Published on [Github](https://github.com/ayawaya2014/SOM_Code)
 
-Authors: Xin Li, Daqi Zhu
+Authors: Xin Li
 
-Email: lixin850224@163.com; zdq367@aliyun.com
-
-Laboratory of Underwater Vehicles and Intelligent Systems
+Email: lixin850224@163.com
 
 Shanghai Maritime University
 
