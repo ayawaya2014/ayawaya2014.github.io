@@ -300,9 +300,8 @@ B(t) = B_0+e*cos(w*t+\theta)</script><p>according to literature [1], [2].</p>
     <title>Multi-Agent-Task-Assignment-based-on-SOM-Method-Code-Published</title>
     <url>/2018/43b01849/</url>
     <content><![CDATA[<p>Code of Multi-Agent Task-Assignment based on SOM Neural Network Method is Published on <a href="https://github.com/ayawaya2014/SOM_Code">Github</a></p>
-<p>Authors: Xin Li, Daqi Zhu</p>
-<p>Email: lixin850224@163.com; zdq367@aliyun.com</p>
-<p>Laboratory of Underwater Vehicles and Intelligent Systems</p>
+<p>Authors: Xin Li</p>
+<p>Email: lixin850224@163.com</p>
 <p>Shanghai Maritime University</p>
 <span id="more"></span>
 <p><img src="/images/som-2.png" alt="SOM-1"></p>
@@ -323,9 +322,8 @@ B(t) = B_0+e*cos(w*t+\theta)</script><p>according to literature [1], [2].</p>
     <url>/2018/74e42c3/</url>
     <content><![CDATA[<p>Code of Path Planning based on Artificial Potential Field Method is Published on <a href="https://github.com/ayawaya2014/APF_Code">Github</a></p>
 <p>MATLAB Code of Artificial Potencial Field Method for Robot Path Planning</p>
-<p>Authors: Xin Li, Daqi Zhu</p>
-<p>Email: lixin850224@163.com; zdq367@aliyun.com</p>
-<p>Laboratory of Underwater Vehicles and Intelligent Systems</p>
+<p>Authors: Xin Li</p>
+<p>Email: lixin850224@163.com</p>
 <p>Shanghai Maritime University</p>
 <span id="more"></span>
 <p><img src="/images/apf-1.png" alt="apf-1"><br><img src="/images/apf-2.png" alt="apf-2"><br><img src="/images/apf.png" alt="apf-3"></p>
