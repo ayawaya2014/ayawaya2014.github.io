@@ -813,4 +813,23 @@ B(t) = B_0+e*cos(w*t+\theta)</script><p>according to literature [1], [2].</p>
         <tag>學習</tag>
       </tags>
   </entry>
+  <entry>
+    <title>水下圖像增强理論與技術研究</title>
+    <url>/2024/6c2efcd4/</url>
+    <content><![CDATA[<p>水下影像增強（UIE）作為海洋遙感應用中的基本預處理步驟，涵蓋了海洋生物檢測、考古調查和海底資源探索。然而，由於水下光傳播的複雜物理學和水域環境的固有均勻性，UIE 遇到了相當大的技術挑戰。水下捕獲的影像因波長依賴的吸收和散射過程而顯著退化，導致顏色失真、對比度降低和照明不規則。</p>
+<p>為了解決這些挑戰，系統性地解決水下影像退化問題，採用了多流分解架構，以將潛在特徵空間解開為與退化相關的組件和代表高質量特徵的組件。結合了分層對比學習機制，以建立標準特徵空間和退化特徵空間之間的明確關係，強調層內相似性和層間排他性。通過內部特徵一致性和跨組件區別性的協同利用，在沒有明確監督的情況下實現了穩健的特徵提取。</p>
+<span id="more"></span>
+<p>在各種水下數據集上進行的廣泛實驗表明，我們的方法在定量和定性上均優於現有的最先進技術。</p>
+]]></content>
+      <categories>
+        <category>科研</category>
+      </categories>
+      <tags>
+        <tag>Learn</tag>
+        <tag>Study</tag>
+        <tag>Open Source</tag>
+        <tag>學習</tag>
+        <tag>Scientific Research</tag>
+      </tags>
+  </entry>
 </search>
