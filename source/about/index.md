@@ -19,13 +19,15 @@ I received the B.S. degree in information engineering from Shanghai Jiaotong Uni
 ## Research interests
 
 - Machine Learning 
-  Advanced machine learning algorithms to deal with real-world applications.
+  Advanced machine learning algorithms to deal with real-world applications
 - Control of Automatic Vehicles
-  Path planning, multi-task assignment, model predictive control, etc. 
-  Electronical control units. 
-  Biomimetic marine platforms with simulations. 
-  Image & video processing. 
-- Logistics, shipping information network, optimization methods
+  Path planning
+  Multi-task assignment & formation control
+  Model predictive control
+  Electronical control units
+  Biomimetic marine platforms with simulations
+  Image & video processing
+- Logistics, gaming theory, fuzzy system, shipping information network, optimization methods
 
 
 -----
