@@ -6,7 +6,8 @@ categories: 关于本站
 # About me
 
 <img src="/images/photo.lx.github.io.jpg" class="floatpic" width="300" height="360">
-My name is Xin Li. I am now a faculty member at College of information Engineering, Shanghai Maritime University. I am interested in computer algorithms, artificial neural networks, operations research, etc. 
+My name is Xin Li. I am now a faculty member with College of Information Engineering, Shanghai Maritime University. I am interested in Programming, Algorithms, Artificial Neural Networks, Machine Learning, Operations Research, etc. (orcid=0000-0003-4672-1500)
+
 <!-- ![photo_1](/images/photo.jpg) -->
 
 <!--and deep learning based algorithms, -->
@@ -29,7 +30,8 @@ I received the B.S. degree in information engineering from Shanghai Jiaotong Uni
 
 -----
 
-[Papers](https://ayawaya2014.github.io/Publications/)
+<!-- [Papers](https://ayawaya2014.github.io/Publications/) -->
+[Papers](https://scholar.google.com/citations?hl=zh-CN&user=rRUevTsAAAAJ&view_op=list_works&sortby=pubdate)
 [Email](mailto:lixin850224@163.com)
 
 <!-- Deprecated blog: http://shmtuee.vicp.net (2015-2018) -->
