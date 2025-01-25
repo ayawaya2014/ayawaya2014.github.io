@@ -133,12 +133,12 @@
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section"><i class="fa fa-list fa-fw"></i>分类<span class="badge">9</span></a>
+    <a href="/categories/" rel="section"><i class="fa fa-list fa-fw"></i>分类<span class="badge">10</span></a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-file fa-fw"></i>归档<span class="badge">40</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-file fa-fw"></i>归档<span class="badge">41</span></a>
 
   </li>
         <li class="menu-item menu-item-commonweal">
@@ -201,6 +201,89 @@
 
           <div class="content index posts-expand">
             
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://ayawaya2014.github.io/2025/75b9f85c/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar2.jpg">
+      <meta itemprop="name" content="ayawuyu">
+      <meta itemprop="description" content="细嗅蔷薇">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="晚熟的人">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2025/75b9f85c/" class="post-title-link" itemprop="url">自建NEXTCLOUD服务全记录</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2025-01-25 09:08:02 / 修改时间：09:35:07" itemprop="dateCreated datePublished" datetime="2025-01-25T09:08:02+08:00">2025-01-25</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/others/" itemprop="url" rel="index"><span itemprop="name">others</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/2025/75b9f85c/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2025/75b9f85c/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>希望有一款轻量级的网盘，可以作为U盘的补充，存放一些小文件。考虑过商业云盘和NAS。国内一些云盘或同步盘，设计较为臃肿，往往会拖慢系统；群晖的NAS价格较高，且需要本地存放，作为非必须品，暂时不考虑购买。NEXTCLOUD的社区版本性能优良，开源免费使用，自己又有废旧的笔记本电脑，因此考虑自行架设网盘云服务，同时可以锻炼专业技能。</p>
+<p>&lt;—more—&gt;<br>首次安装为了充分了解技术内幕，采用了分步安装，在ubuntu系统上安装了apache/nginx/caddy，mysql/mariadb/postgredql等数据库系统，php处理器，下载nextcloud服务器版压缩包，进行手动配置。目前官网提供一键安装脚本，但是考虑用的是旧版本的ubuntu，许多一键安装不能运行，官网有详细的操作步骤。Docker和snap也是选项。<br>家庭使用如果不安装DDNS服务就只能在内网访问了，因此考虑使用了duckdns的服务，很好的免费版，支持ipv6，这也是目前个人的最好选择。三大运营商的ipv6确实让我整了很久，最终确实还是能够使用了，这样就有了随时随地可以访问的网盘。然而，旧版本的curl无法正确获取本机ipv6地址，新版本编译更新未成功，最后决定安装新版本的Linux服务器系统。<br>经过多番折腾，最后选择了ubuntu server 22.04版本安装在具有intel i5-5200U和4G DDR3 1600的DELL笔记本电脑上，nextcloud采用最新的snap版本，确实比较方便。联通500M光纤防火墙调低通过端口数据，DDNS动态域名指向，服务器cron脚本定时更新。<br>Nextcloud客户端支持多种平台，开源免费，自己搭建保证了数据安全，比付费的软件好多了，现在很多类似的国产软件都是垃圾软件和流氓软件。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
       
   
   
@@ -632,90 +715,6 @@
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://ayawaya2014.github.io/2023/c3c728e9/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar2.jpg">
-      <meta itemprop="name" content="ayawuyu">
-      <meta itemprop="description" content="细嗅蔷薇">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="晚熟的人">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2023/c3c728e9/" class="post-title-link" itemprop="url">格雷欣法则</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2023-06-25 08:52:40 / 修改时间：08:57:21" itemprop="dateCreated datePublished" datetime="2023-06-25T08:52:40+08:00">2023-06-25</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%AD%B8%E7%BF%92/" itemprop="url" rel="index"><span itemprop="name">學習</span></a>
-                </span>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus：</span>
-    
-    <a title="disqus" href="/2023/c3c728e9/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2023/c3c728e9/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>所谓格雷欣法则也叫“劣币驱逐良币”。在货币发展史上，欧洲许多国家在一段时间内实行金银币双本位制，金币和银币按照法定的固定比例兑换。当金银的市场价格与法定价格不一致时，市场价值高于法定价格的货币就会被人们储存起来，而市场价格低于法定价格的货币就会被市场淹没，从而形成好钱退藏，劣币泛滥的现象。</p>
-<p>在现代也出现过劣币驱逐良币的现象。二战后，在布雷顿森林体系的国际货币体系下，美元与黄金挂钩，两者之间实行固定汇率。然而，在后期，随着发行美元数量的不断扩大，外商在与美国做生意时，逐渐愿意接受黄金而不是美元。</p>
-<p>格雷欣法则不仅存在于金融领域。意大利作家卡尔维诺写道：“在一个人人都偷窃的国家，唯一不偷窃的人将成为公众批评和攻击的目标”。如果没有良好的道德环境和有效的约束体系，劣币驱逐良币的风气就会盛行，给社会带来不良影响。</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
 
   
   <nav class="pagination">
@@ -786,14 +785,14 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">40</span>
+          <span class="site-state-item-count">41</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-count">10</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
