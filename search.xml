@@ -832,4 +832,47 @@ B(t) = B_0+e*cos(w*t+\theta)</script><p>according to literature [1], [2].</p>
         <tag>Scientific Research</tag>
       </tags>
   </entry>
+  <entry>
+    <title>云存储InfiniCLOUD分享装</title>
+    <url>/2025/a01e0c5f/</url>
+    <content><![CDATA[<p>infinicloud网盘是一家日本公司，注册即送20G空间，输入推荐码”ZE9JD”可以再送5G空间，总共有25G。通过WebDAV可以访问的免费空间已经算大的。能满足基本的日常使用。上传下载速度某度免费网盘的速度快。<br><span id="more"></span><br>单个文件大小无限制，但做为网络存储，考虑到网速情况，建议不要超过1G大小。</p>
+<p>infinicloud官网地址：<br><a href="https://infini-cloud.net/en/">https://infini-cloud.net/en/</a></p>
+<p>值得一提的是，该网盘通过app密码支持多种客户端无缝连接，十分推荐，记得使用”ZE9JD”推荐码噢！</p>
+]]></content>
+      <categories>
+        <category>others</category>
+      </categories>
+      <tags>
+        <tag>Learn</tag>
+        <tag>Study</tag>
+        <tag>學習</tag>
+        <tag>Scientific Research</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>自建NEXTCLOUD服务全记录</title>
+    <url>/2025/75b9f85c/</url>
+    <content><![CDATA[<blockquote>
+<p>本文主要是心得，不涉及具体的技术细节，所有的操作命令都可在网络上查到。</p>
+</blockquote>
+<p>希望有一款轻量级的网盘，可以作为U盘的补充，存放一些小文件。考虑过商业云盘和NAS。国内一些云盘或同步盘，设计较为臃肿，往往会拖慢系统；群晖的NAS价格较高，且需要本地存放，作为非必须品，暂时不考虑购买。NEXTCLOUD的社区版本性能优良，开源免费使用，自己又有废旧的笔记本电脑，因此考虑自行架设网盘云服务，同时可以锻炼专业技能。</p>
+<span id="more"></span>
+<ul>
+<li>首次安装为了充分了解技术内幕，采用了分步安装，在ubuntu系统上安装了apache/nginx/caddy，mysql/mariadb/postgredql等数据库系统，php处理器，下载nextcloud服务器版压缩包，进行手动配置。目前官网提供一键安装脚本，但是考虑用的是旧版本的ubuntu，许多一键安装不能运行，官网有详细的操作步骤。Docker和snap也是选项。</li>
+<li>家庭使用如果不安装DDNS服务就只能在内网访问了，因此考虑使用了duckdns的服务，很好的免费版，支持ipv6，这也是目前个人的最好选择。三大运营商的ipv6确实让我整了很久，最终确实还是能够使用了，这样就有了随时随地可以访问的网盘。然而，旧版本的curl无法正确获取本机ipv6地址，新版本编译更新未成功，最后决定安装新版本的Linux服务器系统。</li>
+<li>经过多番折腾，最后选择了ubuntu server 22.04版本安装在具有intel i5-5200U和4G DDR3 1600的DELL笔记本电脑上，nextcloud采用最新的snap版本，确实比较方便。联通500M光纤防火墙调低通过端口数据，DDNS动态域名指向，服务器cron脚本定时更新。</li>
+<li>Nextcloud客户端支持多种平台，开源免费，自己搭建保证了数据安全，就满足个人需求而言，总体上比付费的软件好，注意有很多类似的软件是垃圾软件和流氓软件。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>others</category>
+      </categories>
+      <tags>
+        <tag>Learn</tag>
+        <tag>Study</tag>
+        <tag>Open Source</tag>
+        <tag>學習</tag>
+        <tag>Scientific Research</tag>
+      </tags>
+  </entry>
 </search>

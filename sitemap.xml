@@ -2,9 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ayawaya2014.github.io/2025/a01e0c5f/</loc>
+    
+    <lastmod>2025-04-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ayawaya2014.github.io/2024/63d9fd5b/</loc>
+    
+    <lastmod>2025-01-25</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://ayawaya2014.github.io/2024/6c2efcd4/</loc>
     
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-01-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ayawaya2014.github.io/2023/9374bd0d/</loc>
+    
+    <lastmod>2025-01-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ayawaya2014.github.io/2025/75b9f85c/</loc>
+    
+    <lastmod>2025-01-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ayawaya2014.github.io/2023/c3c728e9/</loc>
+    
+    <lastmod>2025-01-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ayawaya2014.github.io/2023/35d1bff7/</loc>
+    
+    <lastmod>2025-01-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ayawaya2014.github.io/2023/c017fccd/</loc>
+    
+    <lastmod>2025-01-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ayawaya2014.github.io/2024/52fa967a/</loc>
+    
+    <lastmod>2025-01-25</lastmod>
     
   </url>
   
@@ -12,34 +68,6 @@
     <loc>http://ayawaya2014.github.io/about/index.html</loc>
     
     <lastmod>2025-01-09</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ayawaya2014.github.io/2024/63d9fd5b/</loc>
-    
-    <lastmod>2024-12-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ayawaya2014.github.io/2024/52fa967a/</loc>
-    
-    <lastmod>2024-12-03</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ayawaya2014.github.io/2023/9374bd0d/</loc>
-    
-    <lastmod>2023-12-05</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ayawaya2014.github.io/2023/c017fccd/</loc>
-    
-    <lastmod>2023-09-03</lastmod>
     
   </url>
   
@@ -54,20 +82,6 @@
     <loc>http://ayawaya2014.github.io/2018/74e42c3/</loc>
     
     <lastmod>2023-07-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ayawaya2014.github.io/2023/c3c728e9/</loc>
-    
-    <lastmod>2023-06-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ayawaya2014.github.io/2023/35d1bff7/</loc>
-    
-    <lastmod>2023-06-25</lastmod>
     
   </url>
   
@@ -333,7 +347,7 @@
 
   <url>
     <loc>http://ayawaya2014.github.io/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -341,371 +355,371 @@
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/AUV/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Neural-Networks/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Search/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/physical-engine-simulation/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/underwater-robots/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/trajectory-tracking/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/path-planning/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/robots/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/reinforcement-learning/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/optimization/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/BBS/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Unix/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Linux/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Forum/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/OS/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/%E5%8F%A4%E6%96%87/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/study/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Programming/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Water-Flow/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Formation-Tracking/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Multi-agent-System/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Robots/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Formation-Control/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/SOM/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Control/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Decision-Making/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Robotics/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Dubins/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Path-Planning/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Multi-agent/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/AUVs/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Task-Assignment/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/SOM-Neural-Networks/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/APF/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/%E5%BE%AE%E6%9C%BA%E5%8E%9F%E7%90%86/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/society/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/robotic-fish/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/OpenCV/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/mechanical/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/PhD-Dissertation/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/%E7%A1%AC%E4%BB%B6%E5%AE%9E%E9%AA%8C/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/management/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/economics/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Share/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Learn/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Library/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Study/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Open-Source/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/%E5%AD%B8%E7%BF%92/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/tags/Scientific-Research/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -714,63 +728,70 @@
   
   <url>
     <loc>http://ayawaya2014.github.io/categories/Research/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/categories/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/categories/other/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/categories/%E5%AD%B8%E7%BF%92/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/categories/%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/categories/%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E4%B8%8E%E6%B1%87%E7%BC%96/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/categories/%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6/%E5%BE%AE%E6%9C%BA%E5%8E%9F%E7%90%86%E5%AE%9E%E9%AA%8C/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/categories/%E8%B5%84%E6%BA%90/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://ayawaya2014.github.io/categories/%E7%A7%91%E7%A0%94/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-04-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://ayawaya2014.github.io/categories/others/</loc>
+    <lastmod>2025-04-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
