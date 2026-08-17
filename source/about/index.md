@@ -17,7 +17,7 @@ My name is Xin Li. I am now a faculty member with College of Information Enginee
 
 ## Education background
 
-I received the B.S. degree in information engineering from Shanghai Jiaotong University, Shanghai, China, in 2007. 
+I received the B.S. degree in Information Engineering from Shanghai Jiaotong University, Shanghai, China, in 2007. 
 
 ## Research interests
 
