@@ -915,7 +915,8 @@ B(t) = B_0+e*cos(w*t+\theta)</script><p>according to literature [1], [2].</p>
     <content><![CDATA[<p>To be continue..</p>
 ]]></content>
       <categories>
-        <category>实验教学 -- 人工智能基础</category>
+        <category>实验教学</category>
+        <category>人工智能基础</category>
       </categories>
       <tags>
         <tag>教学</tag>
