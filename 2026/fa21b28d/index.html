@@ -24,19 +24,21 @@
 
 
 	 
-  <meta name="description" content="To be continue..">
+  <meta name="description" content="To be continue..监督学习：决策树——选做实验">
 <meta property="og:type" content="article">
 <meta property="og:title" content="AI实验一扩展">
 <meta property="og:url" content="http://ayawaya2014.github.io/2026/fa21b28d/index.html">
 <meta property="og:site_name" content="Le.Comte.de.&lt;br&gt;Monte-Cristo">
-<meta property="og:description" content="To be continue..">
+<meta property="og:description" content="To be continue..监督学习：决策树——选做实验">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2026-09-29T05:57:00.000Z">
-<meta property="article:modified_time" content="2026-09-29T06:09:12.726Z">
+<meta property="article:modified_time" content="2026-10-04T02:54:58.308Z">
 <meta property="article:author" content="ayawuyu">
+<meta property="article:tag" content="Programming">
 <meta property="article:tag" content="教学">
 <meta property="article:tag" content="编程">
 <meta property="article:tag" content="AI">
+<meta property="article:tag" content="Data">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="http://ayawaya2014.github.io/2026/fa21b28d/">
@@ -133,7 +135,7 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">57</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">58</span></a>
 
   </li>
         <li class="menu-item menu-item-categories">
@@ -233,10 +235,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2026-09-29 13:57:00 / 修改时间：14:09:12" itemprop="dateCreated datePublished" datetime="2026-09-29T13:57:00+08:00">2026-09-29</time>
+              <time title="创建时间：2026-09-29 13:57:00" itemprop="dateCreated datePublished" datetime="2026-09-29T13:57:00+08:00">2026-09-29</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2026-10-04 10:54:58" itemprop="dateModified" datetime="2026-10-04T10:54:58+08:00">2026-10-04</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -276,7 +284,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>To be continue..</p>
+        <p>To be continue..<br>监督学习：决策树——选做实验<br><span id="more"></span><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"><span class="keyword">from</span> sklearn.model_selection <span class="keyword">import</span> train_test_split     <span class="comment">#数据分割方法所在的包</span></span><br><span class="line"><span class="keyword">from</span> sklearn <span class="keyword">import</span> tree                                 <span class="comment">#决策树算法所在的包</span></span><br><span class="line"><span class="keyword">import</span> pickle                                             <span class="comment">#将模型文件写入硬盘所需的包</span></span><br><span class="line"><span class="keyword">from</span> sklearn.metrics <span class="keyword">import</span> classification_report        <span class="comment">#生成分类报告所需的包</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 加载数据</span></span><br><span class="line">data =pd.read_csv(<span class="string">&#x27;finance数据集.csv&#x27;</span>)</span><br><span class="line"><span class="comment">#查看数据的前5行，了解数据概况</span></span><br><span class="line"><span class="built_in">print</span>(data.head())</span><br><span class="line"></span><br><span class="line"><span class="comment">#去除明显没有意义的特征Unnamed: 0</span></span><br><span class="line">data=data.drop(columns=<span class="string">&#x27;Unnamed: 0&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">#数据预处理</span></span><br><span class="line"><span class="comment">#1.去除包含缺失值的行</span></span><br><span class="line">data.dropna()</span><br><span class="line"></span><br><span class="line"><span class="comment"># 2.识别删除包含异常值的行</span></span><br><span class="line"><span class="comment"># 2.1）识别数值类型的特征</span></span><br><span class="line">numeric_cols = data.select_dtypes(include=[<span class="string">&#x27;float64&#x27;</span>, <span class="string">&#x27;int64&#x27;</span>]).columns</span><br><span class="line"><span class="comment"># 2.2）使用IQR识别异常值，</span></span><br><span class="line">Q1 = data[numeric_cols].quantile(<span class="number">0.25</span>)</span><br><span class="line">Q3 = data[numeric_cols].quantile(<span class="number">0.75</span>)</span><br><span class="line">IQR = Q3 - Q1</span><br><span class="line"><span class="comment"># 2.3)移除异常值</span></span><br><span class="line">data_cleaned = data[~((data[numeric_cols] &lt; (Q1 - <span class="number">1.5</span> * IQR)) | (data[numeric_cols] &gt; (Q3 + <span class="number">1.5</span> * IQR))).<span class="built_in">any</span>(axis=<span class="number">1</span>)]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 3.检查重复值</span></span><br><span class="line"><span class="comment">#3.1)判断一个记录是否是重复记录</span></span><br><span class="line">duplicates = data_cleaned.duplicated()</span><br><span class="line"><span class="comment">#3.2)统计重复记录的数量</span></span><br><span class="line">num_duplicates = duplicates.<span class="built_in">sum</span>()</span><br><span class="line"><span class="comment">#3.3)删除重复记录</span></span><br><span class="line">data_cleaned = data_cleaned[~duplicates]</span><br><span class="line"><span class="comment">#3.4）打印删除的重复记录数</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&#x27;删除的重复行数: <span class="subst">&#123;num_duplicates&#125;</span>&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 4.对数值类型的数据做归一化标准化处理：将所有的数据投射到0~1的范围</span></span><br><span class="line"><span class="comment">#4.1）导入要用到的包</span></span><br><span class="line"><span class="keyword">from</span> sklearn.preprocessing <span class="keyword">import</span> MinMaxScaler</span><br><span class="line"><span class="comment">#4.2）初始化一个标准化归一化工具</span></span><br><span class="line">scaler = MinMaxScaler()</span><br><span class="line"><span class="comment">#4.3）进行数据标准归一化处理</span></span><br><span class="line">data_cleaned[numeric_cols] = scaler.fit_transform(data_cleaned[numeric_cols])</span><br><span class="line"></span><br><span class="line"><span class="comment">#选取目标变量（标签）和自变量（特征），X为特征，y为标签</span></span><br><span class="line">X = data_cleaned.drop(columns=[<span class="string">&#x27;SeriousDlqin2yrs&#x27;</span>])</span><br><span class="line">y = data_cleaned[<span class="string">&#x27;SeriousDlqin2yrs&#x27;</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 将数据集划分为训练集和测试集（测试集占比20%）</span></span><br><span class="line">X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=<span class="number">0.2</span>, random_state=<span class="number">42</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 初始化决策树分类模型（以信息熵为分枝依据）</span></span><br><span class="line"><span class="comment"># criterion=&quot;entropy&quot;, 按信息熵分枝，  criterion=&quot;gini&quot;, 按基尼系数分枝</span></span><br><span class="line">model = tree.DecisionTreeClassifier(criterion=<span class="string">&quot;entropy&quot;</span>)</span><br><span class="line"><span class="comment">#训练 决策树分类 模型</span></span><br><span class="line">model.fit(X_train, y_train)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 保存模型</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;DecisionTree_finance.pkl&#x27;</span>, <span class="string">&#x27;wb&#x27;</span>) <span class="keyword">as</span> file:</span><br><span class="line">    pickle.dump(model, file)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用训练的决策树预测测试集样本的类别</span></span><br><span class="line">y_pred = model.predict(X_test)</span><br><span class="line"><span class="comment"># 将预测结果写入DT_results_finance.txt文件</span></span><br><span class="line">pd.DataFrame(y_pred, columns=[<span class="string">&#x27;预测结果&#x27;</span>]).to_csv(<span class="string">&#x27;DT_results_finance.txt&#x27;</span>, index=<span class="literal">False</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 获得测试报告</span></span><br><span class="line">report = classification_report(y_test, y_pred, zero_division=<span class="number">1</span>)</span><br><span class="line"><span class="comment">#计算准确率</span></span><br><span class="line">accuracy = (y_test == y_pred).mean()</span><br><span class="line"><span class="comment">#将测试报告及其他评估指标写入DT_report_finance.txt文件</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;DT_report_finance.txt&#x27;</span>, <span class="string">&#x27;w&#x27;</span>) <span class="keyword">as</span> file:</span><br><span class="line">    file.write(report)</span><br><span class="line">    file.write(<span class="string">f&#x27;\n\n模型准确率: <span class="subst">&#123;accuracy:<span class="number">.2</span>f&#125;</span>\n&#x27;</span>)</span><br><span class="line">    file.write(<span class="string">f&#x27;训练集得分: <span class="subst">&#123;model.score(X_train, y_train)&#125;</span>\n&#x27;</span>)</span><br><span class="line">    file.write(<span class="string">f&#x27;测试集得分: <span class="subst">&#123;model.score(X_test, y_test)&#125;</span>\n&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
 
     </div>
 
@@ -303,9 +311,11 @@
 
       <footer class="post-footer">
           <div class="post-tags">
+              <a href="/tags/Programming/" rel="tag"># Programming</a>
               <a href="/tags/%E6%95%99%E5%AD%A6/" rel="tag"># 教学</a>
               <a href="/tags/%E7%BC%96%E7%A8%8B/" rel="tag"># 编程</a>
               <a href="/tags/AI/" rel="tag"># AI</a>
+              <a href="/tags/Data/" rel="tag"># Data</a>
           </div>
 
         
@@ -410,7 +420,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">57</span>
+        <span class="site-state-item-count">58</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
