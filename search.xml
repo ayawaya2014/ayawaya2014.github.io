@@ -893,4 +893,49 @@ B(t) = B_0+e*cos(w*t+\theta)</script><p>according to literature [1], [2].</p>
         <category>學習</category>
       </categories>
   </entry>
+  <entry>
+    <title>AI实验一扩展</title>
+    <url>/2026/fa21b28d/</url>
+    <content><![CDATA[<p>To be continue..<br>监督学习：决策树——选做实验<br><span id="more"></span><br><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"><span class="keyword">from</span> sklearn.model_selection <span class="keyword">import</span> train_test_split     <span class="comment">#数据分割方法所在的包</span></span><br><span class="line"><span class="keyword">from</span> sklearn <span class="keyword">import</span> tree                                 <span class="comment">#决策树算法所在的包</span></span><br><span class="line"><span class="keyword">import</span> pickle                                             <span class="comment">#将模型文件写入硬盘所需的包</span></span><br><span class="line"><span class="keyword">from</span> sklearn.metrics <span class="keyword">import</span> classification_report        <span class="comment">#生成分类报告所需的包</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 加载数据</span></span><br><span class="line">data =pd.read_csv(<span class="string">&#x27;finance数据集.csv&#x27;</span>)</span><br><span class="line"><span class="comment">#查看数据的前5行，了解数据概况</span></span><br><span class="line"><span class="built_in">print</span>(data.head())</span><br><span class="line"></span><br><span class="line"><span class="comment">#去除明显没有意义的特征Unnamed: 0</span></span><br><span class="line">data=data.drop(columns=<span class="string">&#x27;Unnamed: 0&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">#数据预处理</span></span><br><span class="line"><span class="comment">#1.去除包含缺失值的行</span></span><br><span class="line">data.dropna()</span><br><span class="line"></span><br><span class="line"><span class="comment"># 2.识别删除包含异常值的行</span></span><br><span class="line"><span class="comment"># 2.1）识别数值类型的特征</span></span><br><span class="line">numeric_cols = data.select_dtypes(include=[<span class="string">&#x27;float64&#x27;</span>, <span class="string">&#x27;int64&#x27;</span>]).columns</span><br><span class="line"><span class="comment"># 2.2）使用IQR识别异常值，</span></span><br><span class="line">Q1 = data[numeric_cols].quantile(<span class="number">0.25</span>)</span><br><span class="line">Q3 = data[numeric_cols].quantile(<span class="number">0.75</span>)</span><br><span class="line">IQR = Q3 - Q1</span><br><span class="line"><span class="comment"># 2.3)移除异常值</span></span><br><span class="line">data_cleaned = data[~((data[numeric_cols] &lt; (Q1 - <span class="number">1.5</span> * IQR)) | (data[numeric_cols] &gt; (Q3 + <span class="number">1.5</span> * IQR))).<span class="built_in">any</span>(axis=<span class="number">1</span>)]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 3.检查重复值</span></span><br><span class="line"><span class="comment">#3.1)判断一个记录是否是重复记录</span></span><br><span class="line">duplicates = data_cleaned.duplicated()</span><br><span class="line"><span class="comment">#3.2)统计重复记录的数量</span></span><br><span class="line">num_duplicates = duplicates.<span class="built_in">sum</span>()</span><br><span class="line"><span class="comment">#3.3)删除重复记录</span></span><br><span class="line">data_cleaned = data_cleaned[~duplicates]</span><br><span class="line"><span class="comment">#3.4）打印删除的重复记录数</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&#x27;删除的重复行数: <span class="subst">&#123;num_duplicates&#125;</span>&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 4.对数值类型的数据做归一化标准化处理：将所有的数据投射到0~1的范围</span></span><br><span class="line"><span class="comment">#4.1）导入要用到的包</span></span><br><span class="line"><span class="keyword">from</span> sklearn.preprocessing <span class="keyword">import</span> MinMaxScaler</span><br><span class="line"><span class="comment">#4.2）初始化一个标准化归一化工具</span></span><br><span class="line">scaler = MinMaxScaler()</span><br><span class="line"><span class="comment">#4.3）进行数据标准归一化处理</span></span><br><span class="line">data_cleaned[numeric_cols] = scaler.fit_transform(data_cleaned[numeric_cols])</span><br><span class="line"></span><br><span class="line"><span class="comment">#选取目标变量（标签）和自变量（特征），X为特征，y为标签</span></span><br><span class="line">X = data_cleaned.drop(columns=[<span class="string">&#x27;SeriousDlqin2yrs&#x27;</span>])</span><br><span class="line">y = data_cleaned[<span class="string">&#x27;SeriousDlqin2yrs&#x27;</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 将数据集划分为训练集和测试集（测试集占比20%）</span></span><br><span class="line">X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=<span class="number">0.2</span>, random_state=<span class="number">42</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 初始化决策树分类模型（以信息熵为分枝依据）</span></span><br><span class="line"><span class="comment"># criterion=&quot;entropy&quot;, 按信息熵分枝，  criterion=&quot;gini&quot;, 按基尼系数分枝</span></span><br><span class="line">model = tree.DecisionTreeClassifier(criterion=<span class="string">&quot;entropy&quot;</span>)</span><br><span class="line"><span class="comment">#训练 决策树分类 模型</span></span><br><span class="line">model.fit(X_train, y_train)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 保存模型</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;DecisionTree_finance.pkl&#x27;</span>, <span class="string">&#x27;wb&#x27;</span>) <span class="keyword">as</span> file:</span><br><span class="line">    pickle.dump(model, file)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用训练的决策树预测测试集样本的类别</span></span><br><span class="line">y_pred = model.predict(X_test)</span><br><span class="line"><span class="comment"># 将预测结果写入DT_results_finance.txt文件</span></span><br><span class="line">pd.DataFrame(y_pred, columns=[<span class="string">&#x27;预测结果&#x27;</span>]).to_csv(<span class="string">&#x27;DT_results_finance.txt&#x27;</span>, index=<span class="literal">False</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 获得测试报告</span></span><br><span class="line">report = classification_report(y_test, y_pred, zero_division=<span class="number">1</span>)</span><br><span class="line"><span class="comment">#计算准确率</span></span><br><span class="line">accuracy = (y_test == y_pred).mean()</span><br><span class="line"><span class="comment">#将测试报告及其他评估指标写入DT_report_finance.txt文件</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;DT_report_finance.txt&#x27;</span>, <span class="string">&#x27;w&#x27;</span>) <span class="keyword">as</span> file:</span><br><span class="line">    file.write(report)</span><br><span class="line">    file.write(<span class="string">f&#x27;\n\n模型准确率: <span class="subst">&#123;accuracy:<span class="number">.2</span>f&#125;</span>\n&#x27;</span>)</span><br><span class="line">    file.write(<span class="string">f&#x27;训练集得分: <span class="subst">&#123;model.score(X_train, y_train)&#125;</span>\n&#x27;</span>)</span><br><span class="line">    file.write(<span class="string">f&#x27;测试集得分: <span class="subst">&#123;model.score(X_test, y_test)&#125;</span>\n&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
+]]></content>
+      <categories>
+        <category>实验教学</category>
+        <category>人工智能基础</category>
+      </categories>
+      <tags>
+        <tag>Programming</tag>
+        <tag>教学</tag>
+        <tag>编程</tag>
+        <tag>AI</tag>
+        <tag>Data</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>中国7成的骗子孬种坏蛋小人</title>
+    <url>/2026/f5456fb2/</url>
+    <content><![CDATA[<span id="more"></span>
+<h2 id="都混进了体制内！"><a href="#都混进了体制内！" class="headerlink" title="都混进了体制内！"></a>都混进了体制内！</h2>]]></content>
+      <categories>
+        <category>other</category>
+      </categories>
+      <tags>
+        <tag>society, living</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>图书馆读书群</title>
+    <url>/2026/e4fa072d/</url>
+    <content><![CDATA[<p>The Z-library</p>
+<p>可用链接：z-lib.shop</p>
+<p>备用链接：z-lib.today</p>
+]]></content>
+      <categories>
+        <category>others</category>
+      </categories>
+      <tags>
+        <tag>study</tag>
+        <tag>学习</tag>
+        <tag>阅读</tag>
+      </tags>
+  </entry>
 </search>
