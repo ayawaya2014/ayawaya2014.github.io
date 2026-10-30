@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://ayawaya2014.github.io/2026/c3c768a0/</loc>
+    <loc>http://ayawaya2014.github.io/2022/f3fe9c62/</loc>
     
     <lastmod>2026-10-30</lastmod>
     
   </url>
   
   <url>
-    <loc>http://ayawaya2014.github.io/2022/f3fe9c62/</loc>
+    <loc>http://ayawaya2014.github.io/2026/c3c768a0/</loc>
     
     <lastmod>2026-10-30</lastmod>
     
@@ -937,13 +937,6 @@
   </url>
   
   <url>
-    <loc>http://ayawaya2014.github.io/categories/%E5%AD%B8%E7%BF%92/%E6%96%87%E8%89%BA/</loc>
-    <lastmod>2026-10-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://ayawaya2014.github.io/categories/%E7%A4%BE%E4%BC%9A/</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>daily</changefreq>
@@ -951,7 +944,14 @@
   </url>
   
   <url>
-    <loc>http://ayawaya2014.github.io/categories/%E7%A4%BE%E4%BC%9A/%E6%95%99%E8%82%B2/</loc>
+    <loc>http://ayawaya2014.github.io/categories/%E6%96%87%E8%89%BA/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://ayawaya2014.github.io/categories/%E9%87%91%E8%9E%8D/</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
